@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "maharam";
+    src: url("../src/MaharamNeue-Regular.otf");
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "maharam-medium";
+    src: url("../src/MaharamNeue-Medium.otf");
+    font-weight: medium;
+  }
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#logo{
+    width: 150px;
+    margin-top: 0vh;
+    margin-left: 10vw;
+}
+
+#topnav{
+    padding-top: 40px;
+    padding-bottom: 45px;
+    margin-top: 40px;
+}
+
+#menu{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50vw;
+    float: right;
+    margin-right: 10vw;
+    vertical-align: top;
+}
+
+p{
+    font-size: 14px;
+    color: #000000;
+    font-family: "maharam";
+    font-weight: normal;
+    vertical-align: top;
+    line-height: 1.4;
+}
+
+h1{
+    font-size: 48px;
+    color: #000000;
+    font-family: "maharam";
+    font-weight: normal;
+    margin-bottom: 50px;
+    vertical-align: top;
+}
+
+h2{
+    font-size: 20px;
+    color: #000000;
+    font-family: "maharam";
+    font-weight: normal;
+    vertical-align: top;
+    margin-top: 10px;
+
+}
+
+h3{
+    font-size: 18px;
+    color: #000000;
+    font-family: "maharam";
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+a{
+    text-decoration: none;
+}
+
+#logolockup{
+    display: inline-block;
+}
+
+#footer{
+    background-color: black;
+    height: 20vh;
+    margin-top: 55vh;
+    margin-bottom: 0;
+    overflow-x: hidden;}
+
+#footermenu{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50vw;
+    float: right;
+    margin-right: 10vw;
+    vertical-align:top;
+    margin-top: 3vh;
+}
+
+#productsmall{
+    height: 220px;
+    display: inline-block;
+    margin-left: 2vw;
+}
+
+#productsmall:hover{
+    transform: scale(1.2);
+}
+
+#gallery{
+    display: block;
+    margin-bottom: 50px;
+    margin-left: 5vw;
+}
+
+.productdetails{
+    width: 50%;
+    height: 70vh;
+    background-color: white;
+    z-index: 100;
+    border: 1px black solid;
+    position: fixed;
+    top: 20vh;
+    left: 25vw;
+    right: 25vw;
+    box-shadow: 11px 17px 39px -11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 11px 17px 39px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 17px 39px -11px rgba(0,0,0,0.75);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: none;
+}
+
+#detailproductimg{
+    width: 20vw;
+    margin-top: 7vh;
+    display: inline-block;
+}
+
+#detaildescription{
+    width: 15vw;
+    display: inline-block;
+    margin-left: 8vw;
+    margin-top: 8vh;
+    position:absolute;
+}
+
+#more{
+    margin-left: 7vw;
+    margin-bottom: 6vh;
+}
+
+#exit:hover{
+    color: #000000;
+}
