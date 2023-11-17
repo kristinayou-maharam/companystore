@@ -8,12 +8,12 @@
 </head>
 <body>
     <div id="topnav">
-        <div id="logolockup">
-        <img id="logo" src="img/smalluselogo.svg">
+       <div id="logolockup">
+        <a href="index.html"><img id="logo" src="img/smalluselogo.svg"></a>
         <h2 style="margin-left: 12vw;">Company Store</h2></div>
         <div id="menu">
-            <a href="./books.html">
-            <p>Books</p></a>
+            <a href="./agenda-sunday.html">
+            <p style="color: red;">Books</p></a>
             <a href="./stationary.html"><p>Stationary</p></a>
             <a href="accessories.html"><p>Accessories</p></a>
             <a href="other.html"><p>Other</p></a>
@@ -31,40 +31,51 @@
         <p style="text-decoration: underline;">Information</p>
         <p style="text-decoration: underline;">Link to Buy</p>
     </div>
-    <hr style="width: 40vw; margin-top: 24vh;">
-        <p style="display: block; background-color: white; width:10vw; margin-top: -18px; margin-left: auto; margin-right: auto; z-index: 200; text-align: center;">More Books</p>
-    <div id="more">
-        <img src="img/4.jpg" style="width: 7vw; margin-right: 2vw; margin-top: 5vh;">
-        <img src="img/4.jpg" style="width: 7vw; margin-right: 2vw;">
-        <img src="img/4.jpg" style="width: 7vw; margin-right: 2vw;">
-        <img src="img/4.jpg" style="width: 7vw; margin-right: 2vw;">
+</div>
 
+<div id="siesmarjan" class="productdetails">
+    <img id="detailproductimg" src="img/siesmarjan.jpg">
+    <div id="detaildescription">
+        <img id="exit" src="img/escape.svg" style="width: 18px; margin-left:15vw; position:relative" onclick="exit()">
+        <h3><strong>The Colors of<br>Sies Marjan</strong></h3>
+        <img src="img/fee.svg" style="width: 18px;">
+        <p>A colorful, comprehensive volume documenting the short-lived but highly influential work of Sander Lak’s beloved and now cult fashion brand, Sies Marjan.</p>
+        <br>
+        <p style="text-decoration: underline;">Information</p>
+        <p style="text-decoration: underline;">Link to Buy</p>
     </div>
 </div>
 <div id="gallery">
-    <img id="productsmall" src="img/4.jpg" onclick="show()">
-    <img id="productsmall" src="img/2.jpg" onclick="show()">
-    <img id="productsmall" src="img/agenda.png" onclick="show()">
     <img id="productsmall" src="img/1.jpg" onclick="show()">
+    <img id="productsmall" src="img/agenda.png" onclick="show()">
+    <img id="productsmall" src="img/4.jpg" onclick="show()">
     <img id="productsmall" src="img/5.jpg" onclick="show()">
+    <img id="productsmall" src="img/siesmarjan.jpg" onclick="sies()">
 
 </div>
 
 <div id="gallery">
-    <img id="productsmall" src="img/10.jpg" onclick="show()">
-    <img id="productsmall" src="img/11.jpg" onclick="show()">
-    <img id="productsmall" src="img/12.png" onclick="show()">
-    <img id="productsmall" src="img/13.png" onclick="show()">
-    <img id="productsmall" src="img/14.png" onclick="show()">
-
-</div>
-
-<div id="gallery">
-    <img id="productsmall" src="img/19.jpg" onclick="show()">
+    <img id="productsmall" src="img/15.jpg" onclick="show()">
+    <img id="productsmall" src="img/16.jpg" onclick="show()">
+    <img id="productsmall" src="img/17.jpg" onclick="show()">
     <img id="productsmall" src="img/18.jpg" onclick="show()">
+    <img id="productsmall" src="img/20.jpg" onclick="show()">
+
+</div>
+
+<div id="gallery">
+    <img id="productsmall" src="img/24.jpg" onclick="show()">
+    <img id="productsmall" src="img/25.jpg" onclick="show()">
+    <img id="productsmall" src="img/26.jpg" onclick="show()">
+    <img id="productsmall" src="img/27.png" onclick="show()">
     <img id="productsmall" src="img/28.jpg" onclick="show()">
-    <img id="productsmall" src="img/23.jpg" onclick="show()">
+
+</div>
+
+<div id="gallery">
     <img id="productsmall" src="img/29.jpg" onclick="show()">
+    <img id="productsmall" src="img/30.jpg" onclick="show()">
+    <img id="productsmall" src="img/6.jpg" onclick="show()">
 
 </div>
 
@@ -73,7 +84,7 @@
     <div id="footer" >
         <div id="footermenu">
         <p style="color: white; text-decoration: underline; text-align: center;">Inquiries</p>
-        <a href="https://hermanmiller.sharepoint.com/sites/MHRM-ProductManagement/SitePages/Company-Store.aspx"><p style="color: white; text-decoration: underline; text-align: center;">Maharam<br>Intranet</p></a>
+        <p style="color: white; text-decoration: underline; text-align: center;">Maharam<br>Intranet</p>
         <p style="color: white; text-decoration: underline; text-align: center;">Information/<br>Usage Guide</p>
         <p style="color: white; text-decoration: underline; text-align: center;">How to Buy</p>
         </div>
@@ -89,11 +100,26 @@
     }
     }
 
+    function sies() {
+        var marjan = document.getElementById("siesmarjan");
+        if (marjan.style.display === "none"){
+            marjan.style.display = "block";
+        } else{
+            marjan.style.display = "block";
+        }
+    }
+
     function exit(){
         var escape = document.getElementById("textilepedia");
         if (escape.style.display === "block"){
             escape.style.display = "none";
         } 
+
+        var nosiesmarjan = document.getElementById("siesmarjan");
+        if (nosiesmarjan.style.display === "block"){
+            nosiesmarjan.style.display = "none";
+        }
+        
     }
 
 </script>

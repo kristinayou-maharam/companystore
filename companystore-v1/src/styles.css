@@ -16,29 +16,30 @@ body{
 }
 
 #logo{
-    width: 150px;
+    width: 8vw;
     margin-top: 0vh;
-    margin-left: 10vw;
+    margin-left: 12vw;
 }
 
 #topnav{
     padding-top: 40px;
-    padding-bottom: 45px;
+    padding-bottom: 50px;
     margin-top: 40px;
+    margin-bottom: 15px;
 }
 
 #menu{
     display: inline-flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 50vw;
+    width: 38vw;
     float: right;
-    margin-right: 10vw;
+    margin-right: 6vw;
     vertical-align: top;
 }
 
 p{
-    font-size: 14px;
+    font-size: 16px;
     color: #000000;
     font-family: "maharam";
     font-weight: normal;
@@ -56,7 +57,7 @@ h1{
 }
 
 h2{
-    font-size: 20px;
+    font-size: 18px;
     color: #000000;
     font-family: "maharam";
     font-weight: normal;
@@ -84,7 +85,7 @@ a{
 #footer{
     background-color: black;
     height: 20vh;
-    margin-top: 55vh;
+    margin-top: 25vh;
     margin-bottom: 0;
     overflow-x: hidden;}
 
@@ -94,25 +95,29 @@ a{
     justify-content: space-evenly;
     width: 50vw;
     float: right;
-    margin-right: 10vw;
+    margin-right: 5vw;
     vertical-align:top;
     margin-top: 3vh;
 }
 
 #productsmall{
-    height: 220px;
+   width: 12vw;
     display: inline-block;
-    margin-left: 2vw;
+    margin-left: 3vw;
+    margin-right: 1vw;
+    z-index: 1;
+    transition: 0.8s;
 }
 
 #productsmall:hover{
-    transform: scale(1.2);
+    transform: scale(1.4);
+    z-index: 2;
 }
 
 #gallery{
     display: block;
     margin-bottom: 50px;
-    margin-left: 5vw;
+    margin-left: 9vw;
 }
 
 .productdetails{
@@ -131,11 +136,13 @@ a{
     overflow-y: scroll;
     overflow-x: hidden;
     display: none;
+    padding-bottom: 30px;
 }
 
 #detailproductimg{
-    width: 20vw;
-    margin-top: 7vh;
+    height: 45vh;
+    margin-top: 13vh;
+    margin-left: 5vw;
     display: inline-block;
 }
 
