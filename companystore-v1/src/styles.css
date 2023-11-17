@@ -107,6 +107,7 @@ a{
     margin-right: 1vw;
     z-index: 1;
     transition: 0.8s;
+    vertical-align: top
 }
 
 #productsmall:hover{
