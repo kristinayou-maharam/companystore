@@ -1,0 +1,193 @@
+{
+  "presentation": [
+    {
+      "image": "./img/31.png",
+      "name": "Notecard Set",
+      "price": 0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "quantity": 1,
+      "DON_reference_number":"J/SRNOTE",
+      "Note": ""
+    },
+    {
+      "image": "./img/31.png",
+      "name": "Kraft Shopping Bag",
+      "price": 0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "options": [
+        {"variation": "Teal", "value": "J/MAHBAG"},
+        {"variation": "Blue", "value": "J/MAHBAG"},
+        {"variation": "Pink", "value": "J/MAHBAG"}
+      ],
+      "quantity": 24,
+      "Note": ""
+    },
+    {
+      "image": "./img/31.png",
+      "name": "Kraft Shopping Bag Label",
+      "price": 0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "quantity": 25,
+      "DON_reference_number": "J/BAGLBL",
+      "Note": ""
+    },
+    {
+      "image": "./img/31.png",
+      "name": "Large Kraft Envelope with Gusset",
+      "price": 0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "quantity": 100,
+      "DON_reference_number": "J/000003",
+      "Note": ""
+    },
+
+    {
+      "image": "./img/31.png",
+      "name": "Rubberbands",
+      "price": 0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "options": [
+        {"variation": "Teal", "value": "J/RBRBND"},
+        {"variation": "Blue", "value": "J/RBRBND"},
+        {"variation": "Pink", "value": "J/RBRBND"}
+      ],
+      "quantity": 25,
+      "Note": ""
+    },
+    {
+      "image": "./img/41.png",
+      "name": "Display Board Large",
+      "price": 0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "quantity": 10,
+      "DON_reference_number": "DISPLG",
+      "Note": ""
+    },
+
+    {
+      "image": "./img/41.png",
+      "name": "Display Board Small",
+      "price": 0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "quantity": 10,
+      "DON_reference_number": "DISPSM",
+      "Note": ""
+    },
+
+    {
+      "image": "./img/41.png",
+      "name": "Display Board Bag",
+      "price": 0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "quantity": 1,
+      "DON_reference_number": "DISPBG",
+      "Note": ""
+    },
+
+    {
+      "image": "./img/41.png",
+      "name": "T-Pins",
+      "price": 0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "quantity": 100,
+      "DON_reference_number": "J/DISPTP",
+      "Note": ""
+    },
+
+    {
+      "image": "./img/41.png",
+      "name": "Leather Card",
+      "price": 0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "quantity": 1,
+      "DON_reference_number": "LTHRCOR",
+      "Note": ""
+    },
+
+    {
+      "image": "./img/40-1.jpg",
+      "name": "Rug Storage Bag",
+      "price": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "quantity": 1,
+      "DON_reference_number": "J/301007",
+      "Note": ""
+    },
+
+    {
+      "image": "./img/40-1.jpg",
+      "name": "Giftwrap Set",
+      "price": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "options": [
+        {"variation": "Terracotta/Ivory/Apricot", "value": "J/170072"},
+        {"variation": "Currant/Chalk/Sky", "value": "J/170072"}
+      ],
+      "quantity": 1,
+      "Note": ""
+    },
+    {
+      "image": "./img/40-1.jpg",
+      "name": "Sales Integration Announcement Card",
+      "price": 0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "options": [
+        {"variation": "Terracotta/Ivory/Apricot", "value": "J/170072"},
+        {"variation": "Currant/Chalk/Sky", "value": "J/170072"}
+      ],
+      "quantity": 50,
+      "Note": "Contact Media"
+    }, 
+    
+    
+    {
+      "image": "./img/40-1.jpg",
+      "name": "Sales Integration Tent Card",
+      "price": 0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "options": [
+        {"variation": "Terracotta/Ivory/Apricot", "value": "J/170072"},
+        {"variation": "Currant/Chalk/Sky", "value": "J/170072"}
+      ],
+      "quantity": 50,
+      "Note": "Contact Media"
+    },
+
+    {
+      "image": "./img/40-1.jpg",
+      "name": "Wallcovering Brush",
+      "price": 0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "quantity": 1,
+      "DON_reference_number": "J/100076",
+      "Note": ""
+    },
+    {
+      "image": "./img/40-1.jpg",
+      "name": "Frame Bag Sales Edition",
+      "price": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "quantity": 1,
+      "DON_reference_number": "",
+      "Note": "Contact Media"
+    },
+    {
+      "image": "./img/40-1.jpg",
+      "name": "Briggs & Riley Carry-on",
+      "price": 0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "quantity": 1,
+      "DON_reference_number": "J/301003",
+      "Note": ""
+    },
+    {
+      "image": "./img/40-1.jpg",
+      "name": "Tote Bag with Knoll Textiles Logo",
+      "price": 0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "quantity": 1,
+      "DON_reference_number": "TBD",
+      "Note": ""
+    }
+  ]
+}
