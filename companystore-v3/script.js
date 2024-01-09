@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id="detailproductimg">
             <div id ="detaildescription">
             <h2>${stationery.name}</h2>
-            <p><strong>Description:</strong> ${stationery.description} <br>${stationery.assrtdcolors}</p>
+            <p> ${stationery.description} <br>${stationery.assrtdcolors}</p>
             <p><strong>Price:</strong> $${stationery.price.toFixed(2)}</p>
             <p><strong>Quantity per Order:</strong> ${stationery.quantity}</p>
             <p><strong>DON:</strong> ${stationery.DON_reference_number}</p>
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id="detailproductimg">
             <div id ="detaildescription">
             <h2>${neww.name}</h2>
-            <p><strong>Description:</strong> ${neww.description}</p>
+            <p> ${neww.description}</p>
             <p><strong>Price:</strong> $${neww.price.toFixed(2)}</p>
             <p><strong>Variations:</strong> ${neww.assrtdcolors}</p>
             <p><strong>Quantity per Order:</strong> ${neww.quantity}</p>
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id="detailproductimg">
             <div id ="detaildescription">
             <h2>${books.name}</h2>
-            <p><strong>Description:</strong> ${books.description}</p>
+            <p> ${books.description}</p>
             <p><strong>Price:</strong> $${books.price.toFixed(2)}</p>
             <p><strong>Variations:</strong> ${books.assrtdcolors}</p>
             <p><strong>Quantity per Order:</strong> ${books.quantity}</p>
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id="detailproductimg">
             <div id ="detaildescription">
             <h2>${print.name}</h2>
-            <p><strong>Description:</strong> ${print.description}</p>
+            <p>${print.description}</p>
             <p><strong>Price:</strong> $${print.price.toFixed(2)}</p>
             <p><strong>Variations:</strong> ${print.assrtdcolors}</p>
             <p><strong>Quantity per Order:</strong> ${print.quantity}</p>
@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id="detailproductimg">
             <div id ="detaildescription">
             <h2>${presentation.name}</h2>
-            <p><strong>Description:</strong> ${presentation.description}</p>
+            <p> ${presentation.description}</p>
             <p><strong>Price:</strong> $${presentation.price.toFixed(2)}</p>
             <p><strong>Variations:</strong> ${presentation.assrtdcolors}</p>
             <p><strong>Quantity per Order:</strong> ${presentation.quantity}</p>
@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id="detailproductimg">
             <div id ="detaildescription">
             <h2>${sampling.name}</h2>
-            <p><strong>Description:</strong> ${sampling.description}</p>
+            <p> ${sampling.description}</p>
             <p><strong>Price:</strong> $${sampling.price.toFixed(2)}</p>
             <p><strong>Variations:</strong> ${sampling.assrtdcolors}</p>
             <p><strong>Quantity per Order:</strong> ${sampling.quantity}</p>
