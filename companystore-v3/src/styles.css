@@ -42,7 +42,7 @@ body{
     justify-content: space-evenly;
     width: 38vw;
     float: right;
-    margin-right: 2vw;
+    margin-right: 4vw;
     vertical-align: top;
 }
 
@@ -70,7 +70,7 @@ h2{
     font-family: "maharam";
     font-weight: normal;
     vertical-align: top;
-    margin-top: 10px;
+    margin-top: 20px;
 
 }
 

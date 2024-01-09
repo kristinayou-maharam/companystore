@@ -22,6 +22,32 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("product-info").innerHTML = stationeryInfoHTML;
       };
     })
+
+    .then(() => fetch("./src/new.json"))
+    .then(response => response.json())
+    .then(data => {
+      // Function to display books information
+      window.displayNew = function (index) {
+        const neww = data.new[index];
+        const newInfoHTML = `
+            <img src="${neww.image}" alt="${neww.name}" 
+            id="detailproductimg">
+            <div id ="detaildescription">
+            <h2>${neww.name}</h2>
+            <p><strong>Description:</strong> ${neww.description}</p>
+            <p><strong>Price:</strong> $${neww.price.toFixed(2)}</p>
+            <p><strong>Variations:</strong> ${neww.assrtdcolors}</p>
+            <p><strong>Quantity per Order:</strong> ${neww.quantity}</p>
+            <p><strong>DON:</strong> ${neww.DON_reference_number}</p>
+            <p>${neww.Note}</p>
+            </div>
+        `;
+        // Display books information
+        document.getElementById("product-info").innerHTML = newInfoHTML;
+      };
+    })
+
+  
     // Fetch JSON data for books
     .then(() => fetch("./src/books.json"))
     .then(response => response.json())
