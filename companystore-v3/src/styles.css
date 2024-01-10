@@ -24,6 +24,14 @@ body{
     margin-left: 0vw;
 }
 
+a{
+    color: white;
+}
+
+a:hover{
+    color: red;
+}
+
 #topnav{
     padding-top: 30px;
     padding-bottom: 20px;
@@ -40,7 +48,7 @@ body{
     display: inline-flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 38vw;
+    width: 700px;
     float: right;
     margin-right: 4vw;
     vertical-align: top;
@@ -113,9 +121,9 @@ a{
     display: inline-flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 50vw;
+    width: 850px;
     float: right;
-    margin-right: 5vw;
+    margin-right: 2vw;
     vertical-align:top;
     margin-top: 10vh;
 }
