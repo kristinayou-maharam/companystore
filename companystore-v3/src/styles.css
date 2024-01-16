@@ -167,6 +167,10 @@ a{
     margin-top: 4vh;
 }
 
+#name:hover{
+    color: grey;
+}
+
 #itemdescription{
     width: 95%;
 }
