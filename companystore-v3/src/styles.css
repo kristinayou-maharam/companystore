@@ -16,6 +16,7 @@ body{
     padding-top: 0px !important;
     overflow-x: hidden;
     cursor: url(../img/circle.png);
+    background-color: #f7f5f5;
 }
 
 #logo{
@@ -39,7 +40,7 @@ a:hover{
     margin-bottom: 15px;
     position: fixed;
     z-index: 500;
-    background-color: white;
+    background-color: #f7f5f5;
     width: 100vw;
     top: 0;
 }
@@ -100,7 +101,7 @@ a{
 }
 
 #footer{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     height: 40vh;
     margin-top: 20vh;
     margin-bottom: 0;
@@ -178,7 +179,7 @@ a{
 .productdetails{
     width: 55vw;
     height: 60vh;
-    background-color: white;
+    background-color: #f7f5f5;
     z-index: 100;
     position: fixed;
    top: 20vh;
