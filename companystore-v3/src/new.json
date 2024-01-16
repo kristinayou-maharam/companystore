@@ -1,7 +1,7 @@
 {
     "new": [
         {
-            "image": "./img/sg_24_tabletop_ktbook.png",
+            "image": "./img/sg_24_tabletop_ktbook_grey.png",
             "name": "Knoll Textiles: 1945-2010",
             "price": 1,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -10,7 +10,7 @@
             "Note": "Contact Facilities to Order"
           }, 
           {
-            "image": "./img/sg_24_tabletop_psmithbook.png",
+            "image": "./img/sg_24_tabletop_psmithbook_grey.png",
             "name": "20 Years of Paul Smith and Maharam",
             "price": 0,
             "description": "Over two decades of close collaboration, Paul Smith and Maharam have translated the British designer's signature flair for idiosyncratic combinations of pattern and color to more than forty textiles, wallcoverings, and accessories. Illustrations by Andy Rementer and photography by Nick Ballon capture the stories and characteristic playfulness behind twenty designs. Softcover. 96 pages.",
@@ -23,7 +23,7 @@
             "Note": "*"
           },
           {
-            "image": "./img/sg_24_tabletop_bags_flat.png",
+            "image": "./img/sg_24_tabletop_bags_flat_grey.png",
             "name": "Kraft Shopping Bag",
             "price": 0,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -36,7 +36,7 @@
             "Note": ""
           },
           {
-            "image": "./img/sg_24_tabletop_eraser.png",
+            "image": "./img/sg_24_tabletop_eraser_grey.png",
             "name": "Eraser",
             "price": 1,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -45,7 +45,7 @@
             "Note": ""
           },
           {
-            "image": "./img/sg_24_tabletop_rubberband_2.png",
+            "image": "./img/sg_24_tabletop_rubberband_2_grey.png",
             "name": "Rubberbands",
             "price": 0,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -58,7 +58,7 @@
             "Note": ""
           },
           {
-            "image": "./img/sg_24_tabletop_tpins.png",
+            "image": "./img/sg_24_tabletop_tpins_grey.png",
             "name": "T-Pins",
             "price": 0,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -67,7 +67,7 @@
             "Note": ""
           },
           {
-            "image": "./img/sg_24_tabletop_table cards.png",
+            "image": "./img/sg_24_tabletop_table cards-grey.png",
             "name": "Sales Integration Announcement Card",
             "price": 0,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -79,7 +79,7 @@
             "Note": "Contact Media"
           }, 
           {
-            "image": "./img/sg_24_tabletop_bizcards.png",
+            "image": "./img/sg_24_tabletop_bizcards_grey.png",
             "name": "Business Cards",
             "price": 1,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
@@ -88,7 +88,7 @@
             "Note": "Contact Facilities to Order"
           },
           {
-            "image": "./img/sg_24_tabletop_name tag.png",
+            "image": "./img/sg_24_tabletop_name tag_grey.png",
             "name": "Nametag",
             "price": 1,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -97,7 +97,7 @@
             "Note": "Contact Media"
           },
           {
-            "image": "./img/sg_24_tabletop_samplerequest.png",
+            "image": "./img/sg_24_tabletop_samplerequest_grey.png",
             "name": "Sample Request Form Pad",
             "price": 0,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
