@@ -26,8 +26,8 @@
 
 <div id="stationary2" class="productdetails">
         <div id="carousel">
-    <h2 id="sliderarrowleft"> ← </h2>
-    <h2 id="sliderarrowright"> → </h2>
+    <h2 id="sliderarrowleft" onclick="prevImage()"> ← </h2>
+    <h2 id="sliderarrowright" onclick="nextImage()"> → </h2>
         <div class="carousel__track-container">
         <li class="carousel__slide"></li>
         <li class="carousel__slide"></li>
@@ -118,14 +118,6 @@
 
 <script src="./script.js"></script>
 <script>
-    // function show() {
-    //     var divide = document.getElementById("stationary1");
-    //     if (divide.style.display === "none"){
-    //         divide.style.display = "block";
-    //     } else{
-    //         divide.style.display = "none";
-    // }
-    // }
 
     function sies() {
         var marjan = document.getElementById("stationary2");
@@ -157,6 +149,44 @@
             showname.style.display = "none";
         }
     }
+
+// var displayedImage = document.getElementById("detailproductimg");
+
+//     function nextImage(){
+// currentIndex = (currentIndex + 1) % neww.image.length;
+// displayedImage.src = neww.image[currentIndex];
+//     }
+
+
+            // Parse JSON to get array
+            var imageArray = JSON.parse(neww.image);
+            
+            // Get necessary DOM elements
+            var imageDisplay = document.getElementById('detailproductimg');
+            var prevButton = document.getElementById('sliderarrowleft')
+            // var nextButton = document.getElementById('sliderarrowright');
+            // Set initial image index
+            // var currentImageIndex = 0;
+
+            function nextImage(){
+                var nextButton = document.getElementById('sliderarrowright');
+                currentImageIndex = (currentImageIndex + 1) % imageArray.length;
+                console.log("right clicked");
+            }
+            
+            function prevImage(){
+                var prevButton = document.getElementById('sliderarrowleft');
+                currentImageIndex = (currentImageIndex - 1) % imageArray.length;
+                console.log("left clicked")
+            }
+
+            // Function to display the current image
+            function displayCurrentImage() {
+                imageDisplay.src = imageArray[currentImageIndex];
+            }
+            
+            // Display the initial image
+            displayCurrentImage();
 
 </script>
 </body>

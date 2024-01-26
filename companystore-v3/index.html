@@ -24,10 +24,10 @@
 
 
 
-<div id="stationary2" class="productdetails">
-    <div id="carousel">
-    <h2 id="sliderarrowleft"> ← </h2>
-    <h2 id="sliderarrowright"> → </h2>
+    <div id="stationary2" class="productdetails">
+        <div id="carousel">
+    <h2 id="sliderarrowleft" onclick="prevImage()"> ← </h2>
+    <h2 id="sliderarrowright" onclick="nextImage()"> → </h2>
         <div class="carousel__track-container">
         <li class="carousel__slide"></li>
         <li class="carousel__slide"></li>
@@ -48,7 +48,10 @@
 <div class="image-container">
     <img id="productsmall" class="default-image" src="img/sg_24_tabletop_ktbook_grey.png" alt="Default Image" onclick="displayNew(0)">
     <img id="productsmall" class="hover-image" src="img/sg_24_tabletop_ktbook_grey.png" alt="Hover Image" onclick="displayNew(0); sies()">
-    <p id="name" onclick="displayNew(0); sies()">Knoll Textiles: 1945-2010</p>
+    <div id="name" style="margin-top: 2.5vh;">
+        <p onclick="displayNew(0); sies()">Knoll Textiles: 1945-2010 </p>
+        <img src="./img/out.svg" style="width: 18px; display: block;">
+    </div>
 </div>
 
 <div class="image-container">
@@ -172,6 +175,35 @@
             showname.style.display = "none";
         }
     }
+
+
+            
+            // // Get necessary DOM elements
+            // var imageDisplay = document.getElementById('detailproductimg');
+            // var prevButton = document.getElementById('sliderarrowleft')
+            // // var nextButton = document.getElementById('sliderarrowright');
+            // // Set initial image index
+            // // var currentImageIndex = 0;
+
+            // function nextImage(){
+            //     var nextButton = document.getElementById('sliderarrowright');
+            //     currentImageIndex = (currentImageIndex + 1) % imageArray.length;
+            //     console.log("right clicked");
+            // }
+            
+            // function prevImage(){
+            //     var prevButton = document.getElementById('sliderarrowleft');
+            //     currentImageIndex = (currentImageIndex - 1) % imageArray.length;
+            //     console.log("left clicked")
+            // }
+
+            // // Function to display the current image
+            // function displayCurrentImage() {
+            //     imageDisplay.src = imageArray[currentImageIndex];
+            // }
+            
+            // // Display the initial image
+            // displayCurrentImage();
 
 </script>
 </body>

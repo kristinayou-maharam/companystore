@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #image-container {
+            text-align: center;
+        }
+        #image-display {
+            max-width: 100%;
+            max-height: 400px;
+            margin: 10px 0;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Your array of image URLs in JSON format
+            var imageArrayJSON = '["./img/1.jpg", "./img/2.jpg", "./img/3.jpeg"]';
+            
+            // Parse JSON to get array
+            var imageArray = JSON.parse(imageArrayJSON);
+            
+            // Get necessary DOM elements
+            var imageDisplay = document.getElementById('image-display');
+            var nextButton = document.getElementById('next-button');
+            
+            // Set initial image index
+            var currentImageIndex = 0;
+            
+            // Function to display the current image
+            function displayCurrentImage() {
+                imageDisplay.src = imageArray[currentImageIndex];
+            }
+            
+            // Event listener for the next button
+            nextButton.addEventListener('click', function() {
+                console.log("clicked")
+                // Increment the image index
+                currentImageIndex = (currentImageIndex + 1) % imageArray.length;
+                // Display the new image
+                displayCurrentImage();
+            });
+            
+            // Display the initial image
+            displayCurrentImage();
+        });
+    </script>
+</head>
+<body>
+        <img id="image-display" alt="Displayed Image">
+        <button id="next-button">Next Image</button>
+
+</body>
+</html>

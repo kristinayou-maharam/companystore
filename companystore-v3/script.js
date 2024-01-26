@@ -23,27 +23,56 @@ document.addEventListener("DOMContentLoaded", function () {
       };
     })
 
+    // Fetch JSON data for books
     .then(() => fetch("./src/new.json"))
     .then(response => response.json())
     .then(data => {
       // Function to display books information
       window.displayNew = function (index) {
         const neww = data.new[index];
+        const dropdownOptions = neww.options.map(option => `<option value="${option.value}">${option.variation}</option>`).join('');
         const newInfoHTML = `
             <img src="${neww.image}" alt="${neww.name}" 
             id="detailproductimg">
             <div id ="detaildescription">
             <h2>${neww.name}</h2>
-            <p> ${neww.description}</p>
-            <p><strong>Price:</strong> $${neww.price.toFixed(2)}</p>
-            <p><strong>Variations:</strong> ${neww.assrtdcolors}</p>
-            <p><strong>Quantity per Order:</strong> ${neww.quantity}</p>
-            <p><strong>DON:</strong> ${neww.DON_reference_number}</p>
-            <p>${neww.Note}</p>
+        <p> ${neww.description}</p>
+        <p><strong>Price:</strong> $${neww.price.toFixed(2)}</p>
+        <label for="variationDropdown"><strong><p>Variation:</p></strong></label>
+        <select id="variationDropdown">${dropdownOptions}</select>
+        <p><strong>Quantity per Order:</strong> ${neww.quantity}</p>
+        <p id="don"><strong>DON: </strong></p><p id="selectedValue">Selected Value</p>
+        <p id=note>${neww.Note}</p>
             </div>
         `;
         // Display books information
         document.getElementById("product-info").innerHTML = newInfoHTML;
+
+        const variationDropdown = document.getElementById('variationDropdown');
+        const selectedValueElement = document.getElementById('selectedValue');
+    
+        variationDropdown.addEventListener('change', function () {
+          const selectedOptionLabel = variationDropdown.value.trim();  // Trim leading/trailing spaces
+        
+          console.log('Selected Option Label:', selectedOptionLabel);
+        
+          if (selectedOptionLabel !== "SelectNone") {
+            const selectedOption = neww.options.find(option => option.variation.trim() === selectedOptionLabel);
+        
+            console.log('Selected Option:', selectedOption);
+        
+            if (selectedOption) {
+              const correspondingValue = selectedOption.value;
+              selectedValueElement.textContent = `${selectedOptionLabel}`;
+            } else {
+              selectedValueElement.textContent = 'Unknown Value';
+            }
+          } else {
+            selectedValueElement.textContent = 'Please select an option';
+          }
+        });
+        
+
       };
     })
 
@@ -144,51 +173,8 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("product-info").innerHTML = samplingInfoHTML;
       };
 
-      // Call the function to create the form with dynamic options
-      createForm(data.options);
     })
     .catch(error => console.error("Error fetching data:", error));
 
-  // // Function to create the form dynamically
-  // function createForm(options) {
-  //   const form = document.createElement('form');
-  //   const dropdownLabel = document.createElement('label');
-  //   const dropdown = document.createElement('select');
-  //   const selectedValueElement = document.createElement('p');
 
-  //   // Set attributes and text content
-  //   dropdownLabel.setAttribute('for', 'optionsDropdown');
-  //   dropdownLabel.textContent = 'Select a variation:';
-  //   dropdown.setAttribute('id', 'optionsDropdown');
-  //   dropdown.setAttribute('name', 'options');
-  //   selectedValueElement.setAttribute('id', 'selectedValue');
-  //   selectedValueElement.textContent = 'Selected value will be displayed here';
-
-  //   // Append form elements
-  //   form.appendChild(dropdownLabel);
-  //   form.appendChild(dropdown);
-  //   form.appendChild(selectedValueElement);
-  //   document.body.appendChild(form);
-
-  //   // Populate the dropdown with options from the JSON file
-  //   options.forEach(option => {
-  //     const optionElement = document.createElement('option');
-  //     optionElement.value = option.variation;
-  //     optionElement.textContent = option.variation;
-  //     dropdown.appendChild(optionElement);
-  //   });
-
-  //   // Add event listener to the dropdown to update the displayed value
-  //   dropdown.addEventListener('change', function () {
-  //     const selectedOptionLabel = dropdown.value;
-  //     const selectedOption = options.find(option => option.variation === selectedOptionLabel);
-
-  //     if (selectedOption) {
-  //       const correspondingValue = selectedOption.value;
-  //       selectedValueElement.textContent = `Selected value: ${correspondingValue}`;
-  //     } else {
-  //       selectedValueElement.textContent = 'Unknown Value';
-  //     }
-  //   });
-  // }
 });
