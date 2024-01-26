@@ -5,6 +5,8 @@
             "name": "Knoll Textiles: 1945-2010",
             "price": 1,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "options": [
+            ],
             "quantity": 1,
             "DON_reference_number": "",
             "Note": "This item is currently unavailable"
@@ -29,6 +31,7 @@
             "price": 0,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "options": [
+              {"variation": "Select an option", "value": "SelectNone"},
               {"variation": "Teal", "value": "J/MAHBAG"},
               {"variation": "Blue", "value": "J/MAHBAG"},
               {"variation": "Pink", "value": "J/MAHBAG"}
@@ -41,6 +44,8 @@
             "name": "Eraser",
             "price": 1,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "options": [
+            ],
             "quantity": 15,
             "DON_reference_number": "J/100068",
             "Note": ""
@@ -51,6 +56,7 @@
             "price": 0,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "options": [
+              {"variation": "Select an option", "value": "SelectNone"},
               {"variation": "Teal", "value": "J/RBRBND"},
               {"variation": "Blue", "value": "J/RBRBND"},
               {"variation": "Pink", "value": "J/RBRBND"}
@@ -63,6 +69,8 @@
             "name": "T-Pins",
             "price": 0,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "options": [
+            ],
             "quantity": 100,
             "DON_reference_number": "J/DISPTP",
             "Note": ""
@@ -73,6 +81,7 @@
             "price": 0,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "options": [
+              {"variation": "Select an option", "value": "SelectNone"},
               {"variation": "Terracotta/Ivory/Apricot", "value": "J/170072"},
               {"variation": "Currant/Chalk/Sky", "value": "J/170072"}
             ],
@@ -84,6 +93,8 @@
             "name": "Business Cards",
             "price": 1,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+            "options": [
+            ],
             "quantity": 100,
             "DON_reference_number":"",
             "Note": "Contact Facilities to Order"
@@ -93,6 +104,8 @@
             "name": "Nametag",
             "price": 1,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "options": [
+            ],
             "quantity": 2,
             "DON_reference_number": "",
             "Note": "Contact Media"
@@ -102,6 +115,8 @@
             "name": "Sample Request Form Pad",
             "price": 0,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "options": [
+            ],
             "quantity": 1,
             "DON_reference_number": "J/100005",
             "Note": ""
