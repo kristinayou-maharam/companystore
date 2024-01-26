@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
             <div id ="detaildescription">
             <h2>${stationery.name}</h2>
             <p> ${stationery.description} <br>${stationery.assrtdcolors}</p>
-            <p><strong>Price:</strong> $${stationery.price.toFixed(2)}</p>
-            <p><strong>Quantity per Order:</strong> ${stationery.quantity}</p>
-            <p><strong>DON:</strong> ${stationery.DON_reference_number}</p>
+            <p>Price: $${stationery.price.toFixed(2)}</p>
+            <p>Quantity per Order: ${stationery.quantity}</p>
+            <p>DON: ${stationery.DON_reference_number}</p>
             <p>${stationery.Note}</p>
             </div>
         `;
@@ -37,11 +37,11 @@ document.addEventListener("DOMContentLoaded", function () {
             <div id ="detaildescription">
             <h2>${neww.name}</h2>
         <p> ${neww.description}</p>
-        <p><strong>Price:</strong> $${neww.price.toFixed(2)}</p>
-        <label for="variationDropdown"><strong><p>Variation:</p></strong></label>
+        <p>Price: $${neww.price.toFixed(2)}</p>
+        <label for="variationDropdown"><p>Variation:</p></label>
         <select id="variationDropdown">${dropdownOptions}</select>
-        <p><strong>Quantity per Order:</strong> ${neww.quantity}</p>
-        <p id="don"><strong>DON: </strong></p><p id="selectedValue">Selected Value</p>
+        <p>Quantity per Order: ${neww.quantity}</p>
+        <p id="don">DON: </p><p id="selectedValue">Selected Value</p>
         <p id=note>${neww.Note}</p>
             </div>
         `;
@@ -90,10 +90,10 @@ document.addEventListener("DOMContentLoaded", function () {
             <div id ="detaildescription">
             <h2>${books.name}</h2>
             <p> ${books.description}</p>
-            <p><strong>Price:</strong> $${books.price.toFixed(2)}</p>
-            <p><strong>Variations:</strong> ${books.assrtdcolors}</p>
-            <p><strong>Quantity per Order:</strong> ${books.quantity}</p>
-            <p><strong>DON:</strong> ${books.DON_reference_number}</p>
+            <p>Price: $${books.price.toFixed(2)}</p>
+            <p>Variations: ${books.assrtdcolors}</p>
+            <p>Quantity per Order: ${books.quantity}</p>
+            <p>DON: ${books.DON_reference_number}</p>
             <p>${books.Note}</p>
             </div>
         `;
@@ -114,10 +114,10 @@ document.addEventListener("DOMContentLoaded", function () {
             <div id ="detaildescription">
             <h2>${print.name}</h2>
             <p>${print.description}</p>
-            <p><strong>Price:</strong> $${print.price.toFixed(2)}</p>
-            <p><strong>Variations:</strong> ${print.assrtdcolors}</p>
-            <p><strong>Quantity per Order:</strong> ${print.quantity}</p>
-            <p><strong>DON:</strong> ${print.DON_reference_number}</p>
+            <p>Price: $${print.price.toFixed(2)}</p>
+            <p>Variations: ${print.assrtdcolors}</p>
+            <p>Quantity per Order: ${print.quantity}</p>
+            <p>DON: ${print.DON_reference_number}</p>
             <p>${print.Note}</p>
             </div>
         `;
@@ -138,10 +138,10 @@ document.addEventListener("DOMContentLoaded", function () {
             <div id ="detaildescription">
             <h2>${presentation.name}</h2>
             <p> ${presentation.description}</p>
-            <p><strong>Price:</strong> $${presentation.price.toFixed(2)}</p>
-            <p><strong>Variations:</strong> ${presentation.assrtdcolors}</p>
-            <p><strong>Quantity per Order:</strong> ${presentation.quantity}</p>
-            <p><strong>DON:</strong> ${presentation.DON_reference_number}</p>
+            <p>Price: $${presentation.price.toFixed(2)}</p>
+            <p>Variations: ${presentation.assrtdcolors}</p>
+            <p>Quantity per Order: ${presentation.quantity}</p>
+            <p>DON: ${presentation.DON_reference_number}</p>
             <p>${presentation.Note}</p>
             </div>
         `;
@@ -162,10 +162,10 @@ document.addEventListener("DOMContentLoaded", function () {
             <div id ="detaildescription">
             <h2>${sampling.name}</h2>
             <p> ${sampling.description}</p>
-            <p><strong>Price:</strong> $${sampling.price.toFixed(2)}</p>
-            <p><strong>Variations:</strong> ${sampling.assrtdcolors}</p>
-            <p><strong>Quantity per Order:</strong> ${sampling.quantity}</p>
-            <p><strong>DON:</strong> ${sampling.DON_reference_number}</p>
+            <p>Price: $${sampling.price.toFixed(2)}</p>
+            <p>Variations: ${sampling.assrtdcolors}</p>
+            <p>Quantity per Order: ${sampling.quantity}</p>
+            <p>DON: ${sampling.DON_reference_number}</p>
             <p>${sampling.Note}</p>
             </div>
         `;
