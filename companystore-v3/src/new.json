@@ -5,7 +5,7 @@
             "name": "Knoll Textiles: 1945-2010",
             "price": 1,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "options": [
+            "options": [{"variation": "Select an option", "value": "SelectNone"},{"variation": "Select an option", "value": "SelectNone"}
             ],
             "quantity": 1,
             "DON_reference_number": "",
@@ -44,7 +44,7 @@
             "name": "Eraser",
             "price": 1,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "options": [
+            "options": [{"variation": "Select an option", "value": "SelectNone"},{"variation": "White", "value": "J/100068"}
             ],
             "quantity": 15,
             "DON_reference_number": "J/100068",
@@ -69,8 +69,7 @@
             "name": "T-Pins",
             "price": 0,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "options": [
-            ],
+            "options": [{"variation": "Select an option", "value": "SelectNone"},{"variation": "Silver", "value": "SelectNone"}],
             "quantity": 100,
             "DON_reference_number": "J/DISPTP",
             "Note": ""

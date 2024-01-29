@@ -221,21 +221,24 @@ a {
 #sliderarrowleft {
   margin-left: 3.5vw;
   z-index: 2000;
-  color: grey;
+  opacity: 0.5;
+  transition: 0.2s;
 }
 
 #sliderarrowleft:hover {
-  color: black;
+  opacity: 1.0;
 }
 
 #sliderarrowright {
   margin-left: 24vw;
-  color: grey;
   z-index: 2000;
+  opacity: 0.5;
+  transition: 0.2s;
 }
 
 #sliderarrowright:hover {
-  color: black;
+  opacity: 1.0;
+
 }
 
 #note{
@@ -257,11 +260,19 @@ a {
 }
 
 #exit {
-  width: 18px;
-  margin-left: 52vw;
-  margin-top: 2vw;
-  margin-right: 2vw;
+  font-size: 24px;
+  width: 50px;
+  margin-left: 51vw;
+  margin-top: 5vh;
+  margin-right: 3vw;
   position: fixed;
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+#exit:hover{
+  opacity: 1;
+
 }
 
 #exit:hover {
