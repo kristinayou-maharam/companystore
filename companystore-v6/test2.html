@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic Slick Carousel</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.css'>
+  <style>
+    .slick-carousel {
+      margin: 0 auto;
+      width: 350px;
+    }
+
+    .slick-slide {
+      width: 350px;
+    }
+
+    .slick-next::before, .slick-prev::before {
+      color: black;
+      opacity: 0.5;
+    }
+
+    img {
+      width: 350px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="slick-carousel" id="image-carousel"></div>
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+
+<script>
+  // Fetch JSON data from new.json
+  fetch("./src/new.json")
+    .then(response => response.json())
+    .then(data => {
+      // Extract images from the first item in the JSON data
+      const firstItemImages = Array.isArray(data.new[0].image) ? data.new[1].image : [data.new[0].image];
+
+      // Call the function to create the carousel with the first item's images
+      createCarousel(firstItemImages);
+    })
+    .catch(error => console.error('Error fetching JSON:', error));
+
+  // Function to create the carousel HTML
+  function createCarousel(images) {
+    const carouselElement = document.getElementById('image-carousel');
+
+    images.forEach(imageUrl => {
+      const slideElement = document.createElement('div');
+      slideElement.innerHTML = `<img src="${imageUrl}" alt="Slide Image">`;
+      carouselElement.appendChild(slideElement);
+    });
+
+    $('.slick-carousel').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      dots: true
+    });
+  }
+</script>
+
+</body>
+</html>

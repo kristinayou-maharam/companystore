@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Maharam Company Store</title>
+
+    <style>
+        .slick-carousel {
+          margin: 0 auto;
+          width: 350px;
+        }
+    
+        .slick-slide {
+          width: 350px;
+        }
+    
+        .slick-next::before, .slick-prev::before {
+          color: black;
+          opacity: 0.5;
+        }
+  
+      </style>
+</head>
+<body>
+    <div id="topnav">
+       <div id="logolockup">
+        <a href="index.html">
+        <h2 style="display: inline-block; margin-top: 20px; margin-left: 0vw;">Maharam Company Store</h2></div></a>
+        <div id="menu">
+            <h2 style="color: red;">New</h2>
+            <a href="index.html">
+            <h2>Print</h2></a>
+            <a href="presentation.html"><h2>Presentation</h2></a>
+            <a href="sampling.html"><h2>Sampling</h2></a>
+            <a href="stationery.html"><h2>Stationery</h2></a>
+            <a href="books.html"><h2>Books</h2></a>
+        </div>
+    </div>
+
+
+
+<div id="stationary2" class="productdetails">
+        <div id="carousel">
+    <!-- <h2 id="sliderarrowleft" onclick="prevImage()"> ← </h2>
+    <h2 id="sliderarrowright" onclick="nextImage()"> → </h2> -->
+        <div class="carousel__track-container">
+        <li class="carousel__slide"></li>
+        <li class="carousel__slide"></li>
+    </div>
+    </div>
+    <p id="exit" onclick="exit()">✕</p>
+    <div id="product-info"></div>
+
+    </div>
+</div>
+
+
+<!-- Product Gallery -->
+
+<div id="gallery" style="margin-top: 20vh !important;">
+
+
+<div class="image-container">
+    <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayNew(0)">
+    <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayNew(0); sies()">
+    <p id="name">Knoll Textiles: 1945-2010</p>
+</div>
+
+<div class="image-container">
+    <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayNew(1)">
+    <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayNew(1); sies()">
+    <p id="name">20 Years of Paul Smith and Maharam</p>
+</div>
+<div class="image-container">
+    <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayNew(2)">
+    <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayNew(2); sies()">
+    <p id="name">Kraft Shopping Bag</p>
+</div>
+<div class="image-container">
+    <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayNew(3)">
+    <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayNew(3); sies()">
+    <p id="name">Eraser</p>
+  </div>
+  <div class="image-container">
+    <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayNew(4)">
+    <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayNew(4); sies()">
+    <p id="name">Rubberbands</p>
+  </div>
+</div>
+
+<div id="gallery">
+    <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/11.jpg" alt="Default Image" onclick="displayNew(5)">
+        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayNew(5); sies()">
+        <p id="name">T-Pins</p>
+    </div>
+    <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/11.jpg" alt="Default Image" onclick="displayNew(6)">
+        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayNew(6); sies()">
+        <p id="name">Sales Integration Announcement Card</p>
+    </div>
+    <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/11.jpg" alt="Default Image" onclick="displayNew(7)">
+        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayNew(7); sies()">
+        <p id="name">Business Cards</p>
+    </div>
+    <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/11.jpg" alt="Default Image" onclick="displayNew(8)">
+        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayNew(8); sies()">
+        <p id="name">Nametag</p>
+      </div>
+      <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/11.jpg" alt="Default Image" onclick="displayNew(9)">
+        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayNew(9); sies()">
+        <p id="name">Sample Request Form Pad</p>
+      </div>
+    </div>
+
+
+
+<div id="footer" >
+    <div id="inquiries">
+        <img id="logo" src="img/smalluselogo-white.svg">
+    <p style="color: white;">For additional inquiries,<br>Please contact:</p>
+    <p style="color: white;text-decoration: underline; text-decoration-thickness: 2px;">placeholder@maharam.com</p>
+    </div>
+    <div id="footermenu">
+<p id="footerleft">Maharam Intranet</p>
+<p id="footerleft">DON Information</p>
+<p id="footerleft">Usage Guide</p>
+</div>
+</div>
+
+<script src="./script.js"></script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+
+<script>
+
+    function sies() {
+        var marjan = document.getElementById("stationary2");
+        if (marjan.style.display === "none"){
+            marjan.style.display = "block";
+        } else{
+            marjan.style.display = "block";
+        }
+    }
+
+    function exit(){
+        var escape = document.getElementById("stationary2");
+        if (escape.style.display === "block"){
+            escape.style.display = "none";
+        } 
+
+        var nosiesmarjan = document.getElementsByClassName("productdetails");
+        if (nosiesmarjan.style.display === "block"){
+            nosiesmarjan.style.display = "none";
+        }
+        
+    }
+
+    function name() {
+        var showname = document.getElementById("name");
+        if (showname.style.display === "none"){
+            showname.style.display = "block";
+        } else{
+            showname.style.display = "none";
+        }
+    }
+
+// var displayedImage = document.getElementById("detailproductimg");
+
+//     function nextImage(){
+// currentIndex = (currentIndex + 1) % neww.image.length;
+// displayedImage.src = neww.image[currentIndex];
+//     }
+
+
+            // Parse JSON to get array
+            var imageArray = JSON.parse(neww.image);
+            
+            // Get necessary DOM elements
+            var imageDisplay = document.getElementById('detailproductimg');
+            var prevButton = document.getElementById('sliderarrowleft')
+            // var nextButton = document.getElementById('sliderarrowright');
+            // Set initial image index
+            // var currentImageIndex = 0;
+
+            function nextImage(){
+                var nextButton = document.getElementById('sliderarrowright');
+                currentImageIndex = (currentImageIndex + 1) % imageArray.length;
+                console.log("right clicked");
+            }
+            
+            function prevImage(){
+                var prevButton = document.getElementById('sliderarrowleft');
+                currentImageIndex = (currentImageIndex - 1) % imageArray.length;
+                console.log("left clicked")
+            }
+
+            // Function to display the current image
+            function displayCurrentImage() {
+                imageDisplay.src = imageArray[currentImageIndex];
+            }
+            
+            // Display the initial image
+            displayCurrentImage();
+
+</script>
+</body>
+</html>
