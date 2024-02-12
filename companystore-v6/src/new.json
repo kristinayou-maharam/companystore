@@ -21,9 +21,9 @@
             "description": "Over two decades of close collaboration, Paul Smith and Maharam have translated the British designer's signature flair for idiosyncratic combinations of pattern and color to more than forty textiles, wallcoverings, and accessories. Illustrations by Andy Rementer and photography by Nick Ballon capture the stories and characteristic playfulness behind twenty designs. Softcover. 96 pages.",
             "options": [
               {"variation": "Select an option", "value": "SelectNone"},
-              {"variation": "Teal", "value": "J/170072"},
+              {"variation": "Teal", "value": "J/170071"},
               {"variation": "Blue", "value": "J/170072"},
-              {"variation": "Pink", "value": "J/170072"}
+              {"variation": "Pink", "value": "J/170073"}
             ],
             "quantity": 1,
             "Note": "*"
@@ -72,9 +72,8 @@
             "name": "T-Pins",
             "price": 0,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "options": [{"variation": "Select an option", "value": "SelectNone"},{"variation": "Silver", "value": "SelectNone"}],
+            "options": [{"variation": "Select an option", "value": "SelectNone"},{"variation": "Silver", "value": "J/DISPTP"}],
             "quantity": 100,
-            "DON_reference_number": "J/DISPTP",
             "Note": ""
           },
           {

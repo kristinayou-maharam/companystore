@@ -37,9 +37,9 @@ document.addEventListener("DOMContentLoaded", function () {
             <h2>${neww.name}</h2>
         <p> ${neww.description}</p>
         <p>Price: $${neww.price.toFixed(2)}</p>
-        <label for="variationDropdown"><p>Variation:</p></label>
-        <select id="variationDropdown">${dropdownOptions}</select>
         <p>Quantity per Order: ${neww.quantity}</p>
+        <label for="variationDropdown"><p>Variation:</p></label>
+        <select id="variationDropdown">${dropdownOptions}</select><br><br>
         <p id="don">DON: </p><p id="selectedValue">Selected Value</p>
         <p id=note>${neww.Note}</p>
             </div>
@@ -59,8 +59,8 @@ document.addEventListener("DOMContentLoaded", function () {
         
             console.log('Selected Option:', selectedOption);
         
-            if (selectedOption) {
-              const correspondingValue = selectedOption.value;
+            if (selectedOptionLabel) {
+              const correspondingValue = selectedOptionLabel.value;
               selectedValueElement.textContent = `${selectedOptionLabel}`;
             } else {
               selectedValueElement.textContent = 'Unknown Value';
