@@ -9,7 +9,7 @@
             "name": "Knoll Textiles: 1945-2010",
             "price": 1,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "options": [{"variation": "Select an option", "value": "SelectNone"},{"variation": "Yellow", "value": "J/170072"}
+            "options": [{"variation": "Select an option", "value": ""},{"variation": "Yellow", "value": "J/170072"}
             ],
             "quantity": 1,
             "DON_reference_number": "",
@@ -97,7 +97,7 @@
             "price": 1,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
             "options": [
-              {"variation": "Select an option", "value": "Contact Facilities to Order"},
+              {"variation": "Select an option", "value": ""},
               {"variation": "White", "value": "J/170072"}
             ],
             "quantity": 100,

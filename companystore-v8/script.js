@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
               const correspondingValue = selectedOptionLabel.value;
               selectedValueElement.textContent = `${selectedOptionLabel}`;
             } else {
-              selectedValueElement.textContent = 'Unknown Value';
+              selectedValueElement.textContent = '';
             }
           } else {
             selectedValueElement.textContent = 'Please select an option';
