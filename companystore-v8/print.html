@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Maharam Company Store</title>
+</head>
+<body>
+    <div id="topnav">
+       <div id="logolockup">
+        <a href="index.html"><h2 style="display: inline-block; margin-top: 20px; margin-left: 0vw;">Maharam Company Store</h2></div></a>
+        <div id="menu">
+            <a href="index.html"><h2>New</h2></a>
+            <h2 style="color: red;">Print</h2>
+            <a href="presentation.html"><h2>Presentation</h2></a>
+            <a href="sampling.html"><h2>Sampling</h2></a>
+            <a href="stationery.html"><h2>Stationery</h2></a>
+            <a href="books.html"><h2>Books</h2></a>
+        </div>
+    </div>
+
+
+
+<div id="stationary2" class="productdetails">
+        <div id="carousel">
+    <!-- <h2 id="sliderarrowleft"> ← </h2>
+    <h2 id="sliderarrowright"> → </h2> -->
+        <div class="carousel__track-container">
+        <li class="carousel__slide"></li>
+        <li class="carousel__slide"></li>
+    </div>
+    </div>
+    <p id="exit" onclick="exit()">✕</p>
+    <div id="product-info"></div>
+    </div>
+</div>
+
+
+<!-- Product Gallery -->
+
+<div id="gallery" style="margin-top: 20vh !important;">
+
+
+<div class="image-container">
+    <img id="productsmall" class="default-image" src="img/31.jpg" alt="Default Image" onclick="displayPrint(0)">
+    <img id="productsmall" class="hover-image" src="img/31-1.jpg" alt="Hover Image" onclick="displayPrint(0); sies()">
+    <p id="name">2021 Look Book:<br> English, German, French</p>
+</div>
+
+<div class="image-container">
+    <img id="productsmall" class="default-image" src="img/31.jpg" alt="Default Image" onclick="displayPrint(1)">
+    <img id="productsmall" class="hover-image" src="img/31-1.jpg" alt="Hover Image" onclick="displayPrint(1); sies()">
+    <p id="name">2021 Look Book:<br>English, Japanese, Simplified Chinese</p>
+</div>
+<div class="image-container">
+    <img id="productsmall" class="default-image" src="img/31.jpg" alt="Default Image" onclick="displayPrint(2)">
+    <img id="productsmall" class="hover-image" src="img/31-1.jpg" alt="Hover Image" onclick="displayPrint(2); sies()">
+    <p id="name">Mailing Pouch for<br>Look Book, Notebooks, Calendar, etc.</p>
+</div>
+<div class="image-container">
+    <img id="productsmall" class="default-image" src="img/31.jpg" alt="Default Image" onclick="displayPrint(3)">
+    <img id="productsmall" class="hover-image" src="img/31-1.jpg" alt="Hover Image" onclick="displayPrint(3); sies()">
+    <p id="name">20 Years of <br>Paul Smith and Maharam</p>
+  </div>
+  <div class="image-container">
+    <img id="productsmall" class="default-image" src="img/31.jpg" alt="Default Image" onclick="displayPrint(4)">
+    <img id="productsmall" class="hover-image" src="img/31-1.jpg" alt="Hover Image" onclick="displayPrint(4); sies()">
+    <p id="name">Bertjan Pot</p>
+  </div>
+</div>
+
+<div id="gallery">
+    <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/11.jpg" alt="Default Image" onclick="displayPrint(5)">
+        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayPrint(5); sies()">
+        <p id="name">Repeat by Hella Jongerius</p>
+    </div>
+    <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/11.jpg" alt="Default Image" onclick="displayPrint(6)">
+        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayPrint(6); sies()">
+        <p id="name">60 60</p>
+    </div>
+    <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/11.jpg" alt="Default Image" onclick="displayPrint(7)">
+        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayPrint(7); sies()">
+        <p id="name">60 60 Shipping Box</p>
+    </div>
+    <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/11.jpg" alt="Default Image" onclick="displayPrint(8)">
+        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayPrint(8); sies()">
+        <p id="name">The Archetypes</p>
+      </div>
+      <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/11.jpg" alt="Default Image" onclick="displayPrint(9)">
+        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayPrint(9); sies()">
+        <p id="name">Sonnihild Kestler<br>Poster Set</p>
+      </div>
+    </div>
+
+<div id="gallery">
+    <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayPrint(10)">
+        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayPrint(10); sies()">
+        <p id="name">Notebook</p>
+    </div>
+    
+    <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayPrint(11)">
+        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayPrint(11); sies()">
+        <p id="name">Notebook Set</p>
+    </div>
+    <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayPrint(12)">
+        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayPrint(12); sies()">
+        <p id="name">Memory Two</p>
+    </div>
+    <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayPrint(13)">
+        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayPrint(13); sies()">
+        <p id="name">Memory Three</p>
+      </div>
+
+      <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayPrint(14)">
+        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayPrint(14); sies()">
+        <p id="name">Calendar 2024</p>
+    </div>   
+</div>
+
+<div id="gallery"> 
+    <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayPrint(15)">
+        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayPrint(15); sies()">
+        <p id="name">Maharam Digital Projects<br>Notecard Set</p>
+    </div>
+  </div>
+
+
+
+  <div id="footer" >
+    <div id="inquiries">
+        <img id="logo" src="img/smalluselogo-white.svg">
+    <p style="color: white;">For additional inquiries,<br>Please contact:</p>
+    <p style="color: white;text-decoration: underline; text-decoration-thickness: 2px;">placeholder@maharam.com</p>
+    </div>
+    <div id="footermenu">
+        <p id="footerleft">
+            <a href="https://hermanmiller.sharepoint.com/sites/MHRM-Home/SitePages/Employee-Purchases.aspx">Maharam Intranet</a>
+        </p>
+        
+        <p id="footerleft">
+            <a href="https://hermanmiller.sharepoint.com/sites/MHRM-Home/Employee%20Purchases%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents%2FMaharam%5Fassociate%2Dpurchase%2Dpolicy%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents">DON Information</a>
+        </p>
+        
+        <p id="footerleft">
+        <a href="https://hermanmiller.sharepoint.com/sites/MHRM-Home/Employee%20Purchases%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents%2FMaharam%5Femployee%2Dpurchase%2Dpolicy%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents">
+            Usage Guide</a>
+        </p>
+        
+        <p id="footerleft">
+            <a href="https://hermanmiller.sharepoint.com/sites/MHRM-Home/Employee%20Purchases%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents%2FMaharam%5Femployee%2Dpurchase%2Dform%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents">
+                Purchase Form</a>
+            </p>
+</div>
+</div>
+
+<script src="./script.js"></script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+
+<script>
+    // function show() {
+    //     var divide = document.getElementById("stationary1");
+    //     if (divide.style.display === "none"){
+    //         divide.style.display = "block";
+    //     } else{
+    //         divide.style.display = "none";
+    // }
+    // }
+
+    function sies() {
+        var marjan = document.getElementById("stationary2");
+        if (marjan.style.display === "none"){
+            marjan.style.display = "block";
+        } else{
+            marjan.style.display = "block";
+        }
+    }
+
+    function exit(){
+        var escape = document.getElementById("stationary2");
+        if (escape.style.display === "block"){
+            escape.style.display = "none";
+        } 
+
+        var nosiesmarjan = document.getElementsByClassName("productdetails");
+        if (nosiesmarjan.style.display === "block"){
+            nosiesmarjan.style.display = "none";
+        }
+        
+    }
+
+    function name() {
+        var showname = document.getElementById("name");
+        if (showname.style.display === "none"){
+            showname.style.display = "block";
+        } else{
+            showname.style.display = "none";
+        }
+    }
+
+</script>
+</body>
+</html>
