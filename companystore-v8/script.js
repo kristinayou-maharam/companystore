@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <p>Quantity per Order: ${neww.quantity}</p>
         <label for="variationDropdown"><p>Variation:</p></label>
         <select id="variationDropdown">${dropdownOptions}</select><br><br>
-        <p id="don">DON: </p><p id="selectedValue">Selected Value</p>
+        <p id="don">DON: </p><p id="selectedValue"></p>
         <p id=note>${neww.Note}</p>
             </div>
         `;
@@ -70,6 +70,60 @@ document.addEventListener("DOMContentLoaded", function () {
         
           if (selectedOptionLabel !== "SelectNone") {
             const selectedOption = neww.options.find(option => option.variation.trim() === selectedOptionLabel);
+        
+            console.log('Selected Option:', selectedOption);
+        
+            if (selectedOptionLabel) {
+              const correspondingValue = selectedOptionLabel.value;
+              selectedValueElement.textContent = `${selectedOptionLabel}`;
+            } else {
+              selectedValueElement.textContent = '';
+            }
+          } else {
+            selectedValueElement.textContent = 'Please select an option';
+          }
+        });
+        
+
+      };
+    })
+
+    .then(() => fetch("./src/new.json"))
+    .then(response => response.json())
+    .then(data => {
+      window.displayTest = function (index) {
+        const test = data.new[index];
+        const dropdownOptions = test.options.map(option => `<option value="${option.value}">${option.variation}</option>`).join('');
+        const slideHTML = test.image.map(imageUrl => `<div><img src="${imageUrl}" alt="${test.name}" style="width:25vw; margin-bottom:12px";></div>`).join('');
+
+        const testInfoHTML = `
+        <div class="slick-carousel">
+        ${slideHTML}
+        </div>
+        <div id ="detaildescription">
+        <h2>${test.name}</h2>
+        <p> ${test.description}</p>
+        <p>Price: $${test.price.toFixed(2)}</p>
+        <p>Quantity per Order: ${test.quantity}</p>
+        <label for="variationDropdown"><p>Variation:</p></label>
+        <select id="variationDropdown">${dropdownOptions}</select><br><br>
+        <p id="don">DON: </p><p id="selectedValue"></p>
+        <p id=note>${test.Note}</p>
+            </div>
+        `;
+        document.getElementById("product-info").innerHTML = testInfoHTML;
+
+
+        const variationDropdown = document.getElementById('variationDropdown');
+        const selectedValueElement = document.getElementById('selectedValue');
+    
+        variationDropdown.addEventListener('change', function () {
+          const selectedOptionLabel = variationDropdown.value.trim();
+        
+          console.log('Selected Option Label:', selectedOptionLabel);
+        
+          if (selectedOptionLabel !== "SelectNone") {
+            const selectedOption = test.options.find(option => option.variation.trim() === selectedOptionLabel);
         
             console.log('Selected Option:', selectedOption);
         

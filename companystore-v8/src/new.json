@@ -2,7 +2,7 @@
     "new": [
         {
             "image": [
-            "./img/angle/agenda.jpeg",
+            "./img/angle/irvingharper.jpg",
             "./img/sg_24_tabletop_psmithbook_grey.png",
             "./img/angle/agenda.jpeg"
             ],
@@ -16,7 +16,9 @@
             "Note": "This item is currently unavailable"
           }, 
           {
-            "image": ["./img/sg_24_tabletop_psmithbook_grey.png","./img/sg_24_tabletop_psmithbook_grey.png","./img/sg_24_tabletop_psmithbook_grey.png"
+            "image": ["./img/sg_24_tabletop_psmithbook_grey.png",
+            "./img/angle/psmithbook.jpg",
+            "./img/sg_24_tabletop_psmithbook_grey.png"
           ],
             "name": "20 Years of Paul Smith and Maharam",
             "price": 0,
@@ -28,10 +30,12 @@
               {"variation": "Pink", "value": "J/170073"}
             ],
             "quantity": 1,
-            "Note": "*"
+            "Note": ""
           },
           {
-            "image": ["./img/sg_24_tabletop_bags_flat_grey.png","./img/sg_24_tabletop_bags_flat_grey.png","./img/sg_24_tabletop_bags_flat_grey.png"],
+            "image": ["./img/sg_24_tabletop_bags_flat_grey.png",
+            "./img/angle/bag2.jpg",
+            "./img/sg_24_tabletop_bags_flat_grey.png"],
             "name": "Kraft Shopping Bag",
             "price": 0,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -89,7 +93,7 @@
               {"variation": "Currant/Chalk/Sky", "value": "J/170072"}
             ],
             "quantity": 50,
-            "Note": "Contact Media"
+            "Note": ""
           }, 
           {
             "image": ["./img/sg_24_tabletop_bizcards_grey.png","./img/sg_24_tabletop_bizcards_grey.png","./img/sg_24_tabletop_bizcards_grey.png"],
@@ -114,7 +118,7 @@
             ],
             "quantity": 2,
             "DON_reference_number": "",
-            "Note": "Contact Media"
+            "Note": ""
           },
           {
             "image": ["./img/sg_24_tabletop_samplerequest_grey.png","./img/sg_24_tabletop_samplerequest_grey.png","./img/sg_24_tabletop_samplerequest_grey.png"],

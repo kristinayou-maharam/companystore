@@ -224,9 +224,19 @@ a {
 
 /* Color of the arrows */
 .slick-next::before, .slick-prev::before {
-  color: rgb(0, 0, 0);
-  z-index: 1000;
+  color: rgb(156, 156, 156) !important;
 }
+
+/* .slick-next::before{
+  content: "▸" !important;
+  font-size: 30px !important;
+}
+
+.slick-prev::before{
+  content: "◀" !important;
+  font-size: 30px !important;
+} */
+
 
 #sliderarrowleft {
   margin-left: 1.5vw;

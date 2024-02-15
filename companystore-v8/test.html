@@ -1,119 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Combined Slick Carousel and Book Information</title>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css'>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.css'>
-  <style>
-    .slick-carousel {
-      margin: 0 auto;
-      width: 350px;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.css'>
 
-    .slick-slide {
-      width: 350px;
-    }
-
-    .slick-next::before, .slick-prev::before {
-      color: black;
-      opacity: 0.5;
-    }
-
-    img {
-      width: 350px;
-    }
-  </style>
+    <title>Maharam Company Store</title>
 </head>
-<body>
+<body>    
 
-<!-- Carousel Container -->
-<div class="slick-carousel" id="image-carousel"></div>
 
-<!-- Book Information Container -->
-<div id="product-info"></div>
+    <div id="topnav">
+       <div id="logolockup">
+
+        <a href="index.html">
+        <h2 style="display: inline-block; margin-top: 20px; margin-left: 0vw;">Maharam Company Store</h2></div></a>
+        <div id="menu">
+            <h2 style="color: red;">New</h2>
+            <a href="print.html">
+            <h2>Print</h2></a>
+            <a href="presentation.html"><h2>Presentation</h2></a>
+            <a href="sampling.html"><h2>Sampling</h2></a>
+            <a href="stationery.html"><h2>Stationery</h2></a>
+            <a href="books.html"><h2>Books</h2></a>
+        </div>
+    </div>
+
+    <div id="stationary2" class="productdetails">
+    <p id="exit" onclick="exit()">✕</p>
+    <div id="product-info"></div>
+
+    </div>
+</div>
+
+<!-- Product Gallery -->
+
+<div id="gallery" style="margin-top: 20vh !important;">
+
+
+<div class="image-container">
+    <p id="stock">Back in Stock</p>
+    <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayTest(0)">
+    <img id="productsmall" class="hover-image" src="img/angle/irvingharper.jpg" alt="Hover Image" onclick="displayTest(0); sies();">
+    <div id="name" style="margin-top: 2.5vh;">
+        <p onclick="displayTest(0); sies()">Knoll Textiles: 1945-2010 </p>
+    </div>
+</div>
+
+<div class="image-container">
+    <p id="stock">Coming Soon</p>
+    <img id="productsmall" class="default-image" src="img/angle/psmithbook.jpg" alt="Default Image" onclick="displayTest(1)">
+    <img id="productsmall" class="hover-image" src="img/angle/psmithbook-2.jpg" alt="Hover Image" onclick="displayTest(1); sies()">
+    <p id="name" onclick="displayTest(1); sies()">20 Years of Paul Smith and Maharam</p>
+</div>
+<div class="image-container">
+    <img id="productsmall" class="default-image" src="img/angle/bag.jpg" alt="Default Image" onclick="displayTest(2)">
+    <img id="productsmall" class="hover-image" src="img/angle/bag2.jpg" alt="Hover Image" onclick="displayTest(2); sies()">
+    <p id="name" onclick="displayTest(2); sies()">Kraft Shopping Bag</p>
+</div>
+<div class="image-container">
+    <img id="productsmall" class="default-image" src="img/angle/bear.png" alt="Default Image" onclick="displayTest(3)">
+    <img id="productsmall" class="hover-image" src="img/angle/bear.png" alt="Hover Image" onclick="displayTest(3); sies()">
+    <p id="name" onclick="displayTest(3); sies()">Eraser</p>
+  </div>
+  <div class="image-container">
+    <img id="productsmall" class="default-image" src="img/angle/memorytwo.jpg" alt="Default Image" onclick="displayTest(4)">
+    <img id="productsmall" class="hover-image" src="img/angle/memorytwo-2.jpg" alt="Hover Image" onclick="displayTest(4); sies()">
+    <p id="name" onclick="displayTest(4); sies()">Rubberbands</p>
+  </div>
+</div>
+
+<div id="gallery">
+    <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/angle/memorythree.jpg" alt="Default Image" onclick="displayTest(5)">
+        <img id="productsmall" class="hover-image" src="img/angle/memorythree-2.jpg" alt="Hover Image" onclick="displayTest(5); sies()">
+        <p id="name" onclick="displayTest(5); sies()">T-Pins</p>
+    </div>
+    <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/angle/notebooks.jpg" alt="Default Image" onclick="displayTest(6)">
+        <img id="productsmall" class="hover-image" src="img/angle/notebooks-2.jpg" alt="Hover Image" onclick="displayTest(6); sies()">
+        <p id="name" onclick="displayTest(6); sies()">Sales Integration Announcement Card</p>
+    </div>
+    <div class="image-container">
+        <p id="stock">Gone for Good</p>
+        <img id="productsmall" class="default-image" src="img/angle/sb-bw.png" alt="Default Image">
+        <img id="productsmall" class="hover-image" src="img/angle/sb-2-bw.png" alt="Hover Image">
+        <p id="name">Business Cards</p>
+    </div>
+    <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/angle/cardholder.jpg" alt="Default Image" onclick="displayTest(8)">
+        <img id="productsmall" class="hover-image" src="img/angle/cardholder.jpg" alt="Hover Image" onclick="displayTest(8); sies()">
+        <p id="name" onclick="displayTest(8); sies()">Nametag</p>
+      </div>
+      <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/angle/stool.jpg" alt="Default Image" onclick="displayTest(9)">
+        <img id="productsmall" class="hover-image" src="img/angle/stool-2.jpg" alt="Hover Image" onclick="displayTest(9); sies()">
+        <p id="name" onclick="displayTest(9); sies()">Sample Request Form Pad</p>
+      </div>
+    </div>
+
+
+
+<div id="footer" >
+    <div id="inquiries">
+        <img id="logo" src="img/smalluselogo.svg">
+    <p style="color: #000000;">For additional inquiries,<br>Please contact:</p>
+    <p style="color: #000000;text-decoration: underline; text-decoration-thickness: 2px;">placeholder@maharam.com</p>
+    </div>
+    <div id="footermenu">
+<p id="footerleft">
+    <a href="https://hermanmiller.sharepoint.com/sites/MHRM-Home/SitePages/Employee-Purchases.aspx">Maharam Intranet</a>
+</p>
+
+<p id="footerleft">
+    <a href="https://hermanmiller.sharepoint.com/sites/MHRM-Home/Employee%20Purchases%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents%2FMaharam%5Fassociate%2Dpurchase%2Dpolicy%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents">DON Information</a>
+</p>
+
+<p id="footerleft">
+<a href="https://hermanmiller.sharepoint.com/sites/MHRM-Home/Employee%20Purchases%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents%2FMaharam%5Femployee%2Dpurchase%2Dpolicy%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents">
+    Usage Guide</a>
+</p>
+
+<p id="footerleft">
+    <a href="https://hermanmiller.sharepoint.com/sites/MHRM-Home/Employee%20Purchases%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents%2FMaharam%5Femployee%2Dpurchase%2Dform%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents">
+        Purchase Form</a>
+    </p>
+
+</div>
+</div>
 
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
 
 <script>
-  // Fetch JSON data from new.json
-  fetch("./src/new.json")
-    .then(response => response.json())
-    .then(data => {
-      // Extract images from the first item in the JSON data
-      const firstItemImages = Array.isArray(data.new[0].image) ? data.new[0].image : [data.new[0].image];
 
-      // Call the function to create the carousel with the first item's images
-      createCarousel(firstItemImages);
+    function sies() {
+        var marjan = document.getElementById("stationary2");
+        var check = document.getElementById("stock");
+        if (marjan.style.display === "none"){
+            marjan.style.display = "block";
+        } else{
+            marjan.style.display = "block";
+        }
+    }
 
-      // Function to display books information
-      window.displayNew = function (index) {
-        const neww = data.new[index];
-        const dropdownOptions = neww.options.map(option => `<option value="${option.value}">${option.variation}</option>`).join('');
-        const newInfoHTML = `
-          <img src="${neww.image}" alt="${neww.name}" id="detailproductimg">
-          <div id ="detaildescription">
-            <h2>${neww.name}</h2>
-            <p>${neww.description}</p>
-            <p>Price: $${neww.price.toFixed(2)}</p>
-            <label for="variationDropdown"><p>Variation:</p></label>
-            <select id="variationDropdown">${dropdownOptions}</select>
-            <p>Quantity per Order: ${neww.quantity}</p>
-            <p id="don">DON: </p><p id="selectedValue">Selected Value</p>
-            <p id="note">${neww.Note}</p>
-          </div>
-        `;
-        // Display books information
-        document.getElementById("product-info").innerHTML = newInfoHTML;
 
-        const variationDropdown = document.getElementById('variationDropdown');
-        const selectedValueElement = document.getElementById('selectedValue');
+    function exit(){
+        var escape = document.getElementById("stationary2");
+        if (escape.style.display === "block"){
+            escape.style.display = "none";
+        } 
 
-        variationDropdown.addEventListener('change', function () {
-          const selectedOptionLabel = variationDropdown.value.trim();  // Trim leading/trailing spaces
+        var nosiesmarjan = document.getElementsByClassName("productdetails");
+        if (nosiesmarjan.style.display === "block"){
+            nosiesmarjan.style.display = "none";
+        }
+        
+    }
 
-          console.log('Selected Option Label:', selectedOptionLabel);
+    function name() {
+        var showname = document.getElementById("name");
+        if (showname.style.display === "none"){
+            showname.style.display = "block";
+        } else{
+            showname.style.display = "none";
+        }
+    }
+    
 
-          if (selectedOptionLabel !== "SelectNone") {
-            const selectedOption = neww.options.find(option => option.variation.trim() === selectedOptionLabel);
 
-            console.log('Selected Option:', selectedOption);
-
-            if (selectedOption) {
-              const correspondingValue = selectedOption.value;
-              selectedValueElement.textContent = `${selectedOptionLabel}`;
-            } else {
-              selectedValueElement.textContent = 'Unknown Value';
-            }
-          } else {
-            selectedValueElement.textContent = 'Please select an option';
-          }
-        });
-      };
-    })
-    .catch(error => console.error('Error fetching JSON:', error));
-
-  // Function to create the carousel HTML
-  function createCarousel(images) {
-    const carouselElement = document.getElementById('image-carousel');
-
-    images.forEach(imageUrl => {
-      const slideElement = document.createElement('div');
-      slideElement.innerHTML = `<img src="${imageUrl}" alt="Slide Image">`;
-      carouselElement.appendChild(slideElement);
-    });
-
-    $('.slick-carousel').slick({
-      infinite: true,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: false,
-      dots: true
-    });
-  }
 </script>
-
+<script src="./script.js"></script>  
 </body>
 </html>
