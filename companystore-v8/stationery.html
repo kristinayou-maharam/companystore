@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.css'>
     <title>Maharam Company Store</title>
 </head>
 <body>
@@ -26,14 +29,7 @@
 <!-- Detail Product Pages -->
 
 <div id="stationary2" class="productdetails">
-        <div id="carousel">
-    <!-- <h2 id="sliderarrowleft"> ← </h2>
-    <h2 id="sliderarrowright"> → </h2> -->
-        <div class="carousel__track-container">
-        <li class="carousel__slide"></li>
-        <li class="carousel__slide"></li>
-    </div>
-    </div>
+
     <p id="exit" onclick="exit()">✕</p>
     <div id="product-info"></div>
     </div>
@@ -46,109 +42,114 @@
 
 
 <div class="image-container">
-    <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayProduct(0)">
-    <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayProduct(0); sies()">
+    <img id="productsmall" class="default-image" src="img/sg_24_tabletop_bizcards_grey.png" alt="Default Image" onclick="displayStationery(0)">
+    <img id="productsmall" class="hover-image" src="img/sg_24_tabletop_name tag_grey.png" alt="Hover Image" onclick="displayStationery(0); sies()">
     <p id="name">Business Cards</p>
 </div>
 
 <div class="image-container">
-    <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayProduct(1)">
-    <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayProduct(1); sies()">
+    <p id="stock">Coming Soon</p>
+    <img id="productsmall" class="default-image" src="img/sg_24_tabletop_bizcards_grey.png" alt="Default Image" onclick="displayStationery(1)">
+    <img id="productsmall" class="hover-image" src="img/sg_24_tabletop_name tag_grey.png" alt="Hover Image" onclick="displayStationery(1); sies()">
     <p id="name">Letterhead with Showroom Address (North America)</p>
 </div>
 <div class="image-container">
-    <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayProduct(2)">
-    <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayProduct(2); sies()">
+    <p id="stock">Coming Soon</p>
+    <img id="productsmall" class="default-image" src="img/sg_24_tabletop_bizcards_grey.png" alt="Default Image" onclick="displayStationery(2)">
+    <img id="productsmall" class="hover-image" src="img/sg_24_tabletop_name tag_grey.png" alt="Hover Image" onclick="displayStationery(2); sies()">
     <p id="name">Envelope with Showroom Address (North America)</p>
 </div>
 <div class="image-container">
-    <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayProduct(3)">
-    <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayProduct(3); sies()">
+    <img id="productsmall" class="default-image" src="img/sg_24_tabletop_bizcards_grey.png" alt="Default Image" onclick="displayStationery(3)">
+    <img id="productsmall" class="hover-image" src="img/sg_24_tabletop_name tag_grey.png" alt="Hover Image" onclick="displayStationery(3); sies()">
     <p id="name">Letterhead with Showroom Address(ROW)</p>
   </div>
   <div class="image-container">
-    <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayProduct(4)">
-    <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayProduct(4); sies()">
+    <img id="productsmall" class="default-image" src="img/sg_24_tabletop_bizcards_grey.png" alt="Default Image" onclick="displayStationery(4)">
+    <img id="productsmall" class="hover-image" src="img/sg_24_tabletop_name tag_grey.png" alt="Hover Image" onclick="displayStationery(4); sies()">
     <p id="name">Envelope with Showroom Address(ROW)</p>
   </div>
 </div>
 
 <div id="gallery">
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/801081001_front.jpg" alt="Default Image" onclick="displayProduct(5)">
-        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayProduct(5); sies()">
+        <img id="productsmall" class="default-image" src="img/sg_24_tabletop_bizcards_grey.png" alt="Default Image" onclick="displayStationery(5)">
+        <img id="productsmall" class="hover-image" src="img/sg_24_tabletop_name tag_grey.png" alt="Hover Image" onclick="displayStationery(5); sies()">
         <p id="name">Large Mailing Label with Showroom Address</p>
     </div>
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/801081001_front.jpg" alt="Default Image" onclick="displayProduct(6)">
-        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayProduct(6); sies()">
+        <img id="productsmall" class="default-image" src="img/sg_24_tabletop_bizcards_grey.png" alt="Default Image" onclick="displayStationery(6)">
+        <img id="productsmall" class="hover-image" src="img/sg_24_tabletop_name tag_grey.png" alt="Hover Image" onclick="displayStationery(6); sies()">
         <p id="name">Small Mailing Label</p>
     </div>
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/801081001_front.jpg" alt="Default Image" onclick="displayProduct(7)">
-        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayProduct(7); sies()">
+        <img id="productsmall" class="default-image" src="img/sg_24_tabletop_bizcards_grey.png" alt="Default Image" onclick="displayStationery(7)">
+        <img id="productsmall" class="hover-image" src="img/sg_24_tabletop_name tag_grey.png" alt="Hover Image" onclick="displayStationery(7); sies()">
         <p id="name">Small Kraft Envelope</p>
     </div>
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/801081001_front.jpg" alt="Default Image" onclick="displayProduct(8)">
-        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayProduct(8); sies()">
+        <img id="productsmall" class="default-image" src="img/sg_24_tabletop_bizcards_grey.png" alt="Default Image" onclick="displayStationery(8)">
+        <img id="productsmall" class="hover-image" src="img/sg_24_tabletop_name tag_grey.png" alt="Hover Image" onclick="displayStationery(8); sies()">
         <p id="name">Sample Request Form Pad</p>
       </div>
       <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/801081001_front.jpg" alt="Default Image" onclick="displayProduct(9)">
-        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayProduct(9); sies()">
+        <img id="productsmall" class="default-image" src="img/sg_24_tabletop_bizcards_grey.png" alt="Default Image" onclick="displayStationery(9)">
+        <img id="productsmall" class="hover-image" src="img/sg_24_tabletop_name tag_grey.png" alt="Hover Image" onclick="displayStationery(9); sies()">
         <p id="name">Pocket Folder</p>
       </div>
     </div>
 
 <div id="gallery">
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayProduct(10)">
-        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayProduct(10); sies()">
+        <p id="stock">Coming Soon</p>
+        <img id="productsmall" class="default-image" src="img/sg_24_tabletop_bizcards_grey.png" alt="Default Image" onclick="displayStationery(10)">
+        <img id="productsmall" class="hover-image" src="img/sg_24_tabletop_name tag_grey.png" alt="Hover Image" onclick="displayStationery(10); sies()">
         <p id="name">Notepad</p>
     </div>
     
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayProduct(11)">
-        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayProduct(11); sies()">
+        <img id="productsmall" class="default-image" src="img/sg_24_tabletop_bizcards_grey.png" alt="Default Image" onclick="displayStationery(11)">
+        <img id="productsmall" class="hover-image" src="img/sg_24_tabletop_name tag_grey.png" alt="Hover Image" onclick="displayStationery(11); sies()">
         <p id="name">Caran d'Ache Pen Maharam</p>
     </div>
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayProduct(12)">
-        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayProduct(12); sies()">
+        <p id="stock">Coming Soon</p>
+        <img id="productsmall" class="default-image" src="img/sg_24_tabletop_bizcards_grey.png" alt="Default Image" onclick="displayStationery(12)">
+        <img id="productsmall" class="hover-image" src="img/sg_24_tabletop_name tag_grey.png" alt="Hover Image" onclick="displayStationery(12); sies()">
         <p id="name">Caran d'Ache Pen Knoll Textiles</p>
     </div>
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayProduct(13)">
-        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayProduct(13); sies()">
+        <img id="productsmall" class="default-image" src="img/sg_24_tabletop_bizcards_grey.png" alt="Default Image" onclick="displayStationery(13)">
+        <img id="productsmall" class="hover-image" src="img/sg_24_tabletop_name tag_grey.png" alt="Hover Image" onclick="displayStationery(13); sies()">
         <p id="name">Caran d'Ache Pen Replacement Cartridge</p>
       </div>
       <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayProduct(14)">
-        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayProduct(14); sies()">
+        <img id="productsmall" class="default-image" src="img/sg_24_tabletop_bizcards_grey.png" alt="Default Image" onclick="displayStationery(14)">
+        <img id="productsmall" class="hover-image" src="img/sg_24_tabletop_name tag_grey.png" alt="Hover Image" onclick="displayStationery(14); sies()">
         <p id="name">Staedtler Pencils Maharam</p>
       </div>
 </div>
 
 <div id="gallery">
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/801081001_front.jpg" alt="Default Image" onclick="displayProduct(15)">
-        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayProduct(15); sies()">
+        <p id="stock">Coming Soon</p>
+        <img id="productsmall" class="default-image" src="img/sg_24_tabletop_bizcards_grey.png" alt="Default Image" onclick="displayStationery(15)">
+        <img id="productsmall" class="hover-image" src="img/sg_24_tabletop_name tag_grey.png" alt="Hover Image" onclick="displayStationery(15); sies()">
         <p id="name">Staedtler Pencils Knoll Textiles</p>
     </div>
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/801081001_front.jpg" alt="Default Image" onclick="displayProduct(16)">
-        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayProduct(16); sies()">
+        <img id="productsmall" class="default-image" src="img/sg_24_tabletop_bizcards_grey.png" alt="Default Image" onclick="displayStationery(16)">
+        <img id="productsmall" class="hover-image" src="img/sg_24_tabletop_name tag_grey.png" alt="Hover Image" onclick="displayStationery(16); sies()">
         <p id="name">Eraser</p>
     </div>
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/801081001_front.jpg" alt="Default Image" onclick="displayProduct(17)">
-        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayProduct(17); sies()">
+        <img id="productsmall" class="default-image" src="img/sg_24_tabletop_bizcards_grey.png" alt="Default Image" onclick="displayStationery(17)">
+        <img id="productsmall" class="hover-image" src="img/sg_24_tabletop_name tag_grey.png" alt="Hover Image" onclick="displayStationery(17); sies()">
         <p id="name">Mousepad</p>
     </div>
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/801081001_front.jpg" alt="Default Image" onclick="displayProduct(18)">
-        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayProduct(18); sies()">
+        <img id="productsmall" class="default-image" src="img/sg_24_tabletop_bizcards_grey.png" alt="Default Image" onclick="displayStationery(18)">
+        <img id="productsmall" class="hover-image" src="img/sg_24_tabletop_name tag_grey.png" alt="Hover Image" onclick="displayStationery(18); sies()">
         <p id="name">Nametag</p>
       </div>
 </div>
@@ -157,9 +158,9 @@
 
     <div id="footer" >
         <div id="inquiries">
-        <img id="logo" src="img/smalluselogo-white.svg">
-        <p style="color: white;">For additional inquiries,<br>Please contact:</p>
-        <p style="color: white;text-decoration: underline; text-decoration-thickness: 2px;">placeholder@maharam.com</ps>
+            <img id="logo" src="img/smalluselogo.svg">
+            <p style="color: #000000;">For additional inquiries,<br>Please contact:</p>
+            <p style="color: #000000;text-decoration: underline; text-decoration-thickness: 2px;">placeholder@maharam.com</p>
         </div>
         <div id="footermenu">
             <p id="footerleft">

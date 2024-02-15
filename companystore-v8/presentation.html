@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.css'>
     <title>Maharam Company Store</title>
 </head>
 <body>
@@ -25,14 +28,6 @@
 
 
 <div id="stationary2" class="productdetails">
-        <div id="carousel">
-    <!-- <h2 id="sliderarrowleft"> ← </h2>
-    <h2 id="sliderarrowright"> → </h2> -->
-        <div class="carousel__track-container">
-        <li class="carousel__slide"></li>
-        <li class="carousel__slide"></li>
-    </div>
-    </div>
     <p id="exit" onclick="exit()">✕</p>
     <div id="product-info">
     </div>
@@ -46,105 +41,106 @@
 
 
 <div class="image-container">
-    <img id="productsmall" class="default-image" src="img/31.jpg" alt="Default Image" onclick="displayPresentation(0)">
-    <img id="productsmall" class="hover-image" src="img/31-1.jpg" alt="Hover Image" onclick="displayPresentation(0); sies()">
+    <img id="productsmall" class="default-image" src="img/angle/stool.jpg" alt="Default Image" onclick="displayPresentation(0)">
+    <img id="productsmall" class="hover-image" src="img/angle/stool-2.jpg" alt="Hover Image" onclick="displayPresentation(0); sies()">
     <p id="name">Notecard Set</p>
 </div>
 
 <div class="image-container">
-    <img id="productsmall" class="default-image" src="img/31.jpg" alt="Default Image" onclick="displayPresentation(1)">
-    <img id="productsmall" class="hover-image" src="img/31-1.jpg" alt="Hover Image" onclick="displayPresentation(1); sies()">
+    <img id="productsmall" class="default-image" src="img/angle/stool.jpg" alt="Default Image" onclick="displayPresentation(1)">
+    <img id="productsmall" class="hover-image" src="img/angle/stool-2.jpg" alt="Hover Image" onclick="displayPresentation(1); sies()">
     <p id="name">Kraft Shopping Bag</p>
 </div>
 <div class="image-container">
-    <img id="productsmall" class="default-image" src="img/31.jpg" alt="Default Image" onclick="displayPresentation(2)">
-    <img id="productsmall" class="hover-image" src="img/31-1.jpg" alt="Hover Image" onclick="displayPresentation(2); sies()">
+    <img id="productsmall" class="default-image" src="img/angle/stool.jpg" alt="Default Image" onclick="displayPresentation(2)">
+    <img id="productsmall" class="hover-image" src="img/angle/stool-2.jpg" alt="Hover Image" onclick="displayPresentation(2); sies()">
     <p id="name">Kraft Shopping Bag Label</p>
 </div>
 <div class="image-container">
-    <img id="productsmall" class="default-image" src="img/31.jpg" alt="Default Image" onclick="displayPresentation(3)">
-    <img id="productsmall" class="hover-image" src="img/31-1.jpg" alt="Hover Image" onclick="displayPresentation(3); sies()">
+    <img id="productsmall" class="default-image" src="img/angle/stool.jpg" alt="Default Image" onclick="displayPresentation(3)">
+    <img id="productsmall" class="hover-image" src="img/angle/stool-2.jpg" alt="Hover Image" onclick="displayPresentation(3); sies()">
     <p id="name">Large Kraft Envelope with Gusset</p>
   </div>
   <div class="image-container">
-    <img id="productsmall" class="default-image" src="img/31.jpg" alt="Default Image" onclick="displayPresentation(4)">
-    <img id="productsmall" class="hover-image" src="img/31-1.jpg" alt="Hover Image" onclick="displayPresentation(4); sies()">
+    <img id="productsmall" class="default-image" src="img/angle/stool.jpg" alt="Default Image" onclick="displayPresentation(4)">
+    <img id="productsmall" class="hover-image" src="img/angle/stool-2.jpg" alt="Hover Image" onclick="displayPresentation(4); sies()">
     <p id="name">Rubberbands</p>
   </div>
 </div>
 
 <div id="gallery">
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/11.jpg" alt="Default Image" onclick="displayPresentation(5)">
-        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayPresentation(5); sies()">
+        <img id="productsmall" class="default-image" src="img/angle/stool.jpg" alt="Default Image" onclick="displayPresentation(5)">
+        <img id="productsmall" class="hover-image" src="img/angle/stool-2.jpg" alt="Hover Image" onclick="displayPresentation(5); sies()">
         <p id="name">Display Board Large</p>
     </div>
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/11.jpg" alt="Default Image" onclick="displayPresentation(6)">
-        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayPresentation(6); sies()">
+        <img id="productsmall" class="default-image" src="img/angle/stool.jpg" alt="Default Image" onclick="displayPresentation(6)">
+        <img id="productsmall" class="hover-image" src="img/angle/stool-2.jpg" alt="Hover Image" onclick="displayPresentation(6); sies()">
         <p id="name">Display Board Small</p>
     </div>
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/11.jpg" alt="Default Image" onclick="displayPresentation(7)">
-        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayPresentation(7); sies()">
+        <img id="productsmall" class="default-image" src="img/angle/stool.jpg" alt="Default Image" onclick="displayPresentation(7)">
+        <img id="productsmall" class="hover-image" src="img/angle/stool-2.jpg" alt="Hover Image" onclick="displayPresentation(7); sies()">
         <p id="name">Display Board Bag</p>
     </div>
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/11.jpg" alt="Default Image" onclick="displayPresentation(8)">
-        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayPresentation(8); sies()">
+        <img id="productsmall" class="default-image" src="img/angle/stool.jpg" alt="Default Image" onclick="displayPresentation(8)">
+        <img id="productsmall" class="hover-image" src="img/angle/stool-2.jpg" alt="Hover Image" onclick="displayPresentation(8); sies()">
         <p id="name">T-Pins</p>
       </div>
       <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/11.jpg" alt="Default Image" onclick="displayPresentation(9)">
-        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayPresentation(9); sies()">
+        <img id="productsmall" class="default-image" src="img/angle/stool.jpg" alt="Default Image" onclick="displayPresentation(9)">
+        <img id="productsmall" class="hover-image" src="img/angle/stool-2.jpg" alt="Hover Image" onclick="displayPresentation(9); sies()">
         <p id="name">Leather Card</p>
       </div>
     </div>
 
 <div id="gallery">
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayPresentation(10)">
-        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayPresentation(10); sies()">
+        <img id="productsmall" class="default-image" src="img/angle/stool.jpg" alt="Default Image" onclick="displayPresentation(10)">
+        <img id="productsmall" class="hover-image" src="img/angle/stool-2.jpg" alt="Hover Image" onclick="displayPresentation(10); sies()">
         <p id="name">Rug Storage Bag</p>
     </div>
     
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayPresentation(11)">
-        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayPresentation(11); sies()">
+        <img id="productsmall" class="default-image" src="img/angle/stool.jpg" alt="Default Image" onclick="displayPresentation(11)">
+        <img id="productsmall" class="hover-image" src="img/angle/stool-2.jpg" alt="Hover Image" onclick="displayPresentation(11); sies()">
         <p id="name">Giftwrap Set</p>
     </div>
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayPresentation(12)">
-        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayPresentation(12); sies()">
+        <img id="productsmall" class="default-image" src="img/angle/stool.jpg" alt="Default Image" onclick="displayPresentation(12)">
+        <img id="productsmall" class="hover-image" src="img/angle/stool-2.jpg" alt="Hover Image" onclick="displayPresentation(12); sies()">
         <p id="name">Sales Integration Announcement Card</p>
     </div>
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayPresentation(13)">
-        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayPresentation(13); sies()">
+        <img id="productsmall" class="default-image" src="img/angle/stool.jpg" alt="Default Image" onclick="displayPresentation(13)">
+        <img id="productsmall" class="hover-image" src="img/angle/stool-2.jpg" alt="Hover Image" onclick="displayPresentation(13); sies()">
         <p id="name">Sales Integration Tent Card</p>
       </div>
 
       <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayPresentation(14)">
-        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayPresentation(14); sies()">
+        <img id="productsmall" class="default-image" src="img/angle/stool.jpg" alt="Default Image" onclick="displayPresentation(14)">
+        <img id="productsmall" class="hover-image" src="img/angle/stool-2.jpg" alt="Hover Image" onclick="displayPresentation(14); sies()">
         <p id="name">Wallcovering Brush</p>
       </div>
 </div>
 
 <div id="gallery">
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayPresentation(15)">
-        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayPresentation(15); sies()">
+        <img id="productsmall" class="default-image" src="img/angle/stool.jpg" alt="Default Image" onclick="displayPresentation(15)">
+        <img id="productsmall" class="hover-image" src="img/angle/stool-2.jpg" alt="Hover Image" onclick="displayPresentation(15); sies()">
         <p id="name">Frame Bag Sales Edition</p>
     </div>
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayPresentation(16)">
-        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayPresentation(16); sies()">
+        <img id="productsmall" class="default-image" src="img/angle/stool.jpg" alt="Default Image" onclick="displayPresentation(16)">
+        <img id="productsmall" class="hover-image" src="img/angle/stool-2.jpg" alt="Hover Image" onclick="displayPresentation(16); sies()">
         <p id="name">Briggs & Riely Carry-on</p>
     </div>
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayPresentation(17)">
-        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayPresentation(17); sies()">
+        <p id="stock">Coming Soon</p>
+        <img id="productsmall" class="default-image" src="img/angle/stool.jpg" alt="Default Image" onclick="displayPresentation(17)">
+        <img id="productsmall" class="hover-image" src="img/angle/stool-2.jpg" alt="Hover Image" onclick="displayPresentation(17); sies()">
         <p id="name">Tote Bag with Knoll Textiles Logo</p>
     </div>
 
@@ -153,9 +149,9 @@
 
 <div id="footer" >
     <div id="inquiries">
-        <img id="logo" src="img/smalluselogo-white.svg">
-    <p style="color: white;">For additional inquiries,<br>Please contact:</p>
-    <p style="color: white;text-decoration: underline; text-decoration-thickness: 2px;">placeholder@maharam.com</p>
+        <img id="logo" src="img/smalluselogo.svg">
+    <p style="color: #000000;">For additional inquiries,<br>Please contact:</p>
+    <p style="color: #000000;text-decoration: underline; text-decoration-thickness: 2px;">placeholder@maharam.com</p>
     </div>
     <div id="footermenu">
         <p id="footerleft">

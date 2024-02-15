@@ -227,15 +227,7 @@ a {
   color: rgb(156, 156, 156) !important;
 }
 
-/* .slick-next::before{
-  content: "▸" !important;
-  font-size: 30px !important;
-}
 
-.slick-prev::before{
-  content: "◀" !important;
-  font-size: 30px !important;
-} */
 
 
 #sliderarrowleft {
@@ -337,8 +329,9 @@ a {
   left: 1vw;
   background-color: black;
   color: white;
-  padding: 4px;
+  padding: 5px;
   padding-top: 6px;
+  opacity: 80%;
 }
 
 #mouse-circle {

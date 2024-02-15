@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.css'>
     <title>Maharam Company Store</title>
 </head>
 <body>
@@ -25,14 +28,7 @@
 
 
 <div id="stationary2" class="productdetails">
-        <div id="carousel">
-    <!-- <h2 id="sliderarrowleft"> ← </h2>
-    <h2 id="sliderarrowright"> → </h2> -->
-        <div class="carousel__track-container">
-        <li class="carousel__slide"></li>
-        <li class="carousel__slide"></li>
-    </div>
-    </div>
+
     <p id="exit" onclick="exit()">✕</p>
     <div id="product-info"></div>
 
@@ -46,81 +42,81 @@
 
 
 <div class="image-container">
-    <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayBooks(0)">
-    <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayBooks(0); sies()">
+    <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayBooks(0)">
+    <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayBooks(0); sies()">
     <p id="name">Maharam Agenda</p>
 </div>
 
 <div class="image-container">
-    <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayBooks(1)">
-    <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayBooks(1); sies()">
+    <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayBooks(1)">
+    <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayBooks(1); sies()">
     <p id="name">Maharam Stories</p>
 </div>
 <div class="image-container">
-    <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayBooks(2)">
-    <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayBooks(2); sies()">
+    <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayBooks(2)">
+    <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayBooks(2); sies()">
     <p id="name">Irving Harper Works in Paper</p>
 </div>
 <div class="image-container">
-    <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayBooks(3)">
-    <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayBooks(3); sies()">
+    <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayBooks(3)">
+    <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayBooks(3); sies()">
     <p id="name">Hella Jongerius: I Don't Have a Favourite Color</p>
   </div>
   <div class="image-container">
-    <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayBooks(4)">
-    <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayBooks(4); sies()">
+    <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayBooks(4)">
+    <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayBooks(4); sies()">
     <p id="name">Reproducing Scholten & Baijings</p>
   </div>
 </div>
 
 <div id="gallery">
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/11.jpg" alt="Default Image" onclick="displayBooks(5)">
-        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayBooks(5); sies()">
+        <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayBooks(5)">
+        <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayBooks(5); sies()">
         <p id="name">Alexander Girard</p>
     </div>
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/11.jpg" alt="Default Image" onclick="displayBooks(6)">
-        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayBooks(6); sies()">
+        <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayBooks(6)">
+        <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayBooks(6); sies()">
         <p id="name">Claudy Jongstra</p>
     </div>
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/11.jpg" alt="Default Image" onclick="displayBooks(7)">
-        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayBooks(7); sies()">
+        <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayBooks(7)">
+        <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayBooks(7); sies()">
         <p id="name">The Colors of Sies Marjan</p>
     </div>
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/11.jpg" alt="Default Image" onclick="displayBooks(8)">
-        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayBooks(8); sies()">
+        <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayBooks(8)">
+        <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayBooks(8); sies()">
         <p id="name">Karel Martens: Full Colour</p>
       </div>
       <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/11.jpg" alt="Default Image" onclick="displayBooks(9)">
-        <img id="productsmall" class="hover-image" src="img/10.jpg" alt="Hover Image" onclick="displayBooks(9); sies()">
+        <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayBooks(9)">
+        <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayBooks(9); sies()">
         <p id="name">Studio Job & The Graninger Museum</p>
       </div>
     </div>
 
 <div id="gallery">
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayBooks(10)">
-        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayBooks(10); sies()">
+        <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayBooks(10)">
+        <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayBooks(10); sies()">
         <p id="name">Irma Boom: Colour Based on Nature</p>
     </div>
     
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayBooks(11)">
-        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayBooks(11); sies()">
+        <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayBooks(11)">
+        <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayBooks(11); sies()">
         <p id="name">Ilse Crawford: A Frame for Life</p>
     </div>
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayBooks(12)">
-        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayBooks(12); sies()">
+        <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayBooks(12)">
+        <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayBooks(12); sies()">
         <p id="name">Knoll Textiles: 1945-2010</p>
     </div>
     <div class="image-container">
-        <img id="productsmall" class="default-image" src="img/40-1.jpg" alt="Default Image" onclick="displayBooks(13)">
-        <img id="productsmall" class="hover-image" src="img/40-2.jpg" alt="Hover Image" onclick="displayBooks(13); sies()">
+        <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayBooks(13)">
+        <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayBooks(13); sies()">
         <p id="name">Textilepedia</p>
       </div>
 </div>
@@ -129,9 +125,9 @@
 
 <div id="footer" >
     <div id="inquiries">
-        <img id="logo" src="img/smalluselogo-white.svg">
-    <p style="color: white;">For additional inquiries,<br>Please contact:</p>
-    <p style="color: white;text-decoration: underline; text-decoration-thickness: 2px;">placeholder@maharam.com</p>
+        <img id="logo" src="img/smalluselogo.svg">
+        <p style="color: #000000;">For additional inquiries,<br>Please contact:</p>
+        <p style="color: #000000;text-decoration: underline; text-decoration-thickness: 2px;">placeholder@maharam.com</p>
     </div>
     <div id="footermenu">
         <p id="footerleft">
