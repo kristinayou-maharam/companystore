@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
       window.displayNew = function (index) {
         const neww = data.new[index];
         const dropdownOptions = neww.options.map(option => `<option value="${option.value}">${option.variation}</option>`).join('');
-        const slideHTML = neww.image.map(imageUrl => `<div><img src="${imageUrl}" alt="${neww.name}" class="slide-img"></div>`).join('');
+        const slideHTML = neww.image.map(imageUrl => `<div><img src="${imageUrl}" alt="${neww.name}" style="width:25vw";></div>`).join('');
 
         const newInfoHTML = `
         <div class="slick-carousel">
@@ -51,6 +51,14 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
         `;
         document.getElementById("product-info").innerHTML = newInfoHTML;
+
+        $('.slick-carousel').slick({
+          infinite: true,
+          slidesToShow: 1, // Shows a three slides at a time
+          slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
+          arrows: true, // Adds arrows to sides of slider
+          dots: true // Adds the dots on the bottom
+        });
 
         const variationDropdown = document.getElementById('variationDropdown');
         const selectedValueElement = document.getElementById('selectedValue');
@@ -180,13 +188,5 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch(error => console.error("Error fetching data:", error));
 
-
-    $('.slick-carousel').slick({
-      infinite: true,
-      slidesToShow: 1, // Shows a three slides at a time
-      slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
-      arrows: true, // Adds arrows to sides of slider
-      dots: true // Adds the dots on the bottom
-    });
 });
 

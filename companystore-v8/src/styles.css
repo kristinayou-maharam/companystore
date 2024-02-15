@@ -202,11 +202,11 @@ a {
 }
 
 .slick-carousel{
-  margin-top: 8vh;
+  margin-top: 5vh;
   margin-left: 4vw;
   display: inline-block;
   width: 25vw;
-  z-index: 5000;
+
 }
 
 .slick-slide{
@@ -218,7 +218,8 @@ a {
 }
 
 .slick-slider{
-  display: inline-block;
+  display: inline-block !important;
+  position: relative;
 }
 
 /* Color of the arrows */
@@ -262,7 +263,7 @@ a {
   width: 15vw;
   display: inline-block;
   margin-left: 5vw;
-  margin-top: 8vh;
+  margin-top: 4vh;
   height: 65vh;
   position: absolute;
 }
