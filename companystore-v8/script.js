@@ -65,6 +65,71 @@ document.addEventListener("DOMContentLoaded", function () {
     .then(() => fetch("./src/new.json"))
     .then(response => response.json())
     .then(data => {
+      window.displayNew = function (index) {
+        const neww = data.new[index];
+        const dropdownOptions = neww.options.map(option => `<option value="${option.value}">${option.variation}</option>`).join('');
+        const slideHTML = neww.image.map(imageUrl => `<div><img src="${imageUrl}" alt="${neww.name}" style="width:25vw; margin-bottom:10px";></div>`).join('');
+
+        const newInfoHTML = `
+        <div class="slick-carousel">
+        ${slideHTML}
+        </div>
+        <div id ="detaildescription">
+        <h2>${neww.name}</h2>
+        <p> ${neww.description}</p>
+        <p>Price: $${neww.price.toFixed(2)}</p>
+        <p>Quantity per Order: ${neww.quantity}</p>
+        <label for="variationDropdown"><p>Variation:</p></label>
+        <select id="variationDropdown">${dropdownOptions}</select><br><br>
+        <p id="don">Order: </p><p id="selectedValue"></p>
+        <p id=note>${neww.Note}</p>
+            </div>
+        `;
+        document.getElementById("product-info").innerHTML = newInfoHTML;
+
+
+        $('.slick-carousel').slick({
+          infinite: true,
+          slidesToShow: 1, // Shows a three slides at a time
+          slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
+          arrows: true, // Adds arrows to sides of slider
+          dots: true // Adds the dots on the bottom
+        });
+
+
+
+        const variationDropdown = document.getElementById('variationDropdown');
+        const selectedValueElement = document.getElementById('selectedValue');
+    
+        variationDropdown.addEventListener('change', function () {
+          const selectedOptionLabel = variationDropdown.value.trim();
+        
+          console.log('Selected Option Label:', selectedOptionLabel);
+        
+          if (selectedOptionLabel !== "SelectNone") {
+            const selectedOption = neww.options.find(option => option.variation.trim() === selectedOptionLabel);
+        
+            console.log('Selected Option:', selectedOption);
+        
+            if (selectedOptionLabel) {
+              const correspondingValue = selectedOptionLabel.value;
+              selectedValueElement.textContent = `${selectedOptionLabel}`;
+            } else {
+              selectedValueElement.textContent = '';
+            }
+          } else {
+            selectedValueElement.textContent = 'Please select an option';
+          }
+        });
+        
+
+      };
+    })
+
+
+    .then(() => fetch("./src/new.json"))
+    .then(response => response.json())
+    .then(data => {
       window.displayTest = function (index) {
         const test = data.new[index];
         const dropdownOptions = test.options.map(option => `<option value="${option.value}">${option.variation}</option>`).join('');
