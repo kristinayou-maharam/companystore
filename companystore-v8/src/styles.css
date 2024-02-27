@@ -152,7 +152,7 @@ a {
 
 #gallery {
   display: block;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-left: 7vw;
   margin-top: 5vh;
 }
@@ -161,7 +161,8 @@ a {
   display: inline-block;
   margin-left: 1.2vw;
   margin-right: 3vw;
-  margin-top: 4vh;
+  margin-top: 2vh;
+  width: 12vw;
 }
 
 #name:hover {
@@ -325,13 +326,14 @@ a {
 #stock{
   position: absolute;
   z-index: 50;
-  top: -1.5vh;
-  left: 1vw;
-  background-color: black;
-  color: white;
-  padding: 5px;
+  top: 0vh;
+  left: 1.8vw;
+  background-color: rgb(207, 207, 207);
+  border: 1px rgb(182, 182, 182) solid;
+  color: rgb(16, 16, 16);
+  padding: 6px;
   padding-top: 6px;
-  opacity: 80%;
+  opacity: 70%;
 }
 
 #mouse-circle {
