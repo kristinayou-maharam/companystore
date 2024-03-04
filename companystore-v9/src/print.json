@@ -1,0 +1,277 @@
+{
+    "print": [
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png",
+          "./img/angle/agenda.jpeg"
+          ],
+        "name": "2021 Look Book: English, German, French",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Blue", "value": "Contact Media"}
+            ],
+            "quantity": 1,
+            "Note": ""
+           },
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png",
+          "./img/angle/agenda.jpeg"
+          ],
+        "name": "2021 Look Book: English, Japanese, Simplified Chinese",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Blue", "value": "Contact Media"}
+            ],
+            "quantity": 1,
+            "Note": ""
+           
+      },
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png",
+          "./img/angle/agenda.jpeg"
+          ],
+        "name": "Mailing Pouch for Look Book, Notebooks, Calendar, etc.",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Brown/Cardboard", "value": "Contact Media"}
+            ],
+            "quantity": 1,
+            "Note": ""
+           
+      },
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png",
+          "./img/angle/agenda.jpeg"
+          ],
+          "name": "20 Years of Paul Smith and Maharam",
+          "price": 0,
+          "description": "Over two decades of close collaboration, Paul Smith and Maharam have translated the British designer's signature flair for idiosyncratic combinations of pattern and color to more than forty textiles, wallcoverings, and accessories. Illustrations by Andy Rementer and photography by Nick Ballon capture the stories and characteristic playfulness behind twenty designs. Softcover. 96 pages.",
+          "options": [
+            {"variation": "Select an option", "value": ""},
+            {"variation": "Teal", "value": "J/170071"},
+            {"variation": "Blue", "value": "J/170072"},
+            {"variation": "Pink", "value": "J/170073"}
+          ],
+          "quantity": 1,
+          "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png",
+          "./img/angle/agenda.jpeg"
+          ],
+        "name": "Repeat by Hella Jongerius",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Blue", "value": "Contact Media"}
+            ],
+            "quantity": 1,
+            "Note": ""
+           
+      },
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png",
+          "./img/angle/agenda.jpeg"
+          ],
+        "name": "60 60",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Blue", "value": "Contact Media"}
+            ],
+            "quantity": 1,
+            "Note": ""
+           
+      },
+
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png",
+          "./img/angle/agenda.jpeg"
+          ],
+        "name": "60 60 Shipping Box",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Brown/Cardboard", "value": "J/000001"}
+            ],
+            "quantity": 1,
+            "Note": ""
+           
+      },
+
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png",
+          "./img/angle/agenda.jpeg"
+          ],
+        "name": "The Archetypes",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "Contact Media"}
+            ],
+            "quantity": 1,
+            "Note": ""
+           
+      },
+
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png",
+          "./img/angle/agenda.jpeg"
+          ],
+        "name": "Sonnhild Kestler Poster Set",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Blue", "value": "Contact Media"},
+          {"variation": "Pink", "value": "Contact Media"}
+            ],
+            "quantity": 1,
+            "Note": ""
+           
+      },
+
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png",
+          "./img/angle/agenda.jpeg"
+          ],
+        "name": "Notebook",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Rust", "value": "801013/002"},
+          {"variation": "Black", "value": "801013/008"},
+          {"variation": "Smoke", "value": "801013/009"},
+          {"variation": "Cornflower", "value": "801013/010"},
+          {"variation": "Terracotta", "value": "801013/011"},
+          {"variation": "Ivory", "value": "801013/013"},
+          {"variation": "Chalk", "value": "801013/014"}
+            ],
+            "quantity": 1,
+            "Note": ""
+           
+      },
+
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png",
+          "./img/angle/agenda.jpeg"
+          ],
+        "name": "Notebook Set",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Terracotta/Ivory/Apricot", "value": "800991/003"},
+          {"variation": "Terracotta/Ivory/Apricot", "value": "800991/004"}
+            ],
+            "quantity": 1,
+            "Note": ""
+           
+      },
+
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png",
+          "./img/angle/agenda.jpeg"
+          ],
+        "name": "Memory Two",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Brown", "value": "801080/001"}
+            ],
+            "quantity": 1,
+            "Note": ""
+           
+      },
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png",
+          "./img/angle/agenda.jpeg"
+          ],
+        "name": "Memory Three",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Brown", "value": "801081/001"}
+            ],
+            "quantity": 1,
+            "Note": ""
+           
+      }, 
+      
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png",
+          "./img/angle/agenda.jpeg"
+          ],
+        "name": "Calendar 2024",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Brown", "value": "Contact Media"}
+            ],
+            "quantity": 1,
+            "Note": ""
+           
+      }, 
+      
+      
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png",
+          "./img/angle/agenda.jpeg"
+          ],
+        "name": "Maharam Digital Projects Notecard Set",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Brown", "value": "Contact Media"}
+            ],
+            "quantity": 1,
+            "Note": ""
+           
+      }
+    ]
+  }

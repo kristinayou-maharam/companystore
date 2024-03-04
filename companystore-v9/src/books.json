@@ -1,0 +1,223 @@
+{
+    "books": [
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/angle/sb.jpg"
+          ],
+        "name": "Maharam Agenda",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Blue", "value": ""}
+            ],
+            "quantity": 1,
+            "Note": "This item is currently unavailable"
+      },
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/angle/sb.jpg"
+          ],
+        "name": "Maharam Stories",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Grey", "value": ""}
+            ],
+            "quantity": 1,
+            "Note": "This item is currently unavailable"
+      },
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/angle/sb.jpg"
+          ],
+        "name": "Irving Harper Works in Paper",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Grey", "value": "801024/001"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/angle/sb.jpg"
+          ],
+        "name": "Hella Jongerius: I Don't Have a Favourite Colour",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "801293/001"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/angle/sb.jpg"
+          ],
+        "name": "Reproducing Scholten & Baijings",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Blue", "value": "801105/001"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/angle/sb.jpg"
+          ],
+        "name": "Alexander Girard",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Blue", "value": "801294/001"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/angle/sb.jpg"
+          ],
+        "name": "Claudy Jongstra",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Blue", "value": "001003/001"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/angle/sb.jpg"
+          ],
+        "name": "The Colors of Sies Marjan",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Blue", "value": "801628/001"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/angle/sb.jpg"
+          ],
+        "name": "Karel Martens: Full Colour",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Blue", "value": "801073/001"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/angle/sb.jpg"
+          ],
+        "name": "Studio Job & The Graninger Museum",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Blue", "value": "801058/001"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/angle/sb.jpg"
+          ],
+        "name": "Irma Boom: Colour Based on Nature",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Blue", "value": "801055/001"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/angle/sb.jpg"
+          ],
+        "name": "Ilse Crawford: A Frame for Life",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Blue", "value": ""}
+            ],
+            "quantity": 1,
+            "Note": "This item will be available soon."
+      },
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/angle/sb.jpg"
+          ],
+        "name": "Knoll Textiles: 1945-2010",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Blue", "value": ""}
+            ],
+            "quantity": 1,
+            "Note": "This item will be available soon."
+      }, 
+      
+      
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/angle/sb.jpg"
+          ],
+        "name": "Textilepedia",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Blue", "value": ""}
+            ],
+            "quantity": 1,
+            "Note": "This item will be available soon."
+      }
+    ]
+  }

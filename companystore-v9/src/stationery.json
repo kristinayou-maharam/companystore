@@ -1,0 +1,300 @@
+{
+    "stationery": [
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Business Cards",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "Contact Facilities"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Letterhead with Showroom Address(North America)",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "Contact Facilities"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Envelope with Showroom Address(North America)",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "Contact Facilities"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Letterhead with Showroom Address(ROW)",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": ""}
+            ],
+            "quantity": 1,
+            "Note": "This item will be available soon."
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Envelope with Showroom Address(ROW)",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": ""}
+            ],
+            "quantity": 1,
+            "Note": "This item will be available soon."
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Large Mailing Label with Showroom Address",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "Contact Facilities"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Small Mailing Label",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "Contact Facilities"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Small Kraft Envelope",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Brown", "value": "Contact Facilities"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Sample Request Form Pad",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "J/100005"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Pocket Folder",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "J/100006"}
+            ],
+            "quantity": 5,
+            "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Notepad",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": ""}
+            ],
+            "quantity": 1,
+            "Note": "This item will be available soon."
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Caran d'Ache Pen Maharam",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "800990/001"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Caran d'Ache Pen Knoll Textiles",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": ""}
+            ],
+            "quantity": 1,
+            "Note": "This item will be available soon."
+      }, 
+      
+      
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Caran d'Ache Pen Replacement Cartridge",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Black", "value": "Contact Media"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Staedtler Pencils Maharam",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "J/100068"}
+            ],
+            "quantity": 50,
+            "Note": ""
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Staedtler Pencils Knoll Textiles",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": ""}
+            ],
+            "quantity": 50,
+            "Note": "This item will be available soon."
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Eraser",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "J/100068"}
+            ],
+            "quantity": 14,
+            "Note": ""
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Mousepad",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Black", "value": "J/200006"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Nametag",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "Contact Media"}
+            ],
+            "quantity": 2,
+            "Note": ""
+      }
+    ]
+  }

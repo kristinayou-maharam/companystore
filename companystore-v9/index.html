@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.css'>
+
+    <title>Maharam Company Store</title>
+</head>
+<body>    
+    <div id="topnav">
+        <div id="accountnav">
+            <h4 style="display: inline-block; margin-right: 1.5vw;"><a style="color: grey;" href="./cart.html">Cart (0)</a></h4>
+            <h4 style="display: inline-block;"><a style="color: grey;" href="./checkout.html">Checkout</a></h4>
+        </div>
+       <div id="logolockup">
+        <a href="index.html">
+        <h2 style="display: inline-block; margin-top: 50px; margin-left: 0vw;">Maharam Company Store</h2></div></a>
+        <div id="menu">
+            <h2 style="color: rgb(255, 0, 0);">New</h2>
+            <a href="test.html">
+            <h2>Print</h2></a>
+            <a href="presentation.html"><h2>Presentation</h2></a>
+            <a href="sampling.html"><h2>Sampling</h2></a>
+            <a href="stationery.html"><h2>Stationery</h2></a>
+            <a href="books.html"><h2>Books</h2></a>
+        </div>
+    </div>
+
+    <div id="stationary2" class="productdetails">
+    <p id="exit" onclick="exit()">✕</p>
+    <div id="product-info"></div>
+
+    </div>
+</div>
+
+<!-- Product Gallery -->
+
+<div id="gallery" style="margin-top: 20vh !important;">
+
+
+<div class="image-container">
+    <p id="stock">Back in Stock</p>
+    <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayNew(0)">
+    <img id="productsmall" class="hover-image" src="img/angle/irvingharper.jpg" alt="Hover Image" onclick="displayNew(0); sies();">
+    <div id="name" style="margin-top: 1vh;">
+        <p onclick="displayNew(0); sies()">Knoll Textiles: 1945-2010 </p>
+    </div>
+</div>
+
+<div class="image-container">
+    <p id="stock">Coming Soon</p>
+    <img id="productsmall" class="default-image" src="img/angle/psmithbook.jpg" alt="Default Image" onclick="displayNew(1)">
+    <img id="productsmall" class="hover-image" src="img/angle/psmithbook-2.jpg" alt="Hover Image" onclick="displayNew(1); sies()">
+    <p id="name" onclick="displayNew(1); sies()">20 Years of Paul Smith and Maharam</p>
+</div>
+<div class="image-container">
+    <img id="productsmall" class="default-image" src="img/angle/bag.jpg" alt="Default Image" onclick="displayNew(2)">
+    <img id="productsmall" class="hover-image" src="img/angle/bag2.jpg" alt="Hover Image" onclick="displayNew(2); sies()">
+    <p id="name" onclick="displayNew(2); sies()">Kraft Shopping Bag</p>
+</div>
+<div class="image-container">
+    <img id="productsmall" class="default-image" src="img/angle/bear.png" alt="Default Image" onclick="displayNew(3)">
+    <img id="productsmall" class="hover-image" src="img/angle/bear.png" alt="Hover Image" onclick="displayNew(3); sies()">
+    <p id="name" onclick="displayNew(3); sies()">Eraser</p>
+  </div>
+  <div class="image-container">
+    <img id="productsmall" class="default-image" src="img/angle/memorytwo.jpg" alt="Default Image" onclick="displayNew(4)">
+    <img id="productsmall" class="hover-image" src="img/angle/memorytwo-2.jpg" alt="Hover Image" onclick="displayNew(4); sies()">
+    <p id="name" onclick="displayNew(4); sies()">Rubberbands</p>
+  </div>
+</div>
+
+<div id="gallery">
+    <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/angle/memorythree.jpg" alt="Default Image" onclick="displayNew(5)">
+        <img id="productsmall" class="hover-image" src="img/angle/memorythree-2.jpg" alt="Hover Image" onclick="displayNew(5); sies()">
+        <p id="name" onclick="displayNew(5); sies()">T-Pins</p>
+    </div>
+    <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/angle/notebooks.jpg" alt="Default Image" onclick="displayNew(6)">
+        <img id="productsmall" class="hover-image" src="img/angle/notebooks-2.jpg" alt="Hover Image" onclick="displayNew(6); sies()">
+        <p id="name" onclick="displayNew(6); sies()">Sales Integration Announcement Card</p>
+    </div>
+    <div class="image-container">
+        <p id="stock">Gone for Good</p>
+        <img id="productsmall" class="default-image" src="img/angle/sb-bw.png" alt="Default Image">
+        <img id="productsmall" class="hover-image" src="img/angle/sb-2-bw.png" alt="Hover Image">
+        <p id="name">Business Cards</p>
+    </div>
+    <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/angle/cardholder.jpg" alt="Default Image" onclick="displayNew(8)">
+        <img id="productsmall" class="hover-image" src="img/angle/cardholder.jpg" alt="Hover Image" onclick="displayNew(8); sies()">
+        <p id="name" onclick="displayNew(8); sies()">Nametag</p>
+      </div>
+      <div class="image-container">
+        <img id="productsmall" class="default-image" src="img/angle/stool.jpg" alt="Default Image" onclick="displayNew(9)">
+        <img id="productsmall" class="hover-image" src="img/angle/stool-2.jpg" alt="Hover Image" onclick="displayNew(9); sies()">
+        <p id="name" onclick="displayNew(9); sies()">Sample Request Form Pad</p>
+      </div>
+    </div>
+
+
+
+<div id="footer" >
+    <div id="inquiries">
+        <img id="logo" src="img/smalluselogo.svg">
+    <p style="color: #000000;">For additional inquiries,<br>Please contact:</p>
+    <p style="color: #000000;text-decoration: underline; text-decoration-thickness: 1px;">placeholder@maharam.com</p>
+    </div>
+    <div id="footermenu">
+<p id="footerleft">
+    <a href="https://hermanmiller.sharepoint.com/sites/MHRM-Home/SitePages/Employee-Purchases.aspx">Maharam Intranet</a>
+</p>
+
+<p id="footerleft">
+    <a href="https://hermanmiller.sharepoint.com/sites/MHRM-Home/Employee%20Purchases%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents%2FMaharam%5Fassociate%2Dpurchase%2Dpolicy%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents">DON Information</a>
+</p>
+
+<p id="footerleft">
+<a href="https://hermanmiller.sharepoint.com/sites/MHRM-Home/Employee%20Purchases%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents%2FMaharam%5Femployee%2Dpurchase%2Dpolicy%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents">
+    Usage Guide</a>
+</p>
+
+<p id="footerleft">
+    <a href="https://hermanmiller.sharepoint.com/sites/MHRM-Home/Employee%20Purchases%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents%2FMaharam%5Femployee%2Dpurchase%2Dform%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents">
+        Purchase Form</a>
+    </p>
+
+</div>
+</div>
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+
+<script>
+
+    function sies() {
+        var marjan = document.getElementById("stationary2");
+        var check = document.getElementById("stock");
+        if (marjan.style.display === "none"){
+            marjan.style.display = "block";
+        } else{
+            marjan.style.display = "block";
+        }
+    }
+
+
+    function exit(){
+        var escape = document.getElementById("stationary2");
+        if (escape.style.display === "block"){
+            escape.style.display = "none";
+        } 
+
+        var nosiesmarjan = document.getElementsByClassName("productdetails");
+        if (nosiesmarjan.style.display === "block"){
+            nosiesmarjan.style.display = "none";
+        }
+        
+    }
+
+    function name() {
+        var showname = document.getElementById("name");
+        if (showname.style.display === "none"){
+            showname.style.display = "block";
+        } else{
+            showname.style.display = "none";
+        }
+    }
+    
+
+
+</script>
+<script src="./script.js"></script>  
+</body>
+</html>
