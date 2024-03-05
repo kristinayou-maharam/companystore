@@ -99,6 +99,19 @@ h4{
 
 }
 
+h5{
+  font-size: 14px;
+  font-family: "maharam";
+  font-weight: normal;
+  color: white;
+  padding: 0 !important;
+  margin: 14px;
+}
+
+h5:hover{
+  color: red;
+}
+
 strong{
   font-family: 'maharam-medium';
 }
@@ -286,12 +299,23 @@ a {
 
 #addtocart{
   background-color: black;
-  color: white;
   border: 0px;
-  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-top: 20px;
-  font-size: 14px;
   border-radius: 5px;
+  display: block;
+}
+
+#quantity{
+  display: inline-block;
+  margin-top: 12px;
+  margin-left: 10px;
+  width: 50px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  opacity: 1;
 }
 
 #addtocart:hover{
@@ -300,15 +324,95 @@ a {
 
 #cartimg{
   width: 12vw;
-  margin-left: 17vw;
+  margin-left: 20vw;
   margin-top: 5vh;
   display: inline-block;
+}
+
+#checkoutimg{
+  width: 9vw;
+  margin-left: 20vw;
+  margin-top: 5vh;
+  display: inline-block;
+}
+
+#sendto{
+  display: inline-block;
+  position: absolute;
+  top: 23vh;
+  left: 66vw;
+}
+
+#email{
+  margin-top: 50px;
+  margin-left: 8px;
+}
+
+#login{
+  margin-left: 25vw;
+  margin-top: 10vh;
+}
+
+#downloadpdf{
+  background-color: black;
+  color: white;
+  border: 0px;
+  font-size: 14px;
+  border-radius: 5px;
+  display: block;
+  margin-top: 70px;
+  margin-left: 2.5vw;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#downloadpdf:hover{
+  color: red;
+}
+
+#send{
+  background-color: black;
+  color: white;
+  border: 0px;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  display: block;
+  margin-top: 50px;
+  margin-left: 3.5vw;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#send:hover{
+  color: red;
+}
+
+#loginbutton{
+  background-color: black;
+  border-radius: 5px;
+  border: 0px;
+  margin-top: 60px;
+  margin-left: 0vw;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: block;
+}
+
+
+
+#sendmessage{
+  width: 10vw;
 }
 
 #itemvalues{
   margin-top: -20px;
   display: flex;
-  width: 48vw;
+  width: 41vw;
   justify-content: space-between;
 
 }
@@ -320,32 +424,41 @@ a {
   margin-top: 5vh;
 }
 
+
 #cartcategory{
   display: inline-flex;
   margin-top: 20px;
-  width: 47vw;
+  width: 40vw;
   justify-content: space-between;
-  margin-left: 33vw;
+  margin-left: 36.5vw;
 }
 
 #checkoutlong{
-  width: 70vw;
+  width: 60vw;
   margin-top: 90px;
+}
+
+#checkoutshort{
+  width: 30vw;
+  margin-top: 15vh;
+  margin-left: 20vw;
 }
 
 #cartbuttons{
   display: inline-flex;
   width: 120px;
-  margin-left: 76vw;
+  margin-left: 71vw;
   margin-top: -150px;
   justify-content: space-between;
 }
 
+
+
 #bottombuttons{
   display: inline-flex;
-  width: 65vw;
+  width: 60vw;
   justify-content: space-between;
-  margin-left: 17vw;
+  margin-left: 19.5vw;
   margin-top: 40px;
 }
 
@@ -387,7 +500,7 @@ text-decoration: underline;
   display: block;
   position: absolute;
   top: 10px;
-  right: -155px;
+  right: -50px;
 
 }
 

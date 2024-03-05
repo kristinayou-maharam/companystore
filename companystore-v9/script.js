@@ -21,7 +21,8 @@ document.addEventListener("DOMContentLoaded", function () {
         <select id="variationDropdown">${dropdownOptions}</select><br><br>
         <p id="don">Order: </p><p id="selectedValue"></p>
         <p id=note>${stationery.Note}</p>
-        <button id= "addtocart">Add to Cart</button>
+        <p style="display: inline-block">Quantity:</p><input type="number" id="quantity" name="quantity" min="1" max="5" value="1">
+        <button id= "addtocart"><h5>Add to Cart</h5></button>
 
             </div>
         `;
@@ -85,7 +86,8 @@ document.addEventListener("DOMContentLoaded", function () {
         <select id="variationDropdown">${dropdownOptions}</select><br><br>
         <p id="don">Order: </p><p id="selectedValue"></p>
         <p id=note>${neww.Note}</p>
-        <button id= "addtocart">Add to Cart</button>
+        <p style="display: inline-block">Quantity:</p><input type="number" id="quantity" name="quantity" min="1" max="5" value="1">
+        <button id= "addtocart"><h5>Add to Cart</h5></button>
             </div>
         `;
         document.getElementById("product-info").innerHTML = newInfoHTML;
@@ -151,7 +153,8 @@ document.addEventListener("DOMContentLoaded", function () {
         <select id="variationDropdown">${dropdownOptions}</select><br><br>
         <p id="don">Order: </p><p id="selectedValue"></p>
         <p id=note>${test.Note}</p>
-        <button id= "addtocart">Add to Cart</button>
+        <p style="display: inline-block">Quantity:</p><input type="number" id="quantity" name="quantity" min="1" max="5" value="1">
+        <button id= "addtocart"><h5>Add to Cart</h5></button>
 
             </div>
         `;
@@ -205,6 +208,9 @@ document.addEventListener("DOMContentLoaded", function () {
             <p>Quantity per Order: ${books.quantity}</p>
             <p>Order: ${books.DON_reference_number}</p>
             <p>${books.Note}</p>
+            <p style="display: inline-block">Quantity:</p><input type="number" id="quantity" name="quantity" min="1" max="5" value="1">
+            <button id= "addtocart"><h5>Add to Cart</h5></button>
+
             </div>
         `;
         // Display books information
@@ -233,7 +239,8 @@ document.addEventListener("DOMContentLoaded", function () {
         <select id="variationDropdown">${dropdownOptions}</select><br><br>
         <p id="don">Order: </p><p id="selectedValue"></p>
         <p id=note>${books.Note}</p>
-        <button id= "addtocart">Add to Cart</button>
+        <p style="display: inline-block">Quantity:</p><input type="number" id="quantity" name="quantity" min="1" max="5" value="1">
+        <button id= "addtocart"><h5>Add to Cart</h5></button>
 
             </div>
         `;
@@ -298,7 +305,8 @@ document.addEventListener("DOMContentLoaded", function () {
         <select id="variationDropdown">${dropdownOptions}</select><br><br>
         <p id="don">Order: </p><p id="selectedValue"></p>
         <p id=note>${print.Note}</p>
-        <button id= "addtocart">Add to Cart</button>
+        <p style="display: inline-block">Quantity:</p><input type="number" id="quantity" name="quantity" min="1" max="5" value="1">
+        <button id= "addtocart"><h5>Add to Cart</h5></button>
 
             </div>
         `;
@@ -364,7 +372,8 @@ document.addEventListener("DOMContentLoaded", function () {
         <select id="variationDropdown">${dropdownOptions}</select><br><br>
         <p id="don">Order: </p><p id="selectedValue"></p>
         <p id=note>${presentation.Note}</p>
-        <button id= "addtocart">Add to Cart</button>
+        <p style="display: inline-block">Quantity:</p><input type="number" id="quantity" name="quantity" min="1" max="5" value="1">
+        <button id= "addtocart"><h5>Add to Cart</h5></button>
 
             </div>
         `;
@@ -429,7 +438,8 @@ document.addEventListener("DOMContentLoaded", function () {
         <select id="variationDropdown">${dropdownOptions}</select><br><br>
         <p id="don">Order: </p><p id="selectedValue"></p>
         <p id=note>${sampling.Note}</p>
-        <button id= "addtocart">Add to Cart</button>
+        <p style="display: inline-block">Quantity:</p><input type="number" id="quantity" name="quantity" min="1" max="5" value="1">
+        <button id= "addtocart"><h5>Add to Cart</h5></button>
 
             </div>
         `;
