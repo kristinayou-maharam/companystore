@@ -466,6 +466,46 @@ input[type=number]::-webkit-inner-spin-button {
 text-decoration: underline;
 }
 
+
+
+.wrapper {
+  width: 10vw;
+  max-width: 10vw;
+  margin-right: 60px;
+  display: inline-block;
+}
+
+.searchBar {
+  width: 10vw;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#searchQueryInput {
+  width: 10vw;
+  height: 30px;
+  background: #f5f5f5;
+  outline: none;
+  border: none;
+  border-radius: 1.625rem;
+  padding: 0 3.5rem 0 1.5rem;
+  font-size: .8rem;
+}
+
+#searchQuerySubmit {
+  width: 3.5rem;
+  height: 2.8rem;
+  margin-left: -3rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#searchQuerySubmit:hover {
+  cursor: pointer;
+}
+
 #more {
   margin-left: 7vw;
   margin-bottom: 6vh;
@@ -494,13 +534,13 @@ text-decoration: underline;
 #accountnav{
   display: flex;
   flex-direction: row;
-  width: 400px;
+  width: 500px;
   align-content: space-evenly;
   flex-wrap: wrap;
   display: block;
   position: absolute;
   top: 10px;
-  right: -50px;
+  right: 110px;
 
 }
 
@@ -612,3 +652,4 @@ display: block;
 margin-right: 0px;
 }
 }
+
