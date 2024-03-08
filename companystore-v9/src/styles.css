@@ -284,9 +284,6 @@ a {
 
 }
 
-#note{
-  text-decoration: underline;
-}
 
 #detaildescription {
   width: 15vw;
@@ -305,6 +302,11 @@ a {
   margin-top: 20px;
   border-radius: 5px;
   display: block;
+}
+
+#variationDropdown{
+  margin-top: 12px;
+  margin-left: 10px;
 }
 
 #quantity{
