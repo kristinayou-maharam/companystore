@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.css'>
+
+    <title>Maharam Company Store</title>
+</head>
+<body>    
+    <div id="topnav">
+        <div id="accountnav">
+            <div class="wrapper">
+                <div class="searchBar">
+                  <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="Search" value="" />
+                  <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+                    <svg style="width:18px;height:18x" viewBox="0 0 18 18"><path fill="#666666" d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            <h4 style="display: inline-block; margin-right: 1.5vw;"><a style="color: rgb(0, 0, 0);" href="./account.html"><strong>My Account</strong></a></h4>
+            <h4 style="display: inline-block; margin-right: 1.5vw;"><a style="color: grey;" href="./cart.html">Cart (4)</a></h4>
+            <h4 style="display: inline-block;"><a style="color: grey;" href="./checkout.html">Checkout</a></h4>
+        </div>
+       <div id="logolockup">
+        <a href="index.html">
+        <h2 style="display: inline-block; margin-top: 50px; margin-left: 0vw;">Maharam Company Store</h2></div></a>
+        <div id="menu">
+            <h2 style="color: rgb(255, 0, 0);">New</h2>
+            <a href="test.html">
+            <h2>Print</h2></a>
+            <a href="presentation.html"><h2>Presentation</h2></a>
+            <a href="sampling.html"><h2>Sampling</h2></a>
+            <a href="stationery.html"><h2>Stationery</h2></a>
+            <a href="books.html"><h2>Books</h2></a>
+        </div>
+    </div>
+
+
+    <div id="cart" style="margin-bottom: 300px;">
+
+    <div id="checkoutinfo">
+    <h2 style="position: relative; margin-top: 25vh; margin-left: 20vw; font-family: 'maharam-medium';"> My Account</h2>
+    <hr id="checkoutlong" style="margin-top: 10px;">
+
+    <div id="login" style="margin-left: 40vw;">
+    <p style="margin-bottom: 50px;">Please login using your Maharam credentials.</p>
+    <h4>E-mail</h4>
+    <input style="width: 300px; height: 25px;" type="text" id="sendmessage" value="">
+    <h4>Password</h4>
+    <input style="width: 300px; height: 25px;" type="text" id="sendmessage" value="">
+    <button id="loginbutton"><h4 style="color:white">LOGIN</h4></button>
+
+    </div>
+
+
+</div>
+</div>
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+
+<script>
+
+    function sies() {
+        var marjan = document.getElementById("stationary2");
+        var check = document.getElementById("stock");
+        if (marjan.style.display === "none"){
+            marjan.style.display = "block";
+        } else{
+            marjan.style.display = "block";
+        }
+    }
+
+
+    function exit(){
+        var escape = document.getElementById("stationary2");
+        if (escape.style.display === "block"){
+            escape.style.display = "none";
+        } 
+
+        var nosiesmarjan = document.getElementsByClassName("productdetails");
+        if (nosiesmarjan.style.display === "block"){
+            nosiesmarjan.style.display = "none";
+        }
+        
+    }
+
+    function name() {
+        var showname = document.getElementById("name");
+        if (showname.style.display === "none"){
+            showname.style.display = "block";
+        } else{
+            showname.style.display = "none";
+        }
+    }
+    
+
+
+</script>
+<script src="./script.js"></script>  
+</body>
+</html>

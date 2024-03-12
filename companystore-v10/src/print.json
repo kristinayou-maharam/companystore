@@ -1,0 +1,266 @@
+{
+    "print": [
+      {
+        "image": [
+          "./img/new/mhrm_look book_ translated_a.jpg"
+          ],
+        "name": "2021 Look Book: English, German, French",
+        "price": 0,
+        "description": "",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Light Blue", "value": "Contact Media"}
+            ],
+            "quantity": 1,
+            "Note": ""
+           },
+      {
+        "image": [
+          "./img/new/mhrm_look book_ translated_a.jpg"
+          ],
+        "name": "2021 Look Book: English, Japanese, Simplified Chinese",
+        "price": 0,
+        "description": "",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Dark Blue", "value": "Contact Media"}
+            ],
+            "quantity": 1,
+            "Note": ""
+           
+      },
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png",
+          "./img/angle/agenda.jpeg"
+          ],
+        "name": "Mailing Pouch for Look Book, Notebooks, Calendar, etc.",
+        "price": 0,
+        "description": "Clear self-adhesive mailing label pouches that should be adhered on corresponding shipping box for calendars, notebook sets and books. ",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Brown", "value": "Contact Media"}
+            ],
+            "quantity": 1,
+            "Note": "<a href=https://hermanmiller.sharepoint.com/sites/MHRM-Home/SiteAssets/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FSiteAssets%2FSitePages%2FStationary%2FMaharam%5FStationery%2DSample%2DDelivery%2DGuidelines%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FSiteAssets%2FSitePages%2FStationary target=blank>Link to guidelines</a>"
+           
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_psmithbook_grey.png"
+          ],
+          "name": "20 Years of Paul Smith and Maharam",
+          "price": 0,
+          "description": "Over two decades of close collaboration, Paul Smith and Maharam have translated the British designer's signature flair for idiosyncratic combinations of pattern and color to more than forty textiles, wallcoverings, and accessories. Illustrations by Andy Rementer and photography by Nick Ballon capture the stories and characteristic playfulness behind twenty designs. Softcover. 96 pages.",
+          "options": [
+            {"variation": "Select an option", "value": ""},
+            {"variation": "Teal", "value": "Contact Media"},
+            {"variation": "Blue", "value": "Contact Media"},
+            {"variation": "Pink", "value": "Contact Media"}
+          ],
+          "quantity": 1,
+          "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_psmithbook_grey.png"
+          ],
+          "name": "Bertjan Pot",
+          "price": 0,
+          "description": "",
+          "options": [
+            {"variation": "Select an option", "value": ""}
+          ],
+          "quantity": 1,
+          "Note": "This item will be available soon."
+      },
+
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg"
+          ],
+        "name": "Repeat by Hella Jongerius",
+        "price": 0,
+        "description": "",
+        "options": [
+          {"variation": "Select an option", "value": ""}
+            ],
+            "quantity": 1,
+            "Note": "This item will be available soon."
+           
+      },
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg"
+          ],
+        "name": "60 60",
+        "price": 1,
+        "description": "A book celebrating Artek and Maharam's ongoing exploration of textile application on the Stool 60 by Alvar Aalto.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "Contact Media"}
+            ],
+            "quantity": 1,
+            "Note": ""
+           
+      },
+
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg"
+          ],
+        "name": "60 60 Shipping Box",
+        "price": 0,
+        "description": "Shipping box for 60/60 book.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Cardboard", "value": "J/000001"}
+            ],
+            "quantity": 1,
+            "Note": "Order through DON"
+           
+      },
+
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg"
+          ],
+        "name": "The Archetypes",
+        "price": 0,
+        "description": "Set of twelve 15 x 22.75 in posters. Each feature a single character named for Swiss psychoanalyst Carl Jung's twelve archetypes of personality and incorporate Maharam textiles. Printed on newsprint.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "Contact Media"}
+            ],
+            "quantity": 1,
+            "Note": ""
+           
+      },
+
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg"
+          ],
+        "name": "Sonnhild Kestler Poster Set",
+        "price": 1,
+        "description": "A series of poster sets including four original designs and an in-depth process booklet featuring photography by Nick Ballon.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Blue", "value": "Contact Media"}
+            ],
+            "quantity": 1,
+            "Note": ""
+           
+      },
+
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png"
+          ],
+        "name": "Notebook",
+        "price": 2,
+        "description": "Cloth-bound perforated micro-grid paper. Forty-eight sheets. Available individually and in sets of three.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Rust", "value": "801013/002"},
+          {"variation": "Black", "value": "801013/008"},
+          {"variation": "Smoke", "value": "801013/009"},
+          {"variation": "Cornflower", "value": "801013/010"},
+          {"variation": "Terracotta", "value": "801013/011"},
+          {"variation": "Ivory", "value": "801013/013"},
+          {"variation": "Chalk", "value": "801013/014"}
+            ],
+            "quantity": 1,
+            "Note": "Order through DON"
+           
+      },
+
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png"
+          ],
+        "name": "Notebook Set",
+        "price": 0,
+        "description": "Cloth-bound perforated micro-grid paper. Forty-eight sheets. Available individually and in sets of three.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Terracotta/Ivory/Apricot", "value": "800991/003"},
+          {"variation": "Terracotta/Ivory/Apricot", "value": "800991/004"}
+            ],
+            "quantity": 1,
+            "Note": "Order through DON"
+           
+      },
+
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png"
+          ],
+        "name": "Memory Two",
+        "price": 1,
+        "description": "Two sets of thirty-six cards interpreting Maharam textiles. Four randomized cover variations.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Brown", "value": "801080/001"}
+            ],
+            "quantity": 1,
+            "Note": "Order through DON"
+           
+      },
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png"
+          ],
+        "name": "Memory Three",
+        "price": 1,
+        "description": "Two sets of thirty-six cards interpreting Maharam textiles. Four randomized cover variations.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Brown", "value": "801081/001"}
+            ],
+            "quantity": 1,
+            "Note": "Order through DON"
+           
+      }, 
+      
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png"
+          ],
+        "name": "Calendar 2024",
+        "price": 1,
+        "description": "Maharam calendar which offers weekly, monhtly and yearly agendas along with birthdays of distinguished architects and designers and moon phases. ",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Brown", "value": "Contact Media"}
+            ],
+            "quantity": 1,
+            "Note": ""
+           
+      }, 
+      
+      
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/sg_24_tabletop_psmithbook_grey.png"
+          ],
+        "name": "Maharam Digital Projects Notecard Set",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""}
+            ],
+            "quantity": 1,
+            "Note": "This item will be available soon."
+           
+      }
+    ]
+  }

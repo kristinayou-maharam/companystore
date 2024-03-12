@@ -1,0 +1,356 @@
+{
+    "stationery": [
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Business Cards",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "Contact Facilities"}
+            ],
+            "quantity": 1,
+            "Note": "<a href=https://hermanmiller.sharepoint.com/sites/MHRM-Home/Forms/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FForms%2FMaharam%5Fbusiness%2Dcard%2Drequest%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FForms target=blank>Link to form</a>"
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Letterhead with Showroom Address(North America)",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "Contact Facilities"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Envelope with Showroom Address(North America)",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "Contact Facilities"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Letterhead with Showroom Address(ROW)",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "Contact Facilities"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Envelope with Showroom Address(ROW)",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "Contact Facilities"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Mailing Label with Showroom Address",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "Contact Facilities"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Large Kraft Envelope with Gusset",
+        "price": 0,
+        "description": "Gusseted kraft envelopes for sending samples and printed matter by courier. ",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Brown", "value": "J/000003"}
+            ],
+            "quantity": 100,
+            "Note": "<br>Order through DON <br> <a href=https://hermanmiller.sharepoint.com/sites/MHRM-Home/SiteAssets/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FSiteAssets%2FSitePages%2FStationary%2FMaharam%5FStationery%2DSample%2DDelivery%2DGuidelines%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FSiteAssets%2FSitePages%2FStationary target=blank>Link to guidelines</a>"
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Mailing Label Sheet",
+        "price": 0,
+        "description": "Small mailing labels should be applied only to the kraft envelope. One sheet includes sixteen self-adhesive labels.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "Contact Facilities"}
+            ],
+            "quantity": 1,
+            "Note": "<a href=https://hermanmiller.sharepoint.com/sites/MHRM-Home/SiteAssets/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FSiteAssets%2FSitePages%2FStationary%2FMaharam%5FStationery%2DSample%2DDelivery%2DGuidelines%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FSiteAssets%2FSitePages%2FStationary target=blank>Link to guidelines</a>"
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Kraft Envelope",
+        "price": 0,
+        "description": "7 1/2 in x 3 3/4 in kraft envelopes used for annoucements, invitations, holiday cards and notecards.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Brown", "value": "Contact Facilities"}
+            ],
+            "quantity": 1,
+            "Note": "<a href=https://hermanmiller.sharepoint.com/sites/MHRM-Home/SiteAssets/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FSiteAssets%2FSitePages%2FStationary%2FMaharam%5FStationery%2DSample%2DDelivery%2DGuidelines%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FSiteAssets%2FSitePages%2FStationary target=blank>Link to guidelines</a>"
+      },
+
+      {
+        "image": [
+          "./img/new/mhrm_announce card_a.jpg"
+          ],
+        "name": "Notecard Set",
+        "price": 0,
+        "description": "Notecards featuring distinct graphic directions united by pastel and fluorescent color. The back of the cards may be used for handwritten notes that are mailed inside an accompanying envelope, or inlcuded loosely with a sample delivery or gift.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "J/SRNOTE"}
+            ],
+            "quantity": 1,
+            "Note": "<br>Order through DON <br> <a href=https://hermanmiller.sharepoint.com/sites/MHRM-Home/SiteAssets/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FSiteAssets%2FSitePages%2FStationary%2FMaharam%5FStationery%2DSample%2DDelivery%2DGuidelines%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FSiteAssets%2FSitePages%2FStationary target=blank>Link to guidelines</a>"
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Notecard Knoll Textiles",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": ""}
+            ],
+            "quantity": 1,
+            "Note": "This item will be available soon."
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Envelope Knoll Textiles",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": ""}
+            ],
+            "quantity": 1,
+            "Note": "This item will be available soon."
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Sample Request Form Pad",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "J/100005"}
+            ],
+            "quantity": 1,
+            "Note": "Order through DON"
+      }, 
+      
+      
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Pocket Folder",
+        "price": 1,
+        "description": "Corporate folders are designed for delivering flat printed matter that either cannot be provided digitally or calls for special attention. Examples include new hire documents and Maharam Digital Projects specification sheets.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Black", "value": "J/100006"}
+            ],
+            "quantity": 5,
+            "Note": "<br>Order through DON <br> <a href=https://hermanmiller.sharepoint.com/sites/MHRM-Home/SiteAssets/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FSiteAssets%2FSitePages%2FStationary%2FMaharam%5FStationery%2DSample%2DDelivery%2DGuidelines%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FSiteAssets%2FSitePages%2FStationary target=blank>Link to guidelines</a>"
+      },
+
+      {
+        "image": [
+          "./img/new/mhrm_new notebook_a.jpg",
+          "./img/new/mhrm_new notebook_b.jpg"
+          ],
+        "name": "Notepad",
+        "price": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": ""}
+            ],
+            "quantity": 1,
+            "Note": "This item will be available soon."
+      },
+      {
+        "image": [
+          "./img/new/mhrm_mh pen_a.jpg"
+          ],
+        "name": "Caran d'Ache Pen Maharam",
+        "price": 1,
+        "description": "White ballpoint pens with the Maharam logo from Swiss pen company Caran d'Ache.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": " 800990/001"}
+            ],
+            "quantity": 1,
+            "Note": "Order through DON"
+      },
+      {
+        "image": [
+          "./img/new/mhrm_kt pen_a.jpg"
+          ],
+        "name": "Caran d'Ache Pen Knoll Textiles",
+        "price": 1,
+        "description": "White ballpoint pens with the Knoll Textiles logo from Swiss pen company Caran d'Ache.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": ""}
+            ],
+            "quantity": 1,
+            "Note": "This item will be available soon."
+      },
+      {
+        "image": [
+          "./img/new/mhrm_pen refill_a.jpg"
+          ],
+        "name": "Caran d'Ache Pen Replacement Cartridge",
+        "price": 1,
+        "description": "",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Black", "value": "Contact Media"}
+            ],
+            "quantity": 1,
+            "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/new/mhrm_mh pencil_a.jpg"
+          ],
+        "name": "Staedtler Pencils Maharam",
+        "price": 1,
+        "description": "",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "J/105000"}
+            ],
+            "quantity": 50,
+            "Note": "Order through DON"
+      },
+
+      {
+        "image": [
+          "./img/new/mhrm_kt pencil_a.jpg"
+          ],
+        "name": "Staedtler Pencils Knoll Textiles",
+        "price": 1,
+        "description": "",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": ""}
+            ],
+            "quantity": 50,
+            "Note": "This item will be available soon."
+      },
+      {
+        "image": [
+          "./img/new/mhrm_eraser.jpg"
+          ],
+        "name": "Eraser",
+        "price": 1,
+        "description": "",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "J/100068"}
+            ],
+            "quantity": 14,
+            "Note": "Order through DON"
+      },
+
+      {
+        "image": [
+          "./img/new/mhrm_announce card_a.jpg"
+          ],
+        "name": "Mousepad",
+        "price": 1,
+        "description": "Notecards featuring distinct graphic directions united by pastel and fluorescent color. The back of the cards may be used for handwritten notes that are mailed inside an accompanying envelope, or inlcuded loosely with a sample delivery or gift. ",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Black", "value": "J/200006"}
+            ],
+            "quantity": 1,
+            "Note": "Order through DON"
+      },
+
+      {
+        "image": [
+          "./img/new/mhrm_announce card_a.jpg"
+          ],
+        "name": "Nametag",
+        "price": 1,
+        "description": "",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "Contact Media"}
+            ],
+            "quantity": 2,
+            "Note": ""
+      }
+
+      
+    ]
+  }

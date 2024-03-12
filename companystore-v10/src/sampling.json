@@ -1,0 +1,355 @@
+{
+    "sampling": [
+      {
+        "image": [
+          "./img/sg_24_tabletop_samplerequest_grey.png",
+          "./img/sg_24_tabletop_table cards-grey.png"
+          ],
+        "name": "Binder Maharam: Generic",
+        "price": 0,
+        "description": "Maharam Generic Binder",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Generic", "value": "B/002027"}
+            ],
+            "quantity": 1,
+            "Note": "Order through DON"
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_samplerequest_grey.png",
+          "./img/sg_24_tabletop_table cards-grey.png"
+          ],
+        "name": "Binder Maharam: Panel",
+        "price": 0,
+        "description": "Maharam Panel Binder",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Panel 1", "value": "B/002013"},
+          {"variation": "Panel 2", "value": "B/002014"}
+            ],
+            "quantity": 1,
+            "Note": "Order through DON"
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_samplerequest_grey.png",
+          "./img/sg_24_tabletop_table cards-grey.png"
+          ],
+        "name": "Binder Maharam: Privacy Curtain",
+        "price": 0,
+        "description": "Maharam Privacy Curtain Binder",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Privacy Curtain 1", "value": "B/002017"},
+          {"variation": "Privacy Curtain 2", "value": "B/002018"},
+          {"variation": "Privacy Curtain 2", "value": "B/002019"}
+            ],
+            "quantity": 1,
+            "Note": "Order through DON"
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_samplerequest_grey.png",
+          "./img/sg_24_tabletop_table cards-grey.png"
+          ],
+        "name": "Binder Maharam: Upholstery",
+        "price": 0,
+        "description": "Maharam Upholstery Binder",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Upholstery 1", "value": "B/002001"},
+          {"variation": "Upholstery 2", "value": "B/002002"},
+          {"variation": "Upholstery 3", "value": "B/002003"},
+          {"variation": "Upholstery 4", "value": "B/002004"},
+          {"variation": "Upholstery 5", "value": "B/002005"},
+          {"variation": "Upholstery 6", "value": "B/002006"},
+          {"variation": "Upholstery 7", "value": "B/002007"},
+          {"variation": "Upholstery 8", "value": "B/002008"},
+          {"variation": "Upholstery 9", "value": "B/002009"},
+          {"variation": "Upholstery 10", "value": "B/002011"},
+          {"variation": "Upholstery 11", "value": "B/002012"},
+          {"variation": "Upholstery 12", "value": "B/002029"},
+          {"variation": "Upholstery 13", "value": "B/002031"}
+            ],
+            "quantity": 1,
+            "Note": "Order through DON"
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_samplerequest_grey.png",
+          "./img/sg_24_tabletop_table cards-grey.png"
+          ],
+        "name": "Binder Maharam: Wallcovering",
+        "price": 0,
+        "description": "Maharam Wallcovering Binder",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Wallcovering 1", "value": "B/002021"},
+          {"variation": "Wallcovering 2", "value": "B/002022"},
+          {"variation": "Wallcovering 3", "value": "B/002023"},
+          {"variation": "Wallcovering 4", "value": "B/002024"},
+          {"variation": "Wallcovering 5", "value": "B/002025"},
+          {"variation": "Wallcovering 6", "value": "B/002026"},
+          {"variation": "Wallcovering 7", "value": "B/002028"}
+            ],
+            "quantity": 1,
+            "Note": "Order through DON"
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_samplerequest_grey.png",
+          "./img/sg_24_tabletop_table cards-grey.png"
+          ],
+        "name": "Binder Maharam: Window Covering",
+        "price": 0,
+        "description": "Maharam Window Covering Binder",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Window Covering 1", "value": "B/002015"},
+          {"variation": "Window Covering 2", "value": "B/002016"}
+            ],
+            "quantity": 1,
+            "Note": "Order through DON"
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_samplerequest_grey.png",
+          "./img/sg_24_tabletop_table cards-grey.png"
+          ],
+        "name": "Binder Maharam Label Holder",
+        "price": 0,
+        "description": "Binder label holder for Maharam binders, one order includes 4 holders.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Yellow", "value": "J/LBLHLD"}
+            ],
+            "quantity": 4,
+            "DON_reference_number": "",
+            "Note": "Order through DON"
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_samplerequest_grey.png",
+          "./img/sg_24_tabletop_table cards-grey.png"
+          ],
+        "name": "Binder Maharam Label: Solid/Texture",
+        "price": 0,
+        "description": "Solid/Texture Binder label for Maharam binders",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "J/LBLSTX"}
+            ],
+            "quantity": 1,
+            "DON_reference_number": "",
+            "Note": "Order through DON"
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_samplerequest_grey.png",
+          "./img/sg_24_tabletop_table cards-grey.png"
+          ],
+        "name": "Binder Maharam Label: Performance Woven",
+        "price": 0,
+        "description": "Performance Woven Binder label for Maharam binders",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "J/LBLPWV"}
+            ],
+            "quantity": 1,
+            "DON_reference_number": "",
+            "Note": "Order through DON"
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_samplerequest_grey.png",
+          "./img/sg_24_tabletop_table cards-grey.png"
+          ],
+        "name": "Binder Maharam Label: Nonwoven",
+        "price": 0,
+        "description": "Nonwoven Binder label for Maharam binders",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "J/LBLNWV"}
+            ],
+            "quantity": 1,
+            "DON_reference_number": "",
+            "Note": "Order through DON"
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_samplerequest_grey.png",
+          "./img/sg_24_tabletop_table cards-grey.png"
+          ],
+        "name": "Binder Maharam Label: Natural",
+        "price": 0,
+        "description": "Natural Binder label for Maharam binders",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "J/LBLNAT"}
+            ],
+            "quantity": 1,
+            "DON_reference_number": "",
+            "Note": "Order through DON"
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_samplerequest_grey.png",
+          "./img/sg_24_tabletop_table cards-grey.png"
+          ],
+        "name": "Memo Bin Maharam",
+        "price": 0,
+        "description": "Maharam memo bin, one order includes 4 bins.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Grey", "value": "B/MEMBIN"}
+            ],
+            "quantity": 1,
+            "DON_reference_number": "",
+            "Note": "Order through DON"
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_samplerequest_grey.png",
+          "./img/sg_24_tabletop_table cards-grey.png"
+          ],
+        "name": "Memo Bin Maharam Label",
+        "price": 0,
+        "description": "Label sheet for maharam memo bin kit.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "All Categories", "value": "B/LABELS"},
+          {"variation": "Rugs", "value": "B/LABEL2"},
+          {"variation": "Leather", "value": "B/LABELL"}
+            ],
+            "quantity": 15,
+            "DON_reference_number": "",
+            "Note": "Order through DON"
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_samplerequest_grey.png",
+          "./img/sg_24_tabletop_table cards-grey.png"
+          ],
+        "name": "Sampling Cart Maharam",
+        "price": 0,
+        "description": "",
+        "options": [
+          {"variation": "Select an option", "value": ""}
+            ],
+            "quantity": 1,
+            "DON_reference_number": "",
+            "Note": "This item will be available soon."
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_samplerequest_grey.png",
+          "./img/sg_24_tabletop_table cards-grey.png"
+          ],
+        "name": "Sampling Cart Knoll Textiles",
+        "price": 0,
+        "description": "",
+        "options": [
+          {"variation": "Select an option", "value": ""}
+            ],
+            "quantity": 1,
+            "DON_reference_number": "",
+            "Note": "This item will be available soon."
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_samplerequest_grey.png",
+          "./img/sg_24_tabletop_table cards-grey.png"
+          ],
+        "name": "Hang Set Maharam",
+        "price": 0,
+        "description": "",
+        "options": [
+          {"variation": "Select an option", "value": ""}
+            ],
+            "quantity": 1,
+            "DON_reference_number": "",
+            "Note": "This item will be available soon."
+      },
+      {
+        "image": [
+          "./img/sg_24_tabletop_samplerequest_grey.png",
+          "./img/sg_24_tabletop_table cards-grey.png"
+          ],
+        "name": "Hang Set Knoll textiles",
+        "price": 0,
+        "description": "",
+        "options": [
+          {"variation": "Select an option", "value": ""}
+            ],
+            "quantity": 1,
+            "DON_reference_number": "",
+            "Note": "This item will be available soon."
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_samplerequest_grey.png",
+          "./img/sg_24_tabletop_table cards-grey.png"
+          ],
+        "name": "Binder Knoll Textiles",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "options": [
+          {"variation": "Select an option", "value": ""}
+            ],
+            "quantity": 1,
+            "DON_reference_number": "",
+            "Note": "This item will be available soon."
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_samplerequest_grey.png",
+          "./img/sg_24_tabletop_table cards-grey.png"
+          ],
+        "name": "Memo Bin Knoll Textiles",
+        "price": 1,
+        "description": "",
+        "options": [
+          {"variation": "Select an option", "value": ""}
+            ],
+            "quantity": 1,
+            "DON_reference_number": "",
+            "Note": "This item will be available soon."
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_samplerequest_grey.png",
+          "./img/sg_24_tabletop_table cards-grey.png"
+          ],
+        "name": "Memo Bin Edelman",
+        "price": 0,
+        "description": "",
+        "options": [
+          {"variation": "Select an option", "value": ""}
+            ],
+            "quantity": 1,
+            "DON_reference_number": "",
+            "Note": "This item will be available soon."
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_samplerequest_grey.png",
+          "./img/sg_24_tabletop_table cards-grey.png"
+          ],
+        "name": "Sampling Box Edelman",
+        "price": 0,
+        "description": "",
+        "options": [
+          {"variation": "Select an option", "value": ""}
+            ],
+            "quantity": 1,
+            "DON_reference_number": "",
+            "Note": "This item will be available soon."
+      }
+    ]
+  }
