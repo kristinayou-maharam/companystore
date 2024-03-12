@@ -52,26 +52,24 @@
             "image":  ["./img/new/mhrm_eraser.jpg"],
             "name": "Eraser",
             "price": 1,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "description": "",
             "options": [{"variation": "Select an option", "value": ""},{"variation": "White", "value": "J/100068"}
             ],
-            "quantity": 15,
+            "quantity": 14,
             "DON_reference_number": "J/100068",
-            "Note": "DON Order"
+            "Note": "Order through DON"
           },
           {
             "image": ["./img/new/mhrm_brush_a.jpg","./img/new/mhrm_brush_b.jpg"],
             "name": "Wallcovering Brush",
             "price": 0,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "description": "",
             "options": [
               {"variation": "Select an option", "value": ""},
-              {"variation": "Teal", "value": "J/RBRBND"},
-              {"variation": "Blue", "value": "J/RBRBND"},
-              {"variation": "Pink", "value": "J/RBRBND"}
+              {"variation": "Brown", "value": "J/100076"}
             ],
-            "quantity": 25,
-            "Note": "DON Order"
+            "quantity": 1,
+            "Note": "Order through DON"
           },
           {
             "image": ["./img/sg_24_tabletop_tpins_grey.png","./img/sg_24_tabletop_tpins_grey.png","./img/sg_24_tabletop_tpins_grey.png"],
