@@ -561,7 +561,7 @@ text-decoration: underline;
   display: flex;
   flex-direction: row;
   width: 500px;
-  align-content: space-evenly;
+  align-content: space-between;
   flex-wrap: wrap;
   display: block;
   position: absolute;
@@ -661,7 +661,7 @@ text-decoration: underline;
   display: inline;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1070px) {
 .image-container{
   width: 30vw;
 }
@@ -678,7 +678,7 @@ text-decoration: underline;
 }
 
 .first{
-  margin-top: 30vh !important;
+  margin-top: 25vh !important;
 }
 
 #footer{
@@ -715,11 +715,17 @@ width: 20vw;
 h2{
   font-size: 16px;
 }
+}
 
-#wrapper{
-  margin-left: 25px !important;
 
+
+
+@media only screen and (max-width: 650px){
+
+#menu{
+  display:none;
 }
 
 }
+
 
