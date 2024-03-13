@@ -671,9 +671,10 @@ text-decoration: underline;
 }
 
 #menu{
-  margin-left: 3vw;
+  margin-left: 35px;
   margin-top: 10px;
   float: left !important;
+  width: 70vw;
 }
 
 .first{
@@ -687,6 +688,7 @@ text-decoration: underline;
 #name{
 display: block;
 margin-right: 0px;
+width: 20vw;
 }
 
 .productdetails{
@@ -708,6 +710,15 @@ margin-right: 0px;
 .slick-carousel{
   width: 50vw;
   margin-left: 12vw;
+}
+
+h2{
+  font-size: 16px;
+}
+
+#wrapper{
+  margin-left: 25px !important;
+
 }
 
 }
