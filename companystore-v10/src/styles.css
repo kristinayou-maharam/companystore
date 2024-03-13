@@ -661,7 +661,11 @@ text-decoration: underline;
   display: inline;
 }
 
-@media only screen and (max-width: 1070px) {
+#mobmenu{
+  display: none;
+}
+
+@media (min-width: 650px) and (max-width: 1070px) {
 .image-container{
   width: 30vw;
 }
@@ -726,6 +730,48 @@ h2{
   display:none;
 }
 
+#productsmall{
+  width: 40vw !important;
 }
 
+.image-container{
+  width: 40vw;
+  margin-right: 5vw;
+}
 
+#name{
+  width: 35vw;
+}
+
+#footer{
+  display: none;
+}
+
+.productdetails{
+  width: 76vw;
+  left: 12vw;
+  z-index: 500;
+}
+
+#detaildescription{
+  width: 50vw;
+  margin-left: 12vw;
+  display: block;
+}
+
+h2{
+  font-size: 16px;
+}
+
+#mobmenu{
+  display: block;
+  margin-left: 8vw;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.first{
+  margin-top: 25vh !important;
+}
+
+}
