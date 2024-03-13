@@ -183,6 +183,10 @@ a {
   margin-top: 5vh;
 }
 
+.first{
+  margin-top: 20vh !important;
+}
+
 #name {
   display: inline-block;
   margin-left: 1.2vw;
@@ -657,7 +661,7 @@ text-decoration: underline;
   display: inline;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
 .image-container{
   width: 30vw;
 }
@@ -667,9 +671,13 @@ text-decoration: underline;
 }
 
 #menu{
-  margin-right: 0vw;
   margin-left: 3vw;
-  float: left;
+  margin-top: 10px;
+  float: left !important;
+}
+
+.first{
+  margin-top: 30vh !important;
 }
 
 #footer{
@@ -680,5 +688,27 @@ text-decoration: underline;
 display: block;
 margin-right: 0px;
 }
+
+.productdetails{
+  width: 76vw;
+  left: 12vw;
+  z-index: 500;
+}
+
+#detaildescription{
+  width: 40vw;
+  margin-left: 12vw;
+  display: block;
+}
+
+#exit{
+  margin-left: 70vw;
+}
+
+.slick-carousel{
+  width: 50vw;
+  margin-left: 12vw;
+}
+
 }
 
