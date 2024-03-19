@@ -8,12 +8,12 @@
             ],
             "name": "Knoll Textiles: 1945-2010",
             "price": 1,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "options": [{"variation": "Select an option", "value": ""},{"variation": "Yellow", "value": "J/170072"}
+            "description": "",
+            "options": [{"variation": "Select an option", "value": ""}
             ],
             "quantity": 1,
             "DON_reference_number": "",
-            "Note": "DON Order"
+            "Note": "This item will be available soon."
           }, 
           {
             "image": ["./img/sg_24_tabletop_psmithbook_grey.png",
@@ -25,12 +25,12 @@
             "description": "Over two decades of close collaboration, Paul Smith and Maharam have translated the British designer's signature flair for idiosyncratic combinations of pattern and color to more than forty textiles, wallcoverings, and accessories. Illustrations by Andy Rementer and photography by Nick Ballon capture the stories and characteristic playfulness behind twenty designs. Softcover. 96 pages.",
             "options": [
               {"variation": "Select an option", "value": ""},
-              {"variation": "Teal", "value": "J/170071"},
-              {"variation": "Blue", "value": "J/170072"},
-              {"variation": "Pink", "value": "J/170073"}
+              {"variation": "Teal", "value": "Contact Media"},
+              {"variation": "Blue", "value": "Contact Media"},
+              {"variation": "Pink", "value": "Contact Media"}
             ],
             "quantity": 1,
-            "Note": "DON Order"
+            "Note": ""
           },
           {
             "image": ["./img/sg_24_tabletop_bags_flat_grey.png",
@@ -38,15 +38,13 @@
             "./img/sg_24_tabletop_bags_flat_grey.png"],
             "name": "Kraft Shopping Bag",
             "price": 0,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "description": "Kraft bags are designed for showroom walk-in clients, or for delivering samples, printed matter and gifts in person.",
             "options": [
               {"variation": "Select an option", "value": ""},
-              {"variation": "Teal", "value": "J/MAHBAG"},
-              {"variation": "Blue", "value": "J/MAHBAG"},
-              {"variation": "Pink", "value": "J/MAHBAG"}
+              {"variation": "Brown", "value": "J/MAHBAG"}
             ],
-            "quantity": 24,
-            "Note": "Throughbred"
+            "quantity": 1,
+            "Note": "<br>Order through DON<br><a style=text-decoration:underline href=https://hermanmiller.sharepoint.com/sites/MHRM-Home/Procedures/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FProcedures%2FPM%20Procedures%2Fdisplay%5Fboard%5Fguidelines%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FProcedures%2FPM%20Procedures target=blank>Link to guidelines</a>"
           },
           {
             "image":  ["./img/new/mhrm_eraser.jpg"],
@@ -75,10 +73,10 @@
             "image": ["./img/sg_24_tabletop_tpins_grey.png","./img/sg_24_tabletop_tpins_grey.png","./img/sg_24_tabletop_tpins_grey.png"],
             "name": "T-Pins",
             "price": 0,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "description": "Display board t-pins.",
             "options": [{"variation": "Select an option", "value": ""},{"variation": "Silver", "value": "J/DISPTP"}],
             "quantity": 100,
-            "Note": "DON Order"
+            "Note": "<br>Order through DON<br><a style=text-decoration:underline href=https://hermanmiller.sharepoint.com/sites/MHRM-Home/Procedures/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FProcedures%2FPM%20Procedures%2Fdisplay%5Fboard%5Fguidelines%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FProcedures%2FPM%20Procedures target=blank>Link to guidelines</a>"
           },
           {
             "image": ["./img/sg_24_tabletop_table cards-grey.png","./img/sg_24_tabletop_table cards-grey.png","./img/sg_24_tabletop_table cards-grey.png"],
@@ -87,30 +85,30 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "options": [
               {"variation": "Select an option", "value": ""},
-              {"variation": "Terracotta/Ivory/Apricot", "value": "J/170072"},
-              {"variation": "Currant/Chalk/Sky", "value": "J/170072"}
+              {"variation": "Terracotta/Ivory/Apricot", "value": "Contact Media"},
+              {"variation": "Currant/Chalk/Sky", "value": "Contact Media"}
             ],
             "quantity": 50,
-            "Note": "DON Sampling"
+            "Note": ""
           }, 
           {
             "image": ["./img/sg_24_tabletop_bizcards_grey.png","./img/sg_24_tabletop_bizcards_grey.png","./img/sg_24_tabletop_bizcards_grey.png"],
             "name": "Business Cards",
             "price": 1,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+            "description": "Business cards order should be placed by filling out request form and sending to Angela Guarino .",
             "options": [
               {"variation": "Select an option", "value": ""},
-              {"variation": "White", "value": "J/170072"}
+              {"variation": "White", "value": "Contact Facilities"}
             ],
             "quantity": 100,
             "DON_reference_number":"",
-            "Note": "Contact Facilities to Order"
+            "Note": "<a style=text-decoration:underline href=https://hermanmiller.sharepoint.com/sites/MHRM-Home/Forms/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FForms%2FMaharam%5Fbusiness%2Dcard%2Drequest%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FForms target=blank>Link to form</a>"
           },
           {
             "image": ["./img/new/mhrm_nametag_a.jpg","./img/new/mhrm_nametag_b.jpg"],
             "name": "Nametag",
             "price": 1,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "description": "",
             "options": [ {"variation": "Select an option", "value": ""},
             {"variation": "White", "value": "Contact Media"}
             ],
@@ -122,13 +120,12 @@
             "image": ["./img/new/mhrm_new notebook_a.jpg","./img/new/mhrm_new notebook_b.jpg"],
             "name": "Sample Request Form Pad",
             "price": 0,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "description": "",
             "options": [{"variation": "Select an option", "value": ""},
-            {"variation": "White", "value": "Contact Media"}
+            {"variation": "White", "value": "J/100005"}
             ],
             "quantity": 1,
-            "DON_reference_number": "J/100005",
-            "Note": ""
+            "Note": "Order through DON"
           }
     ]
   }

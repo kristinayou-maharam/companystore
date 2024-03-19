@@ -53,8 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
             console.log('Selected Option:', selectedOption);
         
             if (selectedOptionLabel) {
-              const correspondingValue = selectedOptionLabel.value;
-              selectedValueElement.textContent = `${selectedOptionLabel}`;
+              selectedValueElement.textContent = selectedOptionLabel;
             } else {
               selectedValueElement.textContent = '';
             }
@@ -89,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <label for="variationDropdown"><p style="display:inline-block">Variation:</p></label>
         <select id="variationDropdown">${dropdownOptions}</select><br><br>
         <p id="don">Item Code: </p><p id="selectedValue"></p>
-        <p id=note>Order System: ${neww.Note}</p>
+        <p id=note>Note: ${neww.Note}</p>
         <p style="display: inline-block">Quantity:</p><input type="number" id="quantity" name="quantity" min="1" max="5" value="1">
         <h5><input type="submit" id= "addtocart" value="Add to Wishlist"></h5>
         </form>
@@ -481,99 +480,8 @@ document.addEventListener("DOMContentLoaded", function () {
             selectedValueElement.textContent = 'Please select an option';
           }
         });
-        
-
       };
     })
 
+    });
 
-    // document.getElementById("searchquerysubmit").addEventListener("click", function () {
-    //   const searchQuery = document.getElementById("searchqueryinput").value;
-    //   fetch("./src/new.json")
-    //     .then(response => response.json())
-    //     .then(data => {
-    //       const matchingNew = data.filter(item => item.name.includes(searchQuery));
-    //       if (matchingNew.length > 0) {
-    //         window.displayNew(matchingNew[0].index);
-    //       } else {
-    //         console.log("No matching stationery found.");
-    //       }
-    //     })
-    //     .catch(error => {
-    //       console.error("Error fetching stationery data:", error);
-    //     });
-    // document.getElementById("searchquerysubmit").addEventListener("click", function () {
-    //   const searchQuery = document.getElementById("searchqueryinput").value;
-    //   fetch("./src/stationery.json")
-    //     .then(response => response.json())
-    //     .then(data => {
-    //       const matchingStationery = data.filter(item => item.name.includes(searchQuery));
-    //       if (matchingStationery.length > 0) {
-    //         window.displayStationery(matchingStationery[0].index);
-    //       } else {
-    //         console.log("No matching stationery found.");
-    //       }
-    //     })
-    //     .catch(error => {
-    //       console.error("Error fetching stationery data:", error);
-    //     });
-
-    //   fetch("./src/books.json")
-    //     .then(response => response.json())
-    //     .then(data => {
-    //       const matchingBooks = data.books.filter(book => book.name.includes(searchQuery));
-    //       if (matchingBooks.length > 0) {
-    //         window.displayBooks(matchingBooks[0].index);
-    //       } else {
-    //         console.log("No matching books found.");
-    //       }
-    //     })
-    //     .catch(error => {
-    //       console.error("Error fetching books data:", error);
-    //     });
-
-    //   fetch("./src/print.json")
-    //     .then(response => response.json())
-    //     .then(data => {
-    //       const matchingPrints = data.print.filter(print => print.name.includes(searchQuery));
-    //       if (matchingPrints.length > 0) {
-    //         window.displayPrint(matchingPrints[0].index);
-    //       } else {
-    //         console.log("No matching prints found.");
-    //       }
-    //     })
-    //     .catch(error => {
-    //       console.error("Error fetching print data:", error);
-    //     });
-
-    //   fetch("./src/presentation.json")
-    //     .then(response => response.json())
-    //     .then(data => {
-    //       const matchingPresentations = data.presentation.filter(presentation => presentation.name.includes(searchQuery));
-    //       if (matchingPresentations.length > 0) {
-    //         window.displayPresentation(matchingPresentations[0].index);
-    //       } else {
-    //         console.log("No matching presentations found.");
-    //       }
-    //     })
-    //     .catch(error => {
-    //       console.error("Error fetching presentation data:", error);
-    //     });
-
-    //   fetch("./src/sampling.json")
-    //     .then(response => response.json())
-    //     .then(data => {
-    //       const matchingSamplings = data.sampling.filter(sampling => sampling.name.includes(searchQuery));
-    //       if (matchingSamplings.length > 0) {
-    //         window.displaySampling(matchingSamplings[0].index);
-    //       } else {
-    //         console.log("No matching samplings found.");
-    //       }
-    //     })
-    //     .catch(error => {
-    //       console.error("Error fetching sampling data:", error);
-    //     });
-    // });
-
-
-});
