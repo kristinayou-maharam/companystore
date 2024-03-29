@@ -51,7 +51,7 @@ a:hover {
   justify-content: space-evenly;
   width: 700px;
   float: right;
-  margin-right: 4vw;
+  margin-right: 5vw;
   vertical-align: top;
   margin-top: 30px;
 }
@@ -431,7 +431,7 @@ input[type=number]::-webkit-inner-spin-button {
 
 
 
-#sendmessage{
+.sendmessage{
   width: 10vw;
 }
 
@@ -541,6 +541,7 @@ text-decoration: underline;
   font-family: 'maharam';
   font-size: 12px;
   box-shadow: 10px 10px 29px -3px rgba(0,0,0,0.45);
+  display: none;
 }
 
 #searchResultsList{
@@ -552,7 +553,11 @@ text-decoration: underline;
   color: red;
 }
 
-ul :hover{
+ul{
+  width: 8vw;
+}
+
+ul:hover{
   color: red !important;
 }
 

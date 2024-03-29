@@ -16,7 +16,7 @@
             <div class="wrapper">
                 <div class="searchBar">
                   <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="Search" value="" />
-                  <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+                  <button id="searchQuerySubmit" autocomplete="off" type="submit" name="searchQuerySubmit">
                     <svg style="width:18px;height:18x" viewBox="0 0 18 18"><path fill="#666666" d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
                     </svg>
                   </button>
@@ -38,6 +38,7 @@
             <a href="sampling.html"><h2>Sampling</h2></a>
             <a href="stationery.html"><h2>Stationery</h2></a>
             <a href="books.html"><h2>Books</h2></a>
+            <a href="more.html"><h2>More</h2> </a>
         </div>
     </div>
 
@@ -115,18 +116,21 @@
     </div>
     </div>
     <div id="sendto">
+        <form class="email-form" id="form">
         <h3 style="margin-left: 0px;"><strong>Send Order Summary To:</strong></h3>
         <div id="email">
         <h4>Sender Name</h4>
-        <input type="text" id="sendmessage">
+        <input type="text" class="sendmessage" id="from-name" required>
         <h4>Recipient Name</h4>
-        <input type="text" id="sendmessage">
+        <input type="text" class="sendmessage" id="to-name" required>
         <h4>Receipient E-mail</h4>
-        <input type="text" id="sendmessage">
+        <input type="text" class="sendmessage" id="to-email" required>
         <h4>Message</h4>
-        <input type="text" id="sendmessage" style="height: 50px;">
+        <input type="text" class="sendmessage" id="message" style="height: 50px;" required>
         </div>
-        <button id="send"><h5>Send</h5></button>
+        <button type="submit" id="send"><h5>Send</h5></button>
+        </form>
+
         <hr  style="margin-left: -2vw; margin-top:8vh; width: 15vw;" id="checkoutshort">
         <h4 style="background-color: white; position: absolute; top: 525px;left: 4.5vw; padding: 10px;">OR</h4>
         <button id="downloadpdf"><h5>Download PDF</h5></button>
@@ -163,19 +167,44 @@
         }
         
     }
+    function searchProduct() {
+        let input = document.getElementById('searchQueryInput').value;
+        input = input.toLowerCase();
+        let x = document.querySelector('#searchResults');
+        x.style.display = "none";
+        x.innerHTML = "";
 
-    function name() {
-        var showname = document.getElementById("name");
-        if (showname.style.display === "none"){
-            showname.style.display = "block";
-        } else{
-            showname.style.display = "none";
+        if (input.trim() !== "") {
+            fetch("./src/all.json")
+                .then(response => response.json())
+                .then(data => {
+                    let searchData = JSON.parse(JSON.stringify(data.all));
+
+                    for (let i = 0; i < searchData.length; i++) {
+                        let obj = searchData[i];
+                        if (obj.name.toLowerCase().includes(input)) {
+                            const elem = document.createElement("ul");
+                            elem.textContent = obj.name;
+                            x.appendChild(elem);
+                            elem.onclick = function() {
+                                sies();
+                                displayAll(i); // Pass the index value to the displayNew() function
+                                x.style.display = "none"; // Hide search results when elem is clicked
+                                document.getElementById('searchQueryInput').value = ""; // Clear searchQueryInput
+                            };
+                        }
+                    }
+                });
+            x.style.display = "block"; // Show search results
+        } else {
+            x.style.display = "none"; // Hide search results
         }
     }
+
+    document.getElementById('searchQueryInput').addEventListener('keyup', searchProduct);
     
-
-
 </script>
 <script src="./script.js"></script>  
+<script src="./mail.js"></script>
 </body>
 </html>

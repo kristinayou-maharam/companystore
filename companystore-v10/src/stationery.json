@@ -7,7 +7,7 @@
           ],
         "name": "Business Cards",
         "price": 1,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "description": "Business cards order should be placed by filling out request form and sending to Angela Guarino.",
         "options": [
           {"variation": "Select an option", "value": ""},
           {"variation": "White", "value": "Contact Facilities"}
@@ -22,7 +22,7 @@
           ],
         "name": "Letterhead with Showroom Address(North America)",
         "price": 1,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "description": "Letterhead with showroom address (North America).",
         "options": [
           {"variation": "Select an option", "value": ""},
           {"variation": "White", "value": "Contact Facilities"}
@@ -37,7 +37,7 @@
           ],
         "name": "Envelope with Showroom Address(North America)",
         "price": 0,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "description": "Envelope with showroom address (North America).",
         "options": [
           {"variation": "Select an option", "value": ""},
           {"variation": "White", "value": "Contact Facilities"}
@@ -52,7 +52,7 @@
           ],
         "name": "Letterhead with Showroom Address(ROW)",
         "price": 0,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "description": "",
         "options": [
           {"variation": "Select an option", "value": ""},
           {"variation": "White", "value": "Contact Facilities"}
@@ -68,7 +68,7 @@
           ],
         "name": "Envelope with Showroom Address(ROW)",
         "price": 0,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "description": "",
         "options": [
           {"variation": "Select an option", "value": ""},
           {"variation": "White", "value": "Contact Facilities"}
@@ -83,13 +83,13 @@
           ],
         "name": "Mailing Label with Showroom Address",
         "price": 0,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "description": "Pre-printed self adhesive mailing label to be applied to generic white envelopes and courier packages. ",
         "options": [
           {"variation": "Select an option", "value": ""},
           {"variation": "White", "value": "Contact Facilities"}
             ],
             "quantity": 1,
-            "Note": ""
+            "Note": "<a style=text-decoration:underline href=https://hermanmiller.sharepoint.com/sites/MHRM-Home/SiteAssets/Forms/AllItems.aspx?id=%2Fsites%2FMHRM-Home%2FSiteAssets%2FSitePages%2FStationary%2FMaharam_Stationery-Sample-Delivery-Guidelines.pdf&parent=%2Fsites%2FMHRM-Home%2FSiteAssets%2FSitePages%2FStationary target=blank>Link to guidelines</a>"
       },
 
       {
@@ -138,6 +138,22 @@
             ],
             "quantity": 1,
             "Note": "<a style=text-decoration:underline href=https://hermanmiller.sharepoint.com/sites/MHRM-Home/SiteAssets/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FSiteAssets%2FSitePages%2FStationary%2FMaharam%5FStationery%2DSample%2DDelivery%2DGuidelines%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FSiteAssets%2FSitePages%2FStationary target=blank>Link to guidelines</a>"
+      },
+
+      {
+        "image": [
+          "./img/sg_24_tabletop_bizcards_grey.png",
+          "./img/sg_24_tabletop_name tag_grey.png"
+          ],
+        "name": "Rubber Bands",
+        "price": 0,
+        "description": "Maharam's rubber band should be used with two or more  gusseted kraft envelopes for delivery to a client. ",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Multicolor", "value": "J/RBRBND"}
+            ],
+            "quantity": 25,
+            "Note": "<br>Order through DON<br><a style=text-decoration:underline href=https://hermanmiller.sharepoint.com/sites/MHRM-Home/SiteAssets/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FSiteAssets%2FSitePages%2FStationary%2FMaharam%5FStationery%2DSample%2DDelivery%2DGuidelines%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FSiteAssets%2FSitePages%2FStationary target=blank>Link to guidelines</a>"
       },
 
       {
@@ -193,7 +209,7 @@
           ],
         "name": "Sample Request Form Pad",
         "price": 1,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "description": "Sample request form pad for showroom sample requests.",
         "options": [
           {"variation": "Select an option", "value": ""},
           {"variation": "White", "value": "J/100005"}
@@ -226,7 +242,7 @@
           ],
         "name": "Notepad",
         "price": 1,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "description": "",
         "options": [
           {"variation": "Select an option", "value": ""},
           {"variation": "White", "value": ""}
@@ -341,6 +357,78 @@
           "./img/new/mhrm_nametag_a.jpg"
           ],
         "name": "Nametag",
+        "price": 1,
+        "description": "",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "Contact Media"}
+            ],
+            "quantity": 2,
+            "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/new/mhrm_nametag_a.jpg"
+          ],
+        "name": "E-vites",
+        "price": 1,
+        "description": "",
+        "options": [
+          {"variation": "Select an option", "value": ""}
+            ],
+            "quantity": 2,
+            "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/new/mhrm_nametag_a.jpg"
+          ],
+        "name": "Printed Invites",
+        "price": 1,
+        "description": "",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "Contact Media"}
+            ],
+            "quantity": 2,
+            "Note": ""
+      },
+      {
+        "image": [
+          "./img/new/mhrm_nametag_a.jpg"
+          ],
+        "name": "Printed Invites",
+        "price": 1,
+        "description": "",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "Contact Media"}
+            ],
+            "quantity": 2,
+            "Note": ""
+      },
+
+      {
+        "image": [
+          "./img/new/mhrm_nametag_a.jpg"
+          ],
+        "name": "New Sales Team Announcements",
+        "price": 1,
+        "description": "",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "White", "value": "Contact Media"}
+            ],
+            "quantity": 2,
+            "Note": ""
+      },
+      {
+        "image": [
+          "./img/new/mhrm_nametag_a.jpg"
+          ],
+        "name": "Logo Requests",
         "price": 1,
         "description": "",
         "options": [

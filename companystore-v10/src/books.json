@@ -169,6 +169,21 @@
             "quantity": 1,
             "Note": "Order through DON"
       },
+      {
+        "image": [
+          "./img/angle/irvingharper.jpg",
+          "./img/angle/sb.jpg"
+          ],
+        "name": "Jacob Hashimoto: Selected Kite Works & Installations",
+        "price": 1,
+        "description": "Colour Based on Nature takes the concept of Irma Booms previous work further afield, highlighting UNESCO World Heritage sites across the globe and on every continent.",
+        "options": [
+          {"variation": "Select an option", "value": ""},
+          {"variation": "Red", "value": "801645/001"}
+            ],
+            "quantity": 1,
+            "Note": "Order through DON"
+      },
 
       {
         "image": [
@@ -205,7 +220,7 @@
           ],
         "name": "Textilepedia",
         "price": 1,
-        "description": "L",
+        "description": "",
         "options": [
           {"variation": "Select an option", "value": ""}
             ],

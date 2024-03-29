@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.css'>
+    <title>Maharam Company Store</title>
+</head>
+<body>
+    <div id="topnav">
+        <div id="accountnav">
+            <div class="wrapper">
+                <div class="searchBar">
+                  <input id="searchQueryInput" type="text" name="searchQueryInput" autocomplete="off" onkeyup="searchMore()" placeholder="Search" value="" />
+                  <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+                    <svg style="width:18px;height:18x" viewBox="0 0 18 18"><path fill="#666666" d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
+                    </svg>
+                  </button>
+                </div>
+                <div id="searchResults">
+                </div>
+              </div>
+            <div id="accountnavright">
+            <h4 style="display: inline-block; margin-right: 1.5vw;"><a style="color: grey;" href="./cart.html">Wishlist (0)</a></h4>
+            <h4 style="display: inline-block;"><a style="color: grey;" href="./checkout.html">Checkout</a></h4>
+            </div>
+        </div>
+       <div id="logolockup">
+        <a href="index.html">
+        <h2 style="display: inline-block; margin-top: 50px; margin-left: 0vw;">Maharam Company Store</h2></div></a>
+        <div id="menu">
+            <a href="index.html"><h2>New</h2></a>
+            <a href="print.html">
+            <h2>Print</h2></a>
+            <a href="presentation.html"><h2>Presentation</h2></a>
+            <a href="sampling.html"><h2>Sampling</h2></a>
+            <a href="stationery.html"><h2>Stationery</h2></a>
+            <a href="books.html"><h2>Books</h2></a>
+            <h2 style="color: red;">More</h2>
+        </div>
+    </div>
+
+
+
+<div id="stationary2" class="productdetails">
+
+    <p id="exit" onclick="exit()">✕</p>
+    <div id="product-info"></div>
+
+    </div>
+</div>
+
+
+<!-- Product Gallery -->
+
+<div id="gallery" class="first">
+<div class="image-container">
+    <p id="stock">Coming Soon</p>
+    <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayMore(0)">
+    <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayMore(0); sies()">
+    <p id="name">Blocks Tray Small by Scholten & Baijings</p>
+</div>
+
+<div class="image-container">
+    <p id="stock">Coming Soon</p>
+    <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayMore(1)">
+    <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayMore(1); sies()">
+    <p id="name">Blocks Tray Medium by Scholten & Baijings</p>
+</div>
+<div class="image-container">
+    <p id="stock">Coming Soon</p>
+    <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayMore(2)">
+    <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayMore(2); sies()">
+    <p id="name">Blocks Tray Large by Scholten & Baijings</p>
+</div>
+<div class="image-container">
+    <p id="stock">Coming Soon</p>
+    <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayMore(3)">
+    <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayMore(3); sies()">
+    <p id="name">Grid Bowl by Scholten & Baijings</p>
+  </div>
+  <div class="image-container">
+    <p id="stock">Coming Soon</p>
+    <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayMore(4)">
+    <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayMore(4); sies()">
+    <p id="name">Grid Mug by Scholten & Baijings</p>
+  </div>
+
+    <div class="image-container">
+        <p id="stock">Coming Soon</p>
+        <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayMore(5)">
+        <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayMore(5); sies()">
+        <p id="name">Grid Cup by Scholten & Baijings</p>
+    </div>
+    <div class="image-container">
+        <p id="stock">Coming Soon</p>
+        <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayMore(6)">
+        <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayMore(6); sies()">
+        <p id="name">Grid Plate by Scholten & Baijings</p>
+    </div>
+    <div class="image-container">
+        <p id="stock">Coming Soon</p>
+        <img id="productsmall" class="default-image" src="img/angle/irvingharper.jpg" alt="Default Image" onclick="displayMore(7)">
+        <img id="productsmall" class="hover-image" src="img/angle/sb.jpg" alt="Hover Image" onclick="displayMore(7); sies()">
+        <p id="name">Grid Plate Small by Scholten & Baijings</p>
+    </div>
+</div>
+
+
+
+<div id="footer" >
+    <div id="inquiries">
+        <img id="logo" src="img/smalluselogo.svg">
+        <p style="color: #000000;">For additional inquiries,<br>Please contact:</p>
+        <p style="color: #000000;text-decoration: underline; text-decoration-thickness: 1px;">placeholder@maharam.com</p>
+    </div>
+    <div id="footermenu">
+        <p id="footerleft">
+            <a href="https://hermanmiller.sharepoint.com/sites/MHRM-Home/SitePages/Employee-Purchases.aspx">Maharam Intranet</a>
+        </p>
+        
+        <p id="footerleft">
+            <a href="https://hermanmiller.sharepoint.com/sites/MHRM-Home/Employee%20Purchases%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents%2FMaharam%5Fassociate%2Dpurchase%2Dpolicy%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents">DON Information</a>
+        </p>
+        
+        <p id="footerleft">
+        <a href="https://hermanmiller.sharepoint.com/sites/MHRM-Home/Employee%20Purchases%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents%2FMaharam%5Femployee%2Dpurchase%2Dpolicy%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents">
+            Usage Guide</a>
+        </p>
+        
+        <p id="footerleft">
+            <a href="https://hermanmiller.sharepoint.com/sites/MHRM-Home/Employee%20Purchases%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents%2FMaharam%5Femployee%2Dpurchase%2Dform%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FEmployee%20Purchases%20Documents">
+                Purchase Form</a>
+            </p>
+</div>
+</div>
+
+<script src="./script.js"></script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+
+<script>
+   function sies() {
+        var marjan = document.getElementById("stationary2");
+        if (marjan.style.display === "none"){
+            marjan.style.display = "block";
+        } else{
+            marjan.style.display = "block";
+        }
+    }
+
+    function exit(){
+        var escape = document.getElementById("stationary2");
+        if (escape.style.display === "block"){
+            escape.style.display = "none";
+        } 
+
+        var nosiesmarjan = document.getElementsByClassName("productdetails");
+        if (nosiesmarjan.style.display === "block"){
+            nosiesmarjan.style.display = "none";
+        }
+        
+    }
+
+    function name() {
+        var showname = document.getElementById("name");
+        if (showname.style.display === "none"){
+            showname.style.display = "block";
+        } else{
+            showname.style.display = "none";
+        }
+    }
+    function searchProduct() {
+        let input = document.getElementById('searchQueryInput').value;
+        input = input.toLowerCase();
+        let x = document.querySelector('#searchResults');
+        x.style.display = "none";
+        x.innerHTML = "";
+
+        if (input.trim() !== "") {
+            fetch("./src/all.json")
+                .then(response => response.json())
+                .then(data => {
+                    let searchData = JSON.parse(JSON.stringify(data.all));
+
+                    for (let i = 0; i < searchData.length; i++) {
+                        let obj = searchData[i];
+                        if (obj.name.toLowerCase().includes(input)) {
+                            const elem = document.createElement("ul");
+                            elem.textContent = obj.name;
+                            x.appendChild(elem);
+                            elem.onclick = function() {
+                                sies();
+                                displayAll(i); // Pass the index value to the displayNew() function
+                                x.style.display = "none"; // Hide search results when elem is clicked
+                                document.getElementById('searchQueryInput').value = ""; // Clear searchQueryInput
+                            };
+                        }
+                    }
+                });
+            x.style.display = "block"; // Show search results
+        } else {
+            x.style.display = "none"; // Hide search results
+        }
+    }
+
+    document.getElementById('searchQueryInput').addEventListener('keyup', searchProduct);
+</script>
+</body>
+</html>

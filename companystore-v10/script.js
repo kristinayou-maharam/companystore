@@ -37,8 +37,6 @@ document.addEventListener("DOMContentLoaded", function () {
           dots: true // Adds the dots on the bottom
         });
 
-
-
         const variationDropdown = document.getElementById('variationDropdown');
         const selectedValueElement = document.getElementById('selectedValue');
     
@@ -48,12 +46,13 @@ document.addEventListener("DOMContentLoaded", function () {
           console.log('Selected Option Label:', selectedOptionLabel);
         
           if (selectedOptionLabel !== "SelectNone") {
-            const selectedOption = stationery.options.find(option => option.variation.trim() === selectedOptionLabel);
+            const selectedOption = neww.options.find(option => option.variation.trim() === selectedOptionLabel);
         
             console.log('Selected Option:', selectedOption);
         
             if (selectedOptionLabel) {
-              selectedValueElement.textContent = selectedOptionLabel;
+              const correspondingValue = selectedOptionLabel.value;
+              selectedValueElement.textContent = `${selectedOptionLabel}`;
             } else {
               selectedValueElement.textContent = '';
             }
@@ -103,8 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
           arrows: true, // Adds arrows to sides of slider
           dots: true // Adds the dots on the bottom
         });
-
-
+        
 
         const variationDropdown = document.getElementById('variationDropdown');
         const selectedValueElement = document.getElementById('selectedValue');
@@ -129,97 +127,10 @@ document.addEventListener("DOMContentLoaded", function () {
             selectedValueElement.textContent = 'Please select an option';
           }
         });
-        
 
       };
     })
 
-
-    .then(() => fetch("./src/new.json"))
-    .then(response => response.json())
-    .then(data => {
-      window.displayTest = function (index) {
-        const test = data.new[index];
-        const dropdownOptions = test.options.map(option => `<option value="${option.value}">${option.variation}</option>`).join('');
-        const slideHTML = test.image.map(imageUrl => `<div><img src="${imageUrl}" alt="${test.name}" style="width:25vw; margin-bottom:10px";></div>`).join('');
-
-        const testInfoHTML = `
-        <div class="slick-carousel">
-        ${slideHTML}
-        </div>
-        <div id ="detaildescription">
-        <h2>${test.name}</h2>
-        <p> ${test.description}</p>
-        <p>Price: $${test.price.toFixed(2)}</p>
-        <p>Quantity per Order: ${test.quantity}</p>
-        <label for="variationDropdown"><p style="display:inline-block">Variation:</p></label>
-        <select id="variationDropdown">${dropdownOptions}</select><br><br>
-        <p id="don">Item Code: </p><p id="selectedValue"></p>
-        <p id=note>Order System: ${test.Note}</p>
-        <p style="display: inline-block">Quantity:</p><input type="number" id="quantity" name="quantity" min="1" max="5" value="1">
-        <h5><input type="submit" id= "addtocart" value="Add to Wishlist"></h5>
-
-            </div>
-        `;
-        document.getElementById("product-info").innerHTML = testInfoHTML;
-
-
-        const variationDropdown = document.getElementById('variationDropdown');
-        const selectedValueElement = document.getElementById('selectedValue');
-    
-        variationDropdown.addEventListener('change', function () {
-          const selectedOptionLabel = variationDropdown.value.trim();
-        
-          console.log('Selected Option Label:', selectedOptionLabel);
-        
-          if (selectedOptionLabel !== "SelectNone") {
-            const selectedOption = test.options.find(option => option.variation.trim() === selectedOptionLabel);
-        
-            console.log('Selected Option:', selectedOption);
-        
-            if (selectedOptionLabel) {
-              const correspondingValue = selectedOptionLabel.value;
-              selectedValueElement.textContent = `${selectedOptionLabel}`;
-            } else {
-              selectedValueElement.textContent = '';
-            }
-          } else {
-            selectedValueElement.textContent = 'Please select an option';
-          }
-        });
-        
-
-      };
-    })
-
-  
-    // Fetch JSON data for books
-    .then(() => fetch("./src/books.json"))
-    .then(response => response.json())
-    .then(data => {
-      // Function to display books information
-      window.displayBooks = function (index) {
-        const books = data.books[index];
-        const booksInfoHTML = `
-            <img src="${books.image}" alt="${books.name}" 
-            id="detailproductimg">
-            <div id ="detaildescription">
-            <h2>${books.name}</h2>
-            <p> ${books.description}</p>
-            <p>Price: $${books.price.toFixed(2)}</p>
-            <p>Variations: ${books.assrtdcolors}</p>
-            <p>Quantity per Order: ${books.quantity}</p>
-            <p>Order: ${books.DON_reference_number}</p>
-            <p>${books.Note}</p>
-            <p style="display: inline-block">Quantity:</p><input type="number" id="quantity" name="quantity" min="1" max="5" value="1">
-            <h5><input type="submit" id= "addtocart" value="Add to Wishlist"></h5>
-
-            </div>
-        `;
-        // Display books information
-        document.getElementById("product-info").innerHTML = booksInfoHTML;
-      };
-    })
 
     .then(() => fetch("./src/books.json"))
     .then(response => response.json())
@@ -281,8 +192,6 @@ document.addEventListener("DOMContentLoaded", function () {
             selectedValueElement.textContent = 'Please select an option';
           }
         });
-        
-
       };
     })
 
@@ -324,6 +233,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
 
+
         const variationDropdown = document.getElementById('variationDropdown');
         const selectedValueElement = document.getElementById('selectedValue');
     
@@ -347,8 +257,6 @@ document.addEventListener("DOMContentLoaded", function () {
             selectedValueElement.textContent = 'Please select an option';
           }
         });
-        
-
       };
     })
 
@@ -415,7 +323,6 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         });
         
-
       };
     })
 
@@ -457,6 +364,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
 
+
         const variationDropdown = document.getElementById('variationDropdown');
         const selectedValueElement = document.getElementById('selectedValue');
     
@@ -467,6 +375,135 @@ document.addEventListener("DOMContentLoaded", function () {
         
           if (selectedOptionLabel !== "SelectNone") {
             const selectedOption = sampling.options.find(option => option.variation.trim() === selectedOptionLabel);
+        
+            console.log('Selected Option:', selectedOption);
+        
+            if (selectedOptionLabel) {
+              const correspondingValue = selectedOptionLabel.value;
+              selectedValueElement.textContent = `${selectedOptionLabel}`;
+            } else {
+              selectedValueElement.textContent = '';
+            }
+          } else {
+            selectedValueElement.textContent = 'Please select an option';
+          }
+        });
+      };
+    })
+
+
+    .then(() => fetch("./src/more.json"))
+    .then(response => response.json())
+    .then(data => {
+      window.displayMore= function (index) {
+        const more = data.more[index];
+        const dropdownOptions = more.options.map(option => `<option value="${option.value}">${option.variation}</option>`).join('');
+        const slideHTML = more.image.map(imageUrl => `<div><img src="${imageUrl}" alt="${more.name}" style="width:25vw; margin-bottom:10px";></div>`).join('');
+
+        const moreInfoHTML = `
+        <div class="slick-carousel">
+        ${slideHTML}
+        </div>
+        <div id ="detaildescription">
+        <h2>${more.name}</h2>
+        <p> ${more.description}</p>
+        <p>Price: $${more.price.toFixed(2)}</p>
+        <p>Quantity per Order: ${more.quantity}</p>
+        <label for="variationDropdown"><p style="display:inline-block">Variation:</p></label>
+        <select id="variationDropdown">${dropdownOptions}</select><br><br>
+        <p id="don">Item Code: </p><p id="selectedValue"></p>
+        <p id=note>Note: ${more.Note}</p>
+        <p style="display: inline-block">Quantity:</p><input type="number" id="quantity" name="quantity" min="1" max="5" value="1">
+        <h5><input type="submit" id= "addtocart" value="Add to Wishlist"></h5>
+
+            </div>
+        `;
+        document.getElementById("product-info").innerHTML = moreInfoHTML;
+        
+        $('.slick-carousel').slick({
+          infinite: true,
+          slidesToShow: 1, // Shows a three slides at a time
+          slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
+          arrows: true, // Adds arrows to sides of slider
+          dots: true // Adds the dots on the bottom
+        });
+
+        const variationDropdown = document.getElementById('variationDropdown');
+        const selectedValueElement = document.getElementById('selectedValue');
+    
+        variationDropdown.addEventListener('change', function () {
+          const selectedOptionLabel = variationDropdown.value.trim();
+        
+          console.log('Selected Option Label:', selectedOptionLabel);
+        
+          if (selectedOptionLabel !== "SelectNone") {
+            const selectedOption = more.options.find(option => option.variation.trim() === selectedOptionLabel);
+        
+            console.log('Selected Option:', selectedOption);
+        
+            if (selectedOptionLabel) {
+              const correspondingValue = selectedOptionLabel.value;
+              selectedValueElement.textContent = `${selectedOptionLabel}`;
+            } else {
+              selectedValueElement.textContent = '';
+            }
+          } else {
+            selectedValueElement.textContent = 'Please select an option';
+          }
+        });
+      };
+    })
+
+ 
+
+    .then(() => fetch("./src/all.json"))
+    .then(response => response.json())
+    .then(data => {
+      window.displayAll = function (index) {
+        const all = data.all[index];
+        const dropdownOptions = all.options.map(option => `<option value="${option.value}">${option.variation}</option>`).join('');
+        const slideHTML = all.image.map(imageUrl => `<div><img src="${imageUrl}" alt="${all.name}" style="width:25vw; margin-bottom:10px";></div>`).join('');
+
+        const allInfoHTML = `
+        <div class="slick-carousel">
+        ${slideHTML}
+        </div>
+        <div id ="detaildescription">
+        <h2>${all.name}</h2>
+        <p> ${all.description}</p>
+        <p>Price: $${all.price.toFixed(2)}</p>
+        <p>Quantity per Order: ${all.quantity}</p>
+        <label for="variationDropdown"><p style="display:inline-block">Variation:</p></label>
+        <select id="variationDropdown">${dropdownOptions}</select><br><br>
+        <p id="don">Item Code: </p><p id="selectedValue"></p>
+        <p id=note>Note: ${all.Note}</p>
+        <p style="display: inline-block">Quantity:</p><input type="number" id="quantity" name="quantity" min="1" max="5" value="1">
+        <h5><input type="submit" id= "addtocart" value="Add to Wishlist"></h5>
+
+            </div>
+        `;
+        document.getElementById("product-info").innerHTML = allInfoHTML;
+        
+        $('.slick-carousel').slick({
+          infinite: true,
+          slidesToShow: 1, // Shows a three slides at a time
+          slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
+          arrows: true, // Adds arrows to sides of slider
+          dots: true // Adds the dots on the bottom
+        });
+        
+
+       
+        const variationDropdown = document.getElementById('variationDropdown');
+        const selectedValueElement = document.getElementById('selectedValue');
+    
+        variationDropdown.addEventListener('change', function () {
+          const selectedOptionLabel = variationDropdown.value.trim();
+        
+          console.log('Selected Option Label:', selectedOptionLabel);
+        
+          if (selectedOptionLabel !== "SelectNone") {
+            const selectedOption = all.options.find(option => option.variation.trim() === selectedOptionLabel);
         
             console.log('Selected Option:', selectedOption);
         

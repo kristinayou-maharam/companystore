@@ -5,7 +5,7 @@
         "img/angle/stool.jpg",
         "img/angle/stool-2.jpg"
         ],
-      "name": "Kraft Shopping Bag",
+      "name": "Maharam Shopping Bag",
       "price": 0,
       "description": "Kraft bags are designed for showroom walk-in clients, or for delivering samples, printed matter and gifts in person. ",
       "options": [
@@ -20,7 +20,7 @@
       "image": [
         "img/angle/stool.jpg"
         ],
-      "name": "Kraft Shopping Bag Label",
+      "name": "Maharam Shopping Bag Label",
       "price": 0,
       "description": "Label to affix to Kraft bags.",
       "options": [{"variation": "Select an option", "value": ""},
@@ -29,21 +29,6 @@
             "quantity": 25,
             "DON_reference_number": "",
             "Note": "Order through DON"
-    },
-    {
-      "image": [
-        "img/angle/stool.jpg",
-        "img/angle/stool-2.jpg"
-        ],
-      "name": "Rubberbands",
-      "price": 0,
-      "description": "Maharam's proprietary rubber band and should be used when more than one gusseted kraft envelope is being delivered to the same client. ",
-      "options": [{"variation": "Select an option", "value": ""},
-      {"variation": "White", "value": "J/RBRBND"}
-            ],
-            "quantity": 25,
-            "DON_reference_number": "",
-            "Note": "<br>Order through DON<br><a style=text-decoration:underline href=https://hermanmiller.sharepoint.com/sites/MHRM-Home/SiteAssets/Forms/AllItems.aspx?id=%2Fsites%2FMHRM%2DHome%2FSiteAssets%2FSitePages%2FStationary%2FMaharam%5FStationery%2DSample%2DDelivery%2DGuidelines%2Epdf&parent=%2Fsites%2FMHRM%2DHome%2FSiteAssets%2FSitePages%2FStationary target=blank>Link to guidelines</a>"
     },
     {
       "image": [
@@ -81,9 +66,9 @@
         "img/angle/stool.jpg",
         "img/angle/stool-2.jpg"
         ],
-      "name": "Display Board Bag",
+      "name": "Display Board Reclosable Poly Bag",
       "price": 0,
-      "description": "",
+      "description": "Bags are used for storing rug samples with loose fibers within the sample bag.",
       "options": [{"variation": "Select an option", "value": ""},
       {"variation": "Clear", "value": "J/DISPBG"}
             ],
@@ -136,7 +121,7 @@
       {"variation": "Clear", "value": "J/301007"}
             ],
             "quantity": 1,
-            "DON_reference_number": "",
+            "DON_reference_number": "Bags are used for storing rug samples with loose fibers within the sample bag.",
             "Note": "Order through DON"
     },
 
@@ -147,7 +132,7 @@
         ],
       "name": "Giftwrap Set",
       "price": 0,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "Giftwrap set.",
       "options": [{"variation": "Select an option", "value": ""},
       {"variation": "Multicolor", "value": "J/170072"}
             ],
@@ -162,7 +147,7 @@
         ],
       "name": "Sales Integration Announcement Card",
       "price": 0,
-      "description": "",
+      "description": "Flat cards designed to be displayed as part of presentations and leave-behinds. The flat card should not be written on or altered in any way.",
       "options": [{"variation": "Select an option", "value": ""},
       {"variation": "Multicolor", "value": "Contact Media"}
             ],
@@ -179,7 +164,7 @@
         ],
       "name": "Sales Integration Tent Card",
       "price": 0,
-      "description": "",
+      "description": "Tent cards designed to be displayed as part of presentations and leave behinds. ",
       "options": [{"variation": "Select an option", "value": ""},
       {"variation": "Multicolor", "value": "Contact Media"}
             ],
@@ -195,7 +180,7 @@
         ],
       "name": "Wallcovering Brush",
       "price": 0,
-      "description": "",
+      "description": "Flat cards designed to be displayed as part of presentations and leave-behinds. The flat card should not be written on or altered in any way. ",
       "options": [{"variation": "Select an option", "value": ""},
       {"variation": "Brown", "value": "J/100076"}
             ],
@@ -225,7 +210,7 @@
         ],
       "name": "Briggs & Riley Carry-on",
       "price": 0,
-      "description": "",
+      "description": "Carry-on suitcase for sales representatives. ",
       "options": [{"variation": "Select an option", "value": ""},
       {"variation": "Black", "value": "J/301003"}
             ],
@@ -240,13 +225,13 @@
         ],
       "name": "Tote Bag with Knoll Textiles Logo",
       "price": 0,
-      "description": "",
+      "description": "Tote bag with Knoll Textiles logo.",
       "options": [{"variation": "Select an option", "value": ""},
       {"variation": "Canvas", "value": "Contact Throroughbred"}
             ],
             "quantity": 1,
             "DON_reference_number": "",
-            "Note": ""
+            "Note": "This item requires manager approval."
     }
   ]
 }

@@ -6,10 +6,10 @@
           ],
         "name": "2021 Look Book: English, German, French",
         "price": 0,
-        "description": "",
+        "description": "A look book of our company, activies, and approach featuring original photography by Nick Ballón.",
         "options": [
           {"variation": "Select an option", "value": ""},
-          {"variation": "Light Blue", "value": "Contact Media"}
+          {"variation": "Green", "value": "Contact Media"}
             ],
             "quantity": 1,
             "Note": ""
@@ -20,10 +20,10 @@
           ],
         "name": "2021 Look Book: English, Japanese, Simplified Chinese",
         "price": 0,
-        "description": "",
+        "description": "A look book of our company, activies, and approach featuring original photography  by Nick Ballón.",
         "options": [
           {"variation": "Select an option", "value": ""},
-          {"variation": "Dark Blue", "value": "Contact Media"}
+          {"variation": "Purple", "value": "Contact Media"}
             ],
             "quantity": 1,
             "Note": ""
@@ -52,7 +52,7 @@
           ],
           "name": "20 Years of Paul Smith and Maharam",
           "price": 0,
-          "description": "Over two decades of close collaboration, Paul Smith and Maharam have translated the British designer's signature flair for idiosyncratic combinations of pattern and color to more than forty textiles, wallcoverings, and accessories. Illustrations by Andy Rementer and photography by Nick Ballon capture the stories and characteristic playfulness behind twenty designs. Softcover. 96 pages.",
+          "description": "This book highlights our studios’ shared commitment to design and long-term exploration of traditional motifs reimagined through color, pattern, and scale.",
           "options": [
             {"variation": "Select an option", "value": ""},
             {"variation": "Teal", "value": "Contact Media"},
