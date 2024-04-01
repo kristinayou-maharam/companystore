@@ -14,7 +14,7 @@
         <div id="accountnav">
             <div class="wrapper">
                 <div class="searchBar">
-                  <input id="searchQueryInput" type="text" name="searchQueryInput" autocomplete="off" onkeyup="searchProduct()" placeholder="Search" value="" />
+                  <input id="searchQueryInput" type="text" name="searchQueryInput" autocomplete="off" placeholder="Search" value="" />
                   <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
                     <svg style="width:18px;height:18x" viewBox="0 0 18 18"><path fill="#666666" d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
                     </svg>
@@ -31,6 +31,20 @@
        <div id="logolockup">
         <a href="index.html">
         <h2 style="display: inline-block; margin-top: 50px; margin-left: 0vw;">Maharam Company Store</h2></div></a>
+
+        <div id="mobmenu">
+            <h4 style="display: inline-block; margin-left: 25px;">Select Category:</h4>
+            <select id="mobDropdown" onchange="location = this.value;">
+                <option value="index.html">New</option>
+                <option value="print.html">Print</option>
+                <option value="presentation.html">Presentation</option>
+                <option value="sampling.html" selected="selected">Sampling</option>
+                <option value="stationery.html">Stationery</option>
+                <option value="books.html">Books</option>
+                <option value="more.html">More</option>
+            </select>
+        </div>
+        
         <div id="menu">
             <a href="index.html"><h2>New</h2></a>
             <a href="print.html">

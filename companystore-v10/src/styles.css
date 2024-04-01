@@ -537,7 +537,7 @@ text-decoration: underline;
   border-radius: 7px;
   padding-top: 15px;
   padding-bottom: 15px;
-  width: 11vw;
+  width: 13.5vw;
   font-family: 'maharam';
   font-size: 12px;
   box-shadow: 10px 10px 29px -3px rgba(0,0,0,0.45);
@@ -598,6 +598,8 @@ ul:hover{
   right:25px;
 
 }
+
+
 
 #accountnavright{
   position: absolute;
@@ -694,7 +696,8 @@ ul:hover{
   display: none;
 }
 
-@media (min-width: 650px) and (max-width: 1070px) {
+
+@media (min-width: 650px) and (max-width: 1200px) {
 .image-container{
   width: 30vw;
 }
@@ -737,7 +740,7 @@ width: 20vw;
 }
 
 #exit{
-  margin-left: 70vw;
+  margin-left: 68%;
 }
 
 .slick-carousel{
@@ -745,15 +748,69 @@ width: 20vw;
   margin-left: 12vw;
 }
 
+.slick-slide{
+  width: 50vw !important;
+}
+
+#detailproductimg{
+  width: 50vw !important;
+}
+
+#product-info{
+  margin-bottom: 100px !important;
+}
+
+
+.slide-img{
+  width: 50vw;
+}
+
 h2{
   font-size: 16px;
 }
+
+#accountnavright{
+  right: 20px !important;
 }
 
+#accountnav{
+  width: 48vw;
+}
+
+#searchResults{
+  width: 25vw;
+}
+
+#searchResults{
+  width: 25vw;
+  overflow-x: scroll;
+}
+
+ul{
+  width: 20vw;
+}
+}
 
 
 
 @media only screen and (max-width: 650px){
+
+  .slick-carousel{
+    width: 50vw;
+    margin-left: 12vw;
+  }
+
+  .slick-slide{
+    width: 50vw!important;
+  }
+
+#detailproductimg{
+    width: 50vw !important;
+  }
+
+  .slide-img{
+    width: 50vw;
+  }
 
 #menu{
   display:none;
@@ -788,19 +845,52 @@ h2{
   display: block;
 }
 
+
 h2{
   font-size: 16px;
 }
 
 #mobmenu{
   display: block;
-  margin-left: 8vw;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-left: 2vw;
+  margin-top: 25px;
+}
+
+#exit{
+  margin-left: 65%;
 }
 
 .first{
+  margin-top: 45vh !important;
+}
+
+#accountnav{
+  width: 85vw;
+}
+
+#accountnavright{
+  right: 20px !important;
+}
+
+#gallery{
   margin-top: 25vh !important;
 }
 
+#searchResults{
+  width: 45vw;
+  overflow-y: scroll;
+}
+
+ul{
+  width: 28vw;
+}
+
+#product-info{
+  margin-top: 50px;
+}
+
+#exit{
+  font-size: 20px;
+  margin-top: 3vh;
+}
 }
